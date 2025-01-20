@@ -1,0 +1,15 @@
+{
+	id: "0ff1b81d-88de-4174-9796-9088b192f5ad"
+	type: "player"
+	player_name: "bevfdsss"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "bevfdsss"
+		"ftbteams:description": ""
+		"ftbteams:color": "#60FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,15 @@
+{
+	id: "581c7ea1-370b-46e1-9e2e-7b874e96d6ff"
+	type: "player"
+	player_name: "Pielini21"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Pielini21"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFBC59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

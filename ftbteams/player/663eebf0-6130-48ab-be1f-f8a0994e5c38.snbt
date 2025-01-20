@@ -1,0 +1,15 @@
+{
+	id: "663eebf0-6130-48ab-be1f-f8a0994e5c38"
+	type: "player"
+	player_name: "tazervn123"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "tazervn123"
+		"ftbteams:description": ""
+		"ftbteams:color": "#A359FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

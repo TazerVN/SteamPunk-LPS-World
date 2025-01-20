@@ -1,0 +1,15 @@
+{
+	id: "80c15a99-c866-4816-8a97-0cd7ae1b4935"
+	type: "player"
+	player_name: "Chocolai222"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Chocolai222"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFF3"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

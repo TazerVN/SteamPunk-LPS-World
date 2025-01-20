@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "0ff1b81d88de417497969088b192f5ad"
+	name: "bevfdsss#0ff1b81d"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		503F8524875C623B: 1
+	}
+	started: {
+		503F8524875C623B: 1737208393173L
+		0000000000000001: 1737208393173L
+		76992E019CD55E76: 1737208393173L
+		75A430761607DC45: 1737208393173L
+	}
+	completed: {
+		503F8524875C623B: 1737208393173L
+		75A430761607DC45: 1737208393173L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}
