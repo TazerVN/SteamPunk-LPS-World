@@ -877,9 +877,12 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-01-18 14:02:49 +0000",
+      "chicken": "2025-01-20 14:04:38 +0000",
+      "cooked_mutton": "2025-01-21 09:41:08 +0000",
       "sweet_berries": "2025-01-18 14:21:04 +0000",
       "apple": "2025-01-18 14:52:38 +0000",
-      "bread": "2025-01-18 14:29:45 +0000"
+      "bread": "2025-01-18 14:29:45 +0000",
+      "rotten_flesh": "2025-01-20 13:58:01 +0000"
     },
     "done": false
   },
@@ -921,6 +924,7 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
+      "in_better_zombie_dungeon": "2025-01-20 13:35:57 +0000",
       "in_better_spider_dungeon": "2025-01-18 14:10:19 +0000"
     },
     "done": false
@@ -989,7 +993,12 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:skeleton": "2025-01-18 14:53:21 +0000"
+      "minecraft:skeleton": "2025-01-18 14:53:21 +0000",
+      "minecraft:spider": "2025-01-20 15:17:36 +0000",
+      "minecraft:creeper": "2025-01-21 10:23:22 +0000",
+      "minecraft:phantom": "2025-01-20 15:33:57 +0000",
+      "minecraft:zombie": "2025-01-20 13:36:40 +0000",
+      "minecraft:zombie_villager": "2025-01-21 10:10:16 +0000"
     },
     "done": false
   },
@@ -1032,6 +1041,167 @@
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2025-01-18 15:40:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-01-20 13:31:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-01-20 13:35:12 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:zombie_dungeon": {
+    "criteria": {
+      "in_better_zombie_dungeon": "2025-01-20 13:35:57 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/enchantments/generic": {
+    "criteria": {
+      "has_items": "2025-01-20 13:59:41 +0000"
+    },
+    "done": true
+  },
+  "yungscavebiomes:frosted_caves": {
+    "criteria": {
+      "frosted_caves": "2025-01-20 14:12:07 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/lore_inscriber": {
+    "criteria": {
+      "etherium": "2025-01-20 14:13:38 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2025-01-20 14:16:04 +0000"
+    },
+    "done": true
+  },
+  "thinair:soul": {
+    "criteria": {
+      "bad_air": "2025-01-20 14:24:25 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:all_workstations_get": {
+    "criteria": {
+      "barrel": "2025-01-20 15:16:31 +0000",
+      "fletchingtable": "2025-01-21 11:05:12 +0000",
+      "brewingstand": "2025-01-20 14:24:44 +0000",
+      "smoker": "2025-01-20 15:16:26 +0000",
+      "cauldron": "2025-01-21 11:05:10 +0000"
+    },
+    "done": false
+  },
+  "morevillagers:first_workstation_get": {
+    "criteria": {
+      "brewingstand": "2025-01-20 14:24:44 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/angel_blessing": {
+    "criteria": {
+      "has_items": "2025-01-20 14:24:52 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/all_spellstones": {
+    "criteria": {
+      "spellstone2": "2025-01-20 14:24:52 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:main/discover_spellstone": {
+    "criteria": {
+      "spellstone": "2025-01-20 14:24:52 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/the_cube": {
+    "criteria": {
+      "has_item_2": "2025-01-20 14:24:52 +0000"
+    },
+    "done": false
+  },
+  "thinair:signal_torch": {
+    "criteria": {
+      "use": "2025-01-20 15:34:19 +0000"
+    },
+    "done": true
+  },
+  "cold_sweat:get_soul_lamp": {
+    "criteria": {
+      "requirement": "2025-01-21 09:59:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-01-21 10:01:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-01-21 10:01:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:warped_forest": "2025-01-21 10:01:48 +0000"
+    },
+    "done": false
+  },
+  "quark:get_all_corundum": {
+    "criteria": {
+      "green": "2025-01-21 10:09:47 +0000",
+      "black": "2025-01-21 10:09:42 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:main/use_skillet": {
+    "criteria": {
+      "skillet": "2025-01-21 10:17:10 +0000"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2025-01-21 10:18:25 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:vampire_slayer": {
+    "criteria": {
+      "vampire_slayer_0": "2025-01-21 10:28:08 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:ambitious_explorer": {
+    "criteria": {
+      "entered_ruined_building": "2025-01-21 10:56:16 +0000"
+    },
+    "done": false
+  },
+  "dungeons_enhanced:root": {
+    "criteria": {
+      "entered_ruined_building": "2025-01-21 10:56:16 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:hunted": {
+    "criteria": {
+      "hunted_0": "2025-01-21 11:05:59 +0000"
     },
     "done": true
   },

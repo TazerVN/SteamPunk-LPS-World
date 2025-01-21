@@ -982,6 +982,7 @@
       "minecraft:creeper": "2025-01-18 16:40:59 +0000",
       "minecraft:cave_spider": "2025-01-18 16:39:24 +0000",
       "minecraft:stray": "2025-01-19 06:21:07 +0000",
+      "minecraft:enderman": "2025-01-20 15:33:34 +0000",
       "minecraft:zombie": "2025-01-18 15:14:33 +0000",
       "minecraft:drowned": "2025-01-18 18:36:05 +0000"
     },
@@ -1122,6 +1123,7 @@
   },
   "enigmaticlegacy:main/all_spellstones": {
     "criteria": {
+      "spellstone2": "2025-01-20 14:26:21 +0000",
       "spellstone1": "2025-01-18 17:18:42 +0000"
     },
     "done": false
@@ -1134,7 +1136,8 @@
   },
   "enigmaticlegacy:book/relics/the_cube": {
     "criteria": {
-      "has_item_1": "2025-01-18 17:18:42 +0000"
+      "has_item_1": "2025-01-18 17:18:42 +0000",
+      "has_item_2": "2025-01-20 14:26:21 +0000"
     },
     "done": false
   },
@@ -1315,12 +1318,6 @@
     },
     "done": true
   },
-  "integrated_villages:tavern_village": {
-    "criteria": {
-      "in_tavern_village": "2025-01-19 07:22:59 +0000"
-    },
-    "done": true
-  },
   "create:wrench_goggles": {
     "criteria": {
       "0": "2025-01-19 07:00:23 +0000",
@@ -1328,9 +1325,39 @@
     },
     "done": true
   },
+  "integrated_villages:tavern_village": {
+    "criteria": {
+      "in_tavern_village": "2025-01-19 07:22:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2025-01-19 07:58:42 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/angel_blessing": {
+    "criteria": {
+      "has_items": "2025-01-20 14:26:21 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2025-01-20 13:11:54 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/lore_inscriber": {
+    "criteria": {
+      "etherium": "2025-01-20 14:13:06 +0000"
+    },
+    "done": true
+  },
+  "yungscavebiomes:frosted_caves": {
+    "criteria": {
+      "frosted_caves": "2025-01-20 13:55:41 +0000"
     },
     "done": true
   },
