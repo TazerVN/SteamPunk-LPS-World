@@ -838,6 +838,7 @@
       "snowy_fir_clearing": "2025-01-18 18:28:16 +0000",
       "snowy_coniferous_forest": "2025-01-19 06:50:33 +0000",
       "tundra": "2025-01-19 05:02:23 +0000",
+      "undergrowth": "2025-01-21 15:59:50 +0000",
       "crag": "2025-01-19 06:32:01 +0000"
     },
     "done": false
@@ -859,11 +860,13 @@
       "minecraft:snowy_plains": "2025-01-18 18:20:56 +0000",
       "minecraft:stony_shore": "2025-01-18 18:17:28 +0000",
       "minecraft:snowy_taiga": "2025-01-18 18:23:43 +0000",
+      "minecraft:dripstone_caves": "2025-01-21 13:53:34 +0000",
       "minecraft:cold_ocean": "2025-01-18 18:17:32 +0000",
       "minecraft:forest": "2025-01-18 14:03:24 +0000",
       "minecraft:frozen_ocean": "2025-01-18 18:23:22 +0000",
       "minecraft:ocean": "2025-01-19 03:41:25 +0000",
       "minecraft:snowy_beach": "2025-01-19 07:24:03 +0000",
+      "minecraft:deep_dark": "2025-01-21 13:48:51 +0000",
       "minecraft:plains": "2025-01-18 14:03:38 +0000"
     },
     "done": false
@@ -886,6 +889,8 @@
       "baked_potato": "2025-01-18 14:11:17 +0000",
       "apple": "2025-01-19 04:35:05 +0000",
       "bread": "2025-01-18 14:40:24 +0000",
+      "rotten_flesh": "2025-01-21 15:03:28 +0000",
+      "salmon": "2025-01-21 12:58:47 +0000",
       "mushroom_stew": "2025-01-19 06:00:46 +0000"
     },
     "done": false
@@ -980,11 +985,13 @@
       "minecraft:skeleton": "2025-01-18 14:47:33 +0000",
       "minecraft:spider": "2025-01-18 14:53:37 +0000",
       "minecraft:creeper": "2025-01-18 16:40:59 +0000",
+      "minecraft:phantom": "2025-01-21 15:15:05 +0000",
       "minecraft:cave_spider": "2025-01-18 16:39:24 +0000",
       "minecraft:stray": "2025-01-19 06:21:07 +0000",
       "minecraft:enderman": "2025-01-20 15:33:34 +0000",
       "minecraft:zombie": "2025-01-18 15:14:33 +0000",
-      "minecraft:drowned": "2025-01-18 18:36:05 +0000"
+      "minecraft:drowned": "2025-01-18 18:36:05 +0000",
+      "minecraft:zombie_villager": "2025-01-21 14:35:10 +0000"
     },
     "done": false
   },
@@ -1062,8 +1069,10 @@
   },
   "morevillagers:all_workstations_get": {
     "criteria": {
+      "barrel": "2025-01-22 15:29:36 +0000",
       "brewingstand": "2025-01-18 15:44:21 +0000",
       "grindstone": "2025-01-18 19:48:51 +0000",
+      "smoker": "2025-01-21 13:39:25 +0000",
       "blastfurnace": "2025-01-18 15:53:50 +0000",
       "stonecutter": "2025-01-18 20:01:29 +0000",
       "composter": "2025-01-18 18:57:27 +0000"
@@ -1337,15 +1346,15 @@
     },
     "done": true
   },
-  "enigmaticlegacy:book/relics/angel_blessing": {
-    "criteria": {
-      "has_items": "2025-01-20 14:26:21 +0000"
-    },
-    "done": true
-  },
   "create:andesite_casing": {
     "criteria": {
       "0": "2025-01-20 13:11:54 +0000"
+    },
+    "done": true
+  },
+  "yungscavebiomes:frosted_caves": {
+    "criteria": {
+      "frosted_caves": "2025-01-20 13:55:41 +0000"
     },
     "done": true
   },
@@ -1355,9 +1364,177 @@
     },
     "done": true
   },
-  "yungscavebiomes:frosted_caves": {
+  "enigmaticlegacy:book/relics/angel_blessing": {
     "criteria": {
-      "frosted_caves": "2025-01-20 13:55:41 +0000"
+      "has_items": "2025-01-20 14:26:21 +0000"
+    },
+    "done": true
+  },
+  "cold_sweat:get_soul_lamp": {
+    "criteria": {
+      "requirement": "2025-01-21 12:13:01 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/rack": {
+    "criteria": {
+      "rack": "2025-01-21 12:13:33 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:under_pressure": {
+    "criteria": {
+      "has_compressor": "2025-01-21 12:25:03 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:carbon_footprint": {
+    "criteria": {
+      "has_coal_generator": "2025-01-21 12:26:48 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:ad_astra": {
+    "criteria": {
+      "has_coal_generator": "2025-01-21 12:26:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2025-01-21 12:59:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-01-21 13:52:51 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:troll_hunter": {
+    "criteria": {
+      "troll_hunter_0": "2025-01-21 14:00:59 +0000"
+    },
+    "done": true
+  },
+  "create:rose_quartz": {
+    "criteria": {
+      "0": "2025-01-21 14:40:20 +0000"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2025-01-21 14:41:24 +0000"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2025-01-21 14:47:22 +0000"
+    },
+    "done": true
+  },
+  "create:contraption_actors": {
+    "criteria": {
+      "0": "2025-01-21 14:57:37 +0000"
+    },
+    "done": true
+  },
+  "quark:get_all_blossom_saplings": {
+    "criteria": {
+      "orange": "2025-01-21 15:01:55 +0000"
+    },
+    "done": false
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2025-01-21 15:21:10 +0000"
+    },
+    "done": true
+  },
+  "create:portable_storage_interface": {
+    "criteria": {
+      "0": "2025-01-21 15:21:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-01-21 15:54:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-01-21 15:54:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:warped_forest": "2025-01-21 15:54:25 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:book/brewing/haste_potion": {
+    "criteria": {
+      "has_items": "2025-01-21 16:11:33 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/vehement_coal": {
+    "criteria": {
+      "vehement_coal": "2025-01-21 16:12:48 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:ocean_cleanup": {
+    "criteria": {
+      "oil_bucket": "2025-01-22 13:20:26 +0000"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2025-01-22 14:31:24 +0000"
+    },
+    "done": true
+  },
+  "create:track_0": {
+    "criteria": {
+      "0": "2025-01-22 13:52:08 +0000"
+    },
+    "done": true
+  },
+  "create:brass_casing": {
+    "criteria": {
+      "0": "2025-01-22 14:13:13 +0000"
+    },
+    "done": true
+  },
+  "create:crafter_lazy_000": {
+    "criteria": {
+      "0": "2025-01-22 14:23:52 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_crafter": {
+    "criteria": {
+      "0": "2025-01-22 14:23:52 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:goblin_liquor_success": {
+    "criteria": {
+      "goblin_liquor_success_0": "2025-01-22 14:00:17 +0000"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2025-01-22 14:18:14 +0000"
     },
     "done": true
   },

@@ -1,0 +1,15 @@
+{
+	id: "45ea1c5e-b1d2-404f-bb36-3735b62cfce5"
+	type: "player"
+	player_name: "ent1fy"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "ent1fy"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59BDFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

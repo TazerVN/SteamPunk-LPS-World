@@ -1,0 +1,124 @@
+os.pullEvent = os.pullEventRaw
+x, y = term.getSize()
+mm = true
+u = true
+p = true
+function cprint(text, yp)
+cx = math.ceil((x/2)-(string.len(text)/2))
+term.setCursorPos(cx, yp)
+print(text)
+end
+function cwrite( text, yp)
+cx = math.ceil((x/2)-(string.len(text)/2))
+term.setCursorPos(cx, yp)
+write(text)
+end
+function mmenu()
+term.setCursorPos(1,1)
+--print("--------------------------------------------------")
+cprint("Easy OS Beta 1.0",2)
+term.setCursorPos(1,3)
+print("--------------------------------------------------")
+end
+function clear()
+term.clear()
+term.setCursorPos(1,1)
+end
+clear()
+cprint("Loading Easy OS",8)
+cprint("---------------",9)
+cprint("---------------",11)
+cprint("Version: Beta 1.0",12)
+cprint("[             ]",10)
+sleep(.5)
+cprint("[#            ]",10)
+sleep(.5)
+cprint("[##           ]",10)
+sleep(.5)
+cprint("[###          ]",10)
+sleep(.5)
+cprint("[####         ]",10)
+sleep(.5)
+cprint("[#####        ]",10)
+sleep(.5)
+cprint("[######       ]",10)
+sleep(.5)
+cprint("[#######      ]",10)
+sleep(.5)
+cprint("[########     ]",10)
+sleep(.5)
+cprint("[#########    ]",10)
+sleep(.5)
+cprint("[##########   ]",10)
+sleep(.5)
+cprint("[###########  ]",10)
+sleep(.5)
+cprint("[############ ]",10)
+sleep(.5)
+cprint("[#############]",10)
+sleep(1)
+while u == true do
+clear()
+mmenu()
+cprint("Username: ",9)
+cprint("Password: ",10)
+cwrite("Username: ",9)
+local usar = read()
+if usar == "admin" then
+u = false
+end
+end
+while p == true do
+
+
+cwrite("Password: ",10)
+pass = read("*")
+if pass == "admin" then
+p = false
+end
+end
+sid = 0
+
+function menu(id, text)
+if sid == id then
+write("> ")
+else
+write("  ")
+end
+print(text)
+end
+while mm == true do
+clear()
+mmenu()
+
+term.setCursorPos(cx, 8)
+menu(0,"Programs")
+term.setCursorPos(cx, 9)
+menu(1,"Command")
+term.setCursorPos(cx, 10)
+menu(2,"Shutdown")
+term.setCursorPos(cx, 11)
+menu(3,"WebBrowser")
+event, key = os.pullEvent("key")
+if key == 200 then
+if sid > 0 then
+sid = sid - 1
+end
+elseif key == 208 then
+if sid < 3 then
+sid = sid +1
+end
+elseif key == 28 then
+if sid == 0 then
+mm = false
+shell.run("programs")
+elseif sid == 1 then
+shell.run("shell")
+elseif sid == 2 then
+os.shutdown()
+elseif sid == 3 then
+mm = false
+shell.run("googlex")
+end
+end
+end

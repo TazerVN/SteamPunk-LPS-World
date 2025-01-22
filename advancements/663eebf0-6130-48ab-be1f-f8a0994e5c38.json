@@ -824,13 +824,18 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "woodland": "2025-01-21 12:55:46 +0000",
       "scrubland": "2025-01-20 16:20:27 +0000",
+      "old_growth_woodland": "2025-01-21 12:55:18 +0000",
       "orchard": "2025-01-20 13:08:51 +0000",
       "coniferous_forest": "2025-01-18 15:00:50 +0000",
+      "spider_nest": "2025-01-21 13:53:05 +0000",
       "redwood_forest": "2025-01-18 12:56:14 +0000",
       "pasture": "2025-01-20 16:20:23 +0000",
       "fir_clearing": "2025-01-18 13:48:06 +0000",
-      "prairie": "2025-01-18 13:07:49 +0000"
+      "prairie": "2025-01-18 13:07:49 +0000",
+      "undergrowth": "2025-01-21 16:00:53 +0000",
+      "rainforest": "2025-01-21 12:58:02 +0000"
     },
     "done": false
   },
@@ -870,7 +875,8 @@
       "brewingstand": "2025-01-20 16:37:48 +0000",
       "grindstone": "2025-01-18 13:26:54 +0000",
       "smoker": "2025-01-18 13:27:19 +0000",
-      "smithingtable": "2025-01-20 16:28:28 +0000"
+      "smithingtable": "2025-01-20 16:28:28 +0000",
+      "stonecutter": "2025-01-22 04:45:58 +0000"
     },
     "done": false
   },
@@ -904,6 +910,7 @@
       "cooked_mutton": "2025-01-18 14:15:09 +0000",
       "sweet_berries": "2025-01-18 15:35:16 +0000",
       "cooked_beef": "2025-01-18 15:41:26 +0000",
+      "baked_potato": "2025-01-21 13:43:30 +0000",
       "apple": "2025-01-20 13:40:12 +0000",
       "potato": "2025-01-20 14:20:14 +0000",
       "bread": "2025-01-18 13:14:03 +0000",
@@ -921,13 +928,22 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-01-20 16:16:08 +0000",
+      "minecraft:blaze": "2025-01-21 16:05:46 +0000",
       "minecraft:skeleton": "2025-01-18 15:11:41 +0000",
+      "minecraft:ghast": "2025-01-21 16:01:20 +0000",
+      "minecraft:hoglin": "2025-01-21 16:01:33 +0000",
+      "minecraft:vindicator": "2025-01-21 12:58:28 +0000",
       "minecraft:spider": "2025-01-18 13:14:22 +0000",
       "minecraft:creeper": "2025-01-20 16:16:30 +0000",
       "minecraft:phantom": "2025-01-20 15:55:06 +0000",
       "minecraft:witch": "2025-01-20 16:16:42 +0000",
+      "minecraft:wither_skeleton": "2025-01-21 16:04:40 +0000",
+      "minecraft:cave_spider": "2025-01-21 13:42:30 +0000",
+      "minecraft:enderman": "2025-01-21 13:39:06 +0000",
+      "minecraft:stray": "2025-01-21 13:32:24 +0000",
       "minecraft:zombie": "2025-01-18 13:14:34 +0000",
-      "minecraft:drowned": "2025-01-21 11:22:45 +0000"
+      "minecraft:drowned": "2025-01-21 11:22:45 +0000",
+      "minecraft:zombie_villager": "2025-01-21 13:58:34 +0000"
     },
     "done": false
   },
@@ -995,10 +1011,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cherry_grove": "2025-01-18 15:40:12 +0000",
+      "minecraft:birch_forest": "2025-01-21 12:36:56 +0000",
       "minecraft:beach": "2025-01-20 16:26:09 +0000",
+      "minecraft:sparse_jungle": "2025-01-21 12:40:04 +0000",
       "minecraft:river": "2025-01-18 13:40:22 +0000",
       "minecraft:lukewarm_ocean": "2025-01-20 16:21:58 +0000",
+      "minecraft:dripstone_caves": "2025-01-21 13:53:24 +0000",
       "minecraft:forest": "2025-01-18 13:26:42 +0000",
+      "minecraft:jungle": "2025-01-21 12:36:59 +0000",
+      "minecraft:old_growth_birch_forest": "2025-01-21 12:41:56 +0000",
+      "minecraft:deep_dark": "2025-01-21 13:48:52 +0000",
       "minecraft:savanna": "2025-01-20 16:20:42 +0000",
       "minecraft:plains": "2025-01-18 13:27:42 +0000"
     },
@@ -1182,7 +1204,8 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
-      "in_better_zombie_dungeon": "2025-01-20 13:23:15 +0000"
+      "in_better_zombie_dungeon": "2025-01-20 13:23:15 +0000",
+      "in_better_spider_dungeon": "2025-01-21 15:57:50 +0000"
     },
     "done": false
   },
@@ -1396,6 +1419,234 @@
   "cold_sweat:get_soul_lamp": {
     "criteria": {
       "requirement": "2025-01-21 10:50:55 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:merchant_success": {
+    "criteria": {
+      "merchant_success_0": "2025-01-21 12:35:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2025-01-21 12:39:12 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_mushroom_colony": {
+    "criteria": {
+      "red_mushroom_colony": "2025-01-21 12:42:30 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/harvest_straw": {
+    "criteria": {
+      "harvest_straw": "2025-01-21 12:43:31 +0000"
+    },
+    "done": true
+  },
+  "idas:witches_treestump": {
+    "criteria": {
+      "in_witches_treestump": "2025-01-21 12:55:53 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "mushroom_rice": "2025-01-21 12:57:34 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2025-01-21 12:57:34 +0000"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2025-01-21 13:14:21 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/netherite": {
+    "criteria": {
+      "has_ingot": "2025-01-21 13:14:45 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/ancient_debris": {
+    "criteria": {
+      "has_ingot": "2025-01-21 13:14:45 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/sword_improvement_hone": {
+    "criteria": {
+      "tempered": "2025-01-21 13:18:54 +0000"
+    },
+    "done": false
+  },
+  "yungscavebiomes:mine_enchanted_ice": {
+    "criteria": {
+      "mine_enchanted_ice": "2025-01-21 13:31:09 +0000"
+    },
+    "done": true
+  },
+  "create:diving_suit": {
+    "criteria": {
+      "0": "2025-01-21 13:37:21 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:vampire_slayer": {
+    "criteria": {
+      "vampire_slayer_0": "2025-01-21 13:38:17 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:hunted": {
+    "criteria": {
+      "hunted_0": "2025-01-21 13:38:47 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll": {
+    "criteria": {
+      "find": "2025-01-21 13:49:58 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/root": {
+    "criteria": {
+      "find": "2025-01-21 13:49:58 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_tonal_blade": {
+    "criteria": {
+      "find": "2025-01-21 13:49:58 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/relics/lost_engine": {
+    "criteria": {
+      "has_items": "2025-01-21 13:59:57 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_sturdy": {
+    "criteria": {
+      "find": "2025-01-21 14:00:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-01-21 14:03:28 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_mixer": {
+    "criteria": {
+      "0": "2025-01-21 14:23:07 +0000"
+    },
+    "done": true
+  },
+  "create:brass_casing": {
+    "criteria": {
+      "0": "2025-01-21 14:25:07 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2025-01-21 14:26:39 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2025-01-21 14:33:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-01-21 15:54:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-01-21 15:54:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:warped_forest": "2025-01-21 15:54:25 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:book/brewing/haste_potion": {
+    "criteria": {
+      "has_items": "2025-01-21 15:56:07 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2025-01-21 15:57:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-01-21 16:01:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2025-01-21 16:03:54 +0000"
+    },
+    "done": true
+  },
+  "create:burner": {
+    "criteria": {
+      "0": "2025-01-21 16:04:22 +0000"
+    },
+    "done": true
+  },
+  "cold_sweat:huddle_close": {
+    "criteria": {
+      "requirement": "2025-01-22 04:33:13 +0000"
+    },
+    "done": true
+  },
+  "quark:get_all_corundum": {
+    "criteria": {
+      "green": "2025-01-22 13:18:48 +0000"
+    },
+    "done": false
+  },
+  "friendsandfoes:adventure/kill_illusioner": {
+    "criteria": {
+      "killed_illusioner": "2025-01-22 14:31:35 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/the_magicians": {
+    "criteria": {
+      "killed_illusioner": "2025-01-22 14:31:35 +0000"
+    },
+    "done": false
+  },
+  "alexscaves:alexscaves/cave_tablet": {
+    "criteria": {
+      "cave_tablet": "2025-01-22 16:13:17 +0000"
     },
     "done": true
   },

@@ -1,0 +1,453 @@
+--RETAIN THIS HEADER!!
+--[[
+
+Now I'm not crazy about licenses and stuff, and I don't know much about them,
+but I ask that if you do edit FizzOS, please give credit somewhere.
+Just some text somewhere saying something like original FizzOS by mitchfizz05,
+and if you can, put a link this the original thread too.
+
+For personal use go ahead and do whatever.
+
+ - Thanks, mitchfizz05
+
+]]
+
+
+if isColor == false then
+    term.clear()
+    term.setCursorPos(1,1)
+    print("FizzOS can only run on advanced/color computers!")
+end
+
+
+function setVariables()
+    width, height = term.getSize()
+    version = "1.1"
+    stopProgramPending = false
+end
+function clearScreen()
+    term.clear()
+    term.setCursorPos(1,1)
+end
+function printM(text, heightMod)
+    if heightMod == nil then
+        heightMod = 0
+    end
+    
+    newLen = string.len(text) / 2
+    newWidth = width / 2
+    newWidth = newWidth - newLen
+    newWidth = math.floor(newWidth)
+    term.setCursorPos(newWidth, height / 2 + heightMod)
+    term.write(text)
+    term.setCursorPos(1,1)
+end
+setVariables()
+
+clearScreen()
+
+term.setTextColor(colors.red)
+printM("Please wait...", -1)
+term.setTextColor(colors.lime)
+printM("Loading FizzOS...", 1)
+
+sleep(math.random(1.0,2.0))
+
+clearScreen()
+
+--Set this variable to how many menu items there are in total:
+local menuItems = 6
+
+--Default menu item:
+local selectedItem = 1
+
+-- Main Operating System Loop!
+menuItemsBackup = menuItems - 1
+clearScreen()
+term.setTextColor(colors.lime)
+print("FizzOS "..version)
+term.setTextColor(colors.white)
+
+
+
+function menuDraw()
+
+    clearScreen()
+    term.setTextColor(colors.lime)
+    print("FizzOS "..version)
+    term.setTextColor(colors.white)
+    
+    term.setCursorPos(3,3)
+    term.write("Programs")
+    if selectedItem == 1 then
+        term.setCursorPos(2,3)
+        term.write(">")
+    else
+        term.setCursorPos(2,3)
+        term.write(" ")
+    end
+    yLevel = 4
+    
+    term.setCursorPos(3,yLevel)
+    term.write("Terminal")
+    if selectedItem == 2 then
+        term.setCursorPos(2,yLevel)
+        term.write(">")
+    else
+        term.setCursorPos(2,yLevel)
+        term.write(" ")
+    end
+    yLevel = yLevel + 1
+    
+    term.setCursorPos(3,yLevel)
+    term.write("Help")
+    if selectedItem == 3 then
+        term.setCursorPos(2,yLevel)
+        term.write(">")
+    else
+        term.setCursorPos(2,yLevel)
+        term.write(" ")
+    end
+    yLevel = yLevel + 1
+    
+    term.setCursorPos(3,yLevel)
+    term.write("MineOS")
+    if selectedItem == 4 then
+        term.setCursorPos(2,yLevel)
+        term.write(">")
+    else
+        term.setCursorPos(2,yLevel)
+        term.write(" ")
+    end
+    yLevel = yLevel + 1
+    
+    term.setCursorPos(3,yLevel)
+    term.write("Shutdown")
+    if selectedItem == 5 then
+        term.setCursorPos(2,yLevel)
+        term.write(">")
+    else
+        term.setCursorPos(2,yLevel)
+        term.write(" ")
+    end
+    yLevel = yLevel + 3
+    
+    --if peripheral.getType("right") == "drive" or peripheral.getType("left") == "drive" or peripheral.getType("back") == "drive" or peripheral.getType("front") == "drive" or peripheral.getType("bottom") == "drive" or peripheral.getType("top") == "drive" then
+    --    showDiskdrive = true
+    --    menuItems = menuItemsBackup + 1
+    --else
+    --    showDiskdrive = false
+    --    menuItems = menuItemsBackup
+    --end
+    
+    showDiskdrive = false
+    
+    local tSides = rs.getSides()
+	for n,sSide in ipairs( tSides ) do
+		if peripheral.getType(sSide) == "drive" then
+            disk = peripheral.wrap(sSide)
+            if disk.hasData() then
+                sDrive = sSide
+                showDiskdrive = true
+                break
+            end
+		end
+	end
+    
+    showModem = false
+	for n,sSide in ipairs( tSides ) do
+		if peripheral.getType(sSide) == "modem" then
+            sDrive = sSide
+            showModem = true
+            break
+		end
+	end
+    
+    if showDiskdrive == false and showModem == true then
+        term.setCursorPos(1,height)
+        term.write("You must have a floppy connected to use networking!")
+        showModem = false
+        menuItems = menuItemsBackup
+    end
+    
+    if showDiskdrive then
+        term.setCursorPos(3,yLevel)
+        term.write("Diskdrive")
+        if selectedItem == 6 then
+            term.setCursorPos(2,yLevel)
+            term.write(">")
+        else
+            term.setCursorPos(2,yLevel)
+            term.write(" ")
+        end
+        yLevel = yLevel + 1
+    end
+    
+    if showModem then
+        term.setCursorPos(3,yLevel)
+        term.write("Network")
+        if selectedItem == 7 then
+            term.setCursorPos(2,yLevel)
+            term.write(">")
+        else
+            term.setCursorPos(2,yLevel)
+            term.write(" ")
+        end
+        yLevel = yLevel + 1
+    end
+    
+    if showModem and showDiskdrive then
+        menuItems = menuItemsBackup + 2
+    elseif showDiskdrive or showModem then
+        menuItems = menuItemsBackup + 1
+    end
+    if showDiskdrive == false and showModem == true then
+        term.setCursorPos(1,height)
+        term.write("You must have a floppy connected to use networking!")
+        showModem = false
+    end
+    
+    event, parm = os.pullEvent()
+    parm = tostring(parm)
+    
+    if event == "key" and parm == "200" and selectedItem > 1 then
+        selectedItem = selectedItem - 1
+    end
+    
+    if event == "key" and parm == "208" and selectedItem < menuItems then
+        selectedItem = selectedItem + 1
+    end
+    
+    if event == "key" and parm == "28" then
+        --- Old programs menu item.
+        --if selectedItem == 1 then
+        --   clearScreen()
+        --    local tPrograms = shell.programs( bAll )
+        --    clearScreen()
+        --    textutils.pagedTabulate( tPrograms )
+        --    term.setCursorPos(1,height)
+        --    term.write("Press any key to continue...")
+        --    os.pullEvent("char")
+        --    clearScreen()
+        --end
+        
+        -- New programs menu item
+        if selectedItem == 1 then
+            clearScreen()
+            local programList = shell.programs()
+            local selectedProgram = 1
+            local blocked = false
+            
+            function isBlocked(programName)
+                local fBlocked = false
+                if programName == "alias" then
+                    fBlocked = true
+                end
+                if programName == "cd" then
+                    fBlocked = true
+                end
+                if programName == "shell" then
+                    fBlocked = true
+                end
+                if programName == "lua" then
+                    fBlocked = true
+                end
+                if programName == "clear" then
+                    fBlocked = true
+                end
+                if programName == "FizzOS" then
+                    fBlocked = true
+                end
+                if programName == "startup" then
+                    fBlocked = true
+                end
+                return fBlocked
+            end
+            
+            while true do
+                clearScreen()
+                term.setTextColor(colors.lightBlue)
+                print("Programs:")
+                term.setTextColor(colors.red)
+                term.setCursorPos(width - string.len("Press Backspace to go back!"), 1)
+                term.write("Press Backspace to go back!")
+                term.setCursorPos(3,3)
+                term.setTextColor(colors.purple)
+                if isBlocked(programList[selectedProgram]) == false then
+                    term.setTextColor(colors.magenta)
+                else
+                    term.setTextColor(colors.red)
+                end
+                term.write(programList[selectedProgram])
+                
+                term.setCursorPos(5,4)
+                term.setTextColor(colors.pink)
+                term.write("#"..selectedProgram)
+                
+                
+                event, parm = os.pullEvent()
+                parm = tostring(parm)
+                
+                if event == "key" and parm == "205" then
+                    if selectedProgram < table.maxn(programList) then
+                        selectedProgram = selectedProgram + 1
+                    end
+                end
+                
+                if event == "key" and parm == "203" then
+                    if selectedProgram > 1 then
+                        selectedProgram = selectedProgram - 1
+                    end
+                end
+                
+                if event == "key" and parm == "14" then
+                    clearScreen()
+                    break
+                end
+                
+                if event == "key" and parm == "28" and not isBlocked(programList[selectedProgram]) then
+                    local tArgs = {}
+                    local curArg = "arg"
+                    while not curArg == "" do
+                        curArg = table.remove(tArgs,1)
+                    end
+                    clearScreen()
+                    term.setTextColor(colors.blue)
+                    print("Enter arguments:")
+                    local input = "arg"
+                    while true do
+                        if table.maxn(tArgs) == 10 then
+                            term.setTextColor(colors.red)
+                            print("Max arguments reached! Moving on...")
+                            sleep(2)
+                            break
+                        end
+                    
+                        term.setTextColor(colors.white)
+                        input = read()
+                        if input == "" then
+                            break
+                        else
+                            table.insert(tArgs, input)
+                            term.setTextColor(colors.lightBlue)
+                            print("Next argument (enter nothing to continue)")
+                        end
+                    end
+                    clearScreen()
+                    
+                    term.setTextColor(colors.white)
+                    
+                    shell.run(programList[selectedProgram], tArgs[1], tArgs[2], tArgs[3], tArgs[4], tArgs[5], tArgs[6], tArgs[7], tArgs[8], tArgs[9], tArgs[10])
+                    term.setTextColor(colors.white)
+                    term.setBackgroundColor(colors.black)
+                    term.setCursorPos(width - string.len("Program finished! Press any key to continue!"), height)
+                    term.write("Program finished! Press any key to continue!")
+                    os.pullEvent("char")
+                end
+                
+                
+            end
+        end
+        
+        if selectedItem == 2 then
+            clearScreen()
+            term.setTextColor(colors.white)
+            shell.run("lua")
+        end
+        if selectedItem == 4 then
+            clearScreen()
+            term.setTextColor(colors.red)
+            printM("Logging off to MineOS...")
+            sleep(math.random(1.0,2.5))
+            clearScreen()
+            term.setTextColor(colors.white)
+            stopProgramPending = true
+        end
+        if selectedItem == 3 then
+            clearScreen()
+            term.setTextColor(colors.cyan)
+            print("FizzOS & ComputerCraft Help - Credits:")
+            term.setTextColor(colors.white)
+            term.setCursorPos(1,2)
+            print("FizzOS by mitchfizz05 (me).")
+            print("ComputerCraft by Daniel (dan200). His twitter: @DanTwoHundred")
+            print("Some assitance in ComputerCraft by Aaron (cloudy). His twitter: @CloudHunter")
+            print("The community on the forums and espernet for beta testing and support.")
+            print("Thanks to nitrogenfingers for the paint program.")
+            print("Thanks to deadlystrike for hosting www.computercraft.info")
+            print("Thanks to Eloraam for permission to interface with Redpower2")
+            print("Thanks to Mojang, the Forge team, the MCP team amd the LUA team.")
+            clearScreen()
+            term.setTextColor(colors.cyan)
+            print("FizzOS & ComputerCraft Help - ComputerCraft:")
+            term.setTextColor(colors.white)
+            term.setCursorPos(1,2)
+        end
+        if selectedItem == 5 then
+            clearScreen()
+            term.setTextColor(colors.red)
+            printM("Shutting down FizzOS...")
+            sleep(math.random(1.0,3.0))
+            clearScreen()
+            term.setTextColor(colors.white)
+            os.shutdown()
+        end
+        
+        if selectedItem == 6 then
+            clearScreen()
+            printM("Incomplete.")
+            printM("Press any key", 1)
+            os.pullEvent("char")
+        end
+        
+        if selectedItem == 7 then
+            local tSides = rs.getSides()
+            for n,sSide in ipairs( tSides ) do
+                if peripheral.getType(sSide) == "modem" then
+                    sModem = sSide
+                    break
+                end
+            end
+            
+            clearScreen()
+            rednet.open(sModem)
+            rednet.broadcast("FizzOS.PING")
+            term.setTextColor(colors.red)
+            printM("Sent a ping message.", -1)
+            term.setTextColor(colors.lightBlue)
+            printM("Press any key to continue!", 1)
+            term.setTextColor(colors.white)
+            sText = "More networking funtionality coming soon!"
+            term.setCursorPos(width - string.len(sText), height)
+            term.write(sText)
+            os.pullEvent("char")
+            rednet.close(sModem)
+        end
+        
+    end
+    
+end
+
+function drawMenu_extras()
+    timeString = textutils.formatTime(os.time(), false)
+    oldX, oldY = term.getCursorPos()
+    term.setCursorPos(width - string.len(timeString), height)
+    term.write(timeString)
+end
+
+while true do
+    
+    ------- Can't work out the parallel API properly. :( -------
+
+    --parallel.waitForAll(menuDraw(), drawMenu_extras())
+    --if stopProgramPending == true then
+    --    break
+    --end
+    
+    menuDraw()
+    if stopProgramPending == true then
+        break
+    end
+    
+    --drawMenu_extras()
+end
