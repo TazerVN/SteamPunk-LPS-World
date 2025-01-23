@@ -1496,21 +1496,27 @@
     },
     "done": true
   },
-  "create:water_wheel": {
-    "criteria": {
-      "0": "2025-01-22 14:31:24 +0000"
-    },
-    "done": true
-  },
   "create:track_0": {
     "criteria": {
       "0": "2025-01-22 13:52:08 +0000"
     },
     "done": true
   },
+  "goblins_tyranny:goblin_liquor_success": {
+    "criteria": {
+      "goblin_liquor_success_0": "2025-01-22 14:00:17 +0000"
+    },
+    "done": true
+  },
   "create:brass_casing": {
     "criteria": {
       "0": "2025-01-22 14:13:13 +0000"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2025-01-22 14:18:14 +0000"
     },
     "done": true
   },
@@ -1526,15 +1532,81 @@
     },
     "done": true
   },
-  "goblins_tyranny:goblin_liquor_success": {
+  "create:water_wheel": {
     "criteria": {
-      "goblin_liquor_success_0": "2025-01-22 14:00:17 +0000"
+      "0": "2025-01-22 14:31:24 +0000"
     },
     "done": true
   },
-  "create:shifting_gears": {
+  "farmersdelight:main/place_campfire": {
     "criteria": {
-      "0": "2025-01-22 14:18:14 +0000"
+      "campfire": "2025-01-23 13:42:44 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:vampire_slayer": {
+    "criteria": {
+      "vampire_slayer_0": "2025-01-23 14:40:36 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/ancient_ruins": {
+    "criteria": {
+      "regular_ruin": "2025-01-23 14:49:12 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/refill_cell": {
+    "criteria": {
+      "refill_cell": "2025-01-23 14:50:07 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/workbench": {
+    "criteria": {
+      "hammer": "2025-01-23 14:50:07 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_cell": {
+    "criteria": {
+      "get_cell": "2025-01-23 14:50:07 +0000"
+    },
+    "done": true
+  },
+  "tetra:recipes/workbench": {
+    "criteria": {
+      "hammer": "2025-01-23 14:50:07 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/geode": {
+    "criteria": {
+      "get_geode": "2025-01-23 15:08:02 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_howling": {
+    "criteria": {
+      "find": "2025-01-23 15:10:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-01-23 15:50:45 +0000"
+    },
+    "done": true
+  },
+  "create:encased_fan": {
+    "criteria": {
+      "0": "2025-01-23 16:20:47 +0000"
+    },
+    "done": true
+  },
+  "create:windmill": {
+    "criteria": {
+      "0": "2025-01-23 16:37:41 +0000"
     },
     "done": true
   },

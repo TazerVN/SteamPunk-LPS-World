@@ -826,12 +826,16 @@
     "criteria": {
       "woodland": "2025-01-21 14:53:43 +0000",
       "scrubland": "2025-01-21 14:38:23 +0000",
+      "cold_desert": "2025-01-23 14:19:50 +0000",
       "old_growth_woodland": "2025-01-21 14:52:53 +0000",
       "coniferous_forest": "2025-01-18 14:30:37 +0000",
       "spider_nest": "2025-01-21 13:54:03 +0000",
       "redwood_forest": "2025-01-18 13:52:27 +0000",
+      "seasonal_forest": "2025-01-23 15:33:44 +0000",
       "fir_clearing": "2025-01-21 13:48:52 +0000",
-      "prairie": "2025-01-18 13:58:58 +0000"
+      "prairie": "2025-01-18 13:58:58 +0000",
+      "tundra": "2025-01-23 14:48:34 +0000",
+      "crag": "2025-01-23 14:17:45 +0000"
     },
     "done": false
   },
@@ -855,6 +859,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2025-01-23 15:07:49 +0000",
       "minecraft:birch_forest": "2025-01-22 10:06:29 +0000",
       "minecraft:beach": "2025-01-21 14:35:52 +0000",
       "minecraft:river": "2025-01-18 14:09:40 +0000",
@@ -899,7 +904,9 @@
       "cooked_cod": "2025-01-21 13:51:44 +0000",
       "bread": "2025-01-18 14:29:45 +0000",
       "rotten_flesh": "2025-01-20 13:58:01 +0000",
-      "melon_slice": "2025-01-22 10:09:16 +0000"
+      "melon_slice": "2025-01-22 10:09:16 +0000",
+      "cooked_chicken": "2025-01-23 12:51:04 +0000",
+      "cooked_salmon": "2025-01-23 12:55:10 +0000"
     },
     "done": false
   },
@@ -1530,15 +1537,9 @@
     },
     "done": true
   },
-  "create:water_wheel": {
+  "ad_astra:ocean_cleanup": {
     "criteria": {
-      "0": "2025-01-22 16:15:16 +0000"
-    },
-    "done": true
-  },
-  "create:track_0": {
-    "criteria": {
-      "0": "2025-01-22 15:28:03 +0000"
+      "oil_bucket": "2025-01-22 14:50:18 +0000"
     },
     "done": true
   },
@@ -1548,9 +1549,81 @@
     },
     "done": true
   },
-  "ad_astra:ocean_cleanup": {
+  "create:track_0": {
     "criteria": {
-      "oil_bucket": "2025-01-22 14:50:18 +0000"
+      "0": "2025-01-22 15:28:03 +0000"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2025-01-22 16:15:16 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2025-01-23 12:59:09 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/geode": {
+    "criteria": {
+      "get_geode": "2025-01-23 13:18:09 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/ancient_ruins": {
+    "criteria": {
+      "regular_ruin": "2025-01-23 14:49:32 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2025-01-23 15:36:01 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/refill_cell": {
+    "criteria": {
+      "refill_cell": "2025-01-23 14:52:48 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_howling": {
+    "criteria": {
+      "find": "2025-01-23 15:22:14 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/workbench": {
+    "criteria": {
+      "hammer": "2025-01-23 14:52:48 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_cell": {
+    "criteria": {
+      "get_cell": "2025-01-23 14:52:48 +0000"
+    },
+    "done": true
+  },
+  "tetra:recipes/workbench": {
+    "criteria": {
+      "hammer": "2025-01-23 14:52:48 +0000"
+    },
+    "done": true
+  },
+  "create:copper_casing": {
+    "criteria": {
+      "0": "2025-01-23 16:12:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-01-23 13:55:48 +0000"
     },
     "done": true
   },

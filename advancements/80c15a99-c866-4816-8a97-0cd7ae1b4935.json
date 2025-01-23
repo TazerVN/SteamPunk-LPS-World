@@ -826,6 +826,7 @@
     "criteria": {
       "woodland": "2025-01-21 14:21:21 +0000",
       "scrubland": "2025-01-21 14:23:34 +0000",
+      "cold_desert": "2025-01-23 14:19:51 +0000",
       "old_growth_woodland": "2025-01-21 14:21:47 +0000",
       "orchard": "2025-01-21 20:19:42 +0000",
       "coniferous_forest": "2025-01-21 12:05:49 +0000",
@@ -834,7 +835,10 @@
       "seasonal_forest": "2025-01-21 20:19:57 +0000",
       "fir_clearing": "2025-01-18 13:47:59 +0000",
       "pumpkin_patch": "2025-01-21 20:20:01 +0000",
-      "prairie": "2025-01-18 13:07:39 +0000"
+      "prairie": "2025-01-18 13:07:39 +0000",
+      "tundra": "2025-01-23 17:33:06 +0000",
+      "rainforest": "2025-01-23 07:41:51 +0000",
+      "crag": "2025-01-23 14:17:49 +0000"
     },
     "done": false
   },
@@ -871,8 +875,11 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-01-23 16:52:09 +0000",
       "cooked_mutton": "2025-01-22 08:37:28 +0000",
+      "cooked_beef": "2025-01-23 16:30:33 +0000",
       "baked_potato": "2025-01-22 13:00:33 +0000",
+      "beef": "2025-01-23 13:30:18 +0000",
       "porkchop": "2025-01-22 13:06:31 +0000",
       "apple": "2025-01-22 13:58:51 +0000",
       "bread": "2025-01-18 13:07:37 +0000",
@@ -888,6 +895,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-01-23 15:17:30 +0000",
+      "minecraft:frozen_river": "2025-01-23 17:34:44 +0000",
       "minecraft:cherry_grove": "2025-01-21 11:29:21 +0000",
       "minecraft:birch_forest": "2025-01-21 14:10:44 +0000",
       "minecraft:beach": "2025-01-21 14:15:24 +0000",
@@ -901,6 +910,7 @@
       "minecraft:ocean": "2025-01-18 13:07:52 +0000",
       "minecraft:jungle": "2025-01-22 14:35:16 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-21 14:09:39 +0000",
+      "minecraft:meadow": "2025-01-23 16:37:32 +0000",
       "minecraft:savanna": "2025-01-22 12:57:27 +0000",
       "minecraft:plains": "2025-01-18 13:25:48 +0000"
     },
@@ -943,7 +953,10 @@
       "minecraft:slime": "2025-01-21 11:57:32 +0000",
       "minecraft:evoker": "2025-01-21 14:39:36 +0000",
       "minecraft:phantom": "2025-01-21 10:47:14 +0000",
+      "minecraft:witch": "2025-01-23 07:52:59 +0000",
+      "minecraft:cave_spider": "2025-01-23 14:50:48 +0000",
       "minecraft:enderman": "2025-01-21 09:53:38 +0000",
+      "minecraft:silverfish": "2025-01-23 10:22:54 +0000",
       "minecraft:vex": "2025-01-21 14:39:37 +0000",
       "minecraft:zombie": "2025-01-18 14:18:24 +0000",
       "minecraft:drowned": "2025-01-21 14:57:03 +0000",
@@ -966,6 +979,8 @@
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_hay_storage": "2025-01-21 14:24:32 +0000",
+      "entered_castle": "2025-01-23 09:26:07 +0000",
+      "entered_watch_tower": "2025-01-23 15:17:39 +0000",
       "entered_ruined_building": "2025-01-18 13:24:23 +0000"
     },
     "done": false
@@ -1213,6 +1228,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-01-23 15:30:50 +0000",
       "minecraft:warped_forest": "2025-01-21 09:02:32 +0000"
     },
     "done": false
@@ -1298,6 +1314,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "sugar_cane": "2025-01-23 14:01:44 +0000",
       "wheat": "2025-01-21 10:33:16 +0000"
     },
     "done": false
@@ -1428,8 +1445,11 @@
   "morevillagers:all_workstations_get": {
     "criteria": {
       "brewingstand": "2025-01-21 14:19:12 +0000",
+      "grindstone": "2025-01-23 11:13:00 +0000",
       "smoker": "2025-01-22 13:22:50 +0000",
       "blastfurnace": "2025-01-22 13:17:10 +0000",
+      "lectern": "2025-01-23 15:10:23 +0000",
+      "stonecutter": "2025-01-23 11:33:44 +0000",
       "composter": "2025-01-21 15:32:03 +0000"
     },
     "done": false
@@ -1454,9 +1474,11 @@
   },
   "friendsandfoes:adventure/the_magicians": {
     "criteria": {
-      "killed_evoker": "2025-01-21 14:39:36 +0000"
+      "killed_evoker": "2025-01-21 14:39:36 +0000",
+      "killed_illusioner": "2025-01-23 13:46:51 +0000",
+      "killed_iceologer": "2025-01-23 13:45:21 +0000"
     },
-    "done": false
+    "done": true
   },
   "alexscaves:alexscaves/cave_tablet": {
     "criteria": {
@@ -1620,51 +1642,9 @@
     },
     "done": false
   },
-  "scguns:main/anthralite": {
+  "twilightforest:root": {
     "criteria": {
-      "anthralite_ingot": "2025-01-22 12:08:08 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/copper_blueprint": {
-    "criteria": {
-      "copper_blueprint": "2025-01-22 12:06:48 +0000"
-    },
-    "done": true
-  },
-  "create:track_0": {
-    "criteria": {
-      "0": "2025-01-22 13:32:19 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/niter_dust": {
-    "criteria": {
-      "niter_dust": "2025-01-22 12:25:48 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/craft_lightning_battery": {
-    "criteria": {
-      "lightning_battery": "2025-01-22 12:13:43 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/craft_gun_parts_mold": {
-    "criteria": {
-      "gun_parts_mold": "2025-01-22 12:18:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2025-01-22 13:04:49 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/iron/m3_carabine": {
-    "criteria": {
-      "m3_carabine": "2025-01-22 12:34:59 +0000"
+      "make_portal": "2025-01-22 11:45:57 +0000"
     },
     "done": true
   },
@@ -1674,21 +1654,27 @@
     },
     "done": true
   },
-  "scguns:main/craft_blank_mold": {
+  "scguns:main/copper_blueprint": {
     "criteria": {
-      "blank_mold": "2025-01-22 12:18:06 +0000"
+      "copper_blueprint": "2025-01-22 12:06:48 +0000"
     },
     "done": true
   },
-  "friendsandfoes:adventure/it_bites": {
+  "scguns:main/anthralite": {
     "criteria": {
-      "killed_mauler": "2025-01-22 13:07:52 +0000"
+      "anthralite_ingot": "2025-01-22 12:08:08 +0000"
     },
     "done": true
   },
-  "cold_sweat:insulate_armor": {
+  "scguns:main/craft_lightning_battery": {
     "criteria": {
-      "requirement": "2025-01-22 14:43:02 +0000"
+      "lightning_battery": "2025-01-22 12:13:43 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_macerator": {
+    "criteria": {
+      "macerator": "2025-01-22 12:16:01 +0000"
     },
     "done": true
   },
@@ -1698,9 +1684,57 @@
     },
     "done": true
   },
+  "scguns:main/craft_blank_mold": {
+    "criteria": {
+      "blank_mold": "2025-01-22 12:18:06 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_gun_parts_mold": {
+    "criteria": {
+      "gun_parts_mold": "2025-01-22 12:18:31 +0000"
+    },
+    "done": true
+  },
   "scguns:main/craft_medium_casing_mold": {
     "criteria": {
       "medium_casing_mold": "2025-01-22 12:18:34 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/niter_dust": {
+    "criteria": {
+      "niter_dust": "2025-01-22 12:25:48 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/iron/m3_carabine": {
+    "criteria": {
+      "m3_carabine": "2025-01-22 12:34:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-01-22 13:04:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-01-22 13:04:49 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/it_bites": {
+    "criteria": {
+      "killed_mauler": "2025-01-22 13:07:52 +0000"
+    },
+    "done": true
+  },
+  "create:track_0": {
+    "criteria": {
+      "0": "2025-01-22 13:32:19 +0000"
     },
     "done": true
   },
@@ -1716,21 +1750,208 @@
     },
     "done": true
   },
-  "twilightforest:root": {
+  "cold_sweat:insulate_armor": {
     "criteria": {
-      "make_portal": "2025-01-22 11:45:57 +0000"
+      "requirement": "2025-01-22 14:43:02 +0000"
     },
     "done": true
   },
-  "scguns:main/craft_macerator": {
+  "goblins_tyranny:merchant_success": {
     "criteria": {
-      "macerator": "2025-01-22 12:16:01 +0000"
+      "merchant_success_0": "2025-01-23 07:48:30 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/ol_betsy": {
+  "minecraft:husbandry/tame_an_animal": {
     "criteria": {
-      "shot_crossbow": "2025-01-22 13:04:49 +0000"
+      "tamed_animal": "2025-01-23 07:50:51 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:witch_huts": {
+    "criteria": {
+      "in_witch_hut_oak": "2025-01-23 07:53:40 +0000"
+    },
+    "done": false
+  },
+  "alexsmobs:alexsmobs/banana_slug": {
+    "criteria": {
+      "killed": "2025-01-23 08:11:39 +0000"
+    },
+    "done": true
+  },
+  "idas:winter_wagon": {
+    "criteria": {
+      "in_winter_wagon": "2025-01-23 09:20:32 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:wars_and_kingdoms": {
+    "criteria": {
+      "entered_castle": "2025-01-23 09:26:07 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:seven_world_wonders": {
+    "criteria": {
+      "entered_castle": "2025-01-23 09:26:07 +0000"
+    },
+    "done": false
+  },
+  "mowziesmobs:kill_frostmaw": {
+    "criteria": {
+      "frostmaw": "2025-01-23 09:30:13 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/geode": {
+    "criteria": {
+      "get_geode": "2025-01-23 09:51:01 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:vampire_slayer": {
+    "criteria": {
+      "vampire_slayer_0": "2025-01-23 10:02:15 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/toolbelt": {
+    "criteria": {
+      "toolbelt": "2025-01-23 12:15:19 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_tonal_blade": {
+    "criteria": {
+      "find": "2025-01-23 12:15:40 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/geode_open": {
+    "criteria": {
+      "consume_geode": "2025-01-23 12:22:13 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/kill_iceologer": {
+    "criteria": {
+      "killed_iceologer": "2025-01-23 13:45:21 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/brewing/frozen_heart_potion": {
+    "criteria": {
+      "has_items": "2025-01-23 13:45:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-01-23 13:45:40 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/kill_illusioner": {
+    "criteria": {
+      "killed_illusioner": "2025-01-23 13:46:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-01-23 13:55:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "pufferfish": "2025-01-23 14:54:48 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/hammer_4": {
+    "criteria": {
+      "head_left": "2025-01-23 15:44:15 +0000",
+      "head_right": "2025-01-23 15:44:20 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/globe": {
+    "criteria": {
+      "unlock": "2025-01-23 15:45:09 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/sword_upgrade": {
+    "criteria": {
+      "module": "2025-01-23 16:10:33 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/sword_integrity": {
+    "criteria": {
+      "module": "2025-01-23 16:14:57 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/bastard_upgrade": {
+    "criteria": {
+      "module": "2025-01-23 16:20:28 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:all_professions_traded": {
+    "criteria": {
+      "librarian": "2025-01-23 16:26:33 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "winter_wolf": "2025-01-23 16:51:47 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/place_holosphere": {
+    "criteria": {
+      "use": "2025-01-23 17:20:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2025-01-23 17:09:58 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:temples": {
+    "criteria": {
+      "in_temple_taiga": "2025-01-23 17:36:42 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:magic_map_focus": {
+    "criteria": {
+      "focus": "2025-01-23 16:59:37 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progression_end": {
+    "criteria": {
+      "plateau": "2025-01-23 16:51:27 +0000"
+    },
+    "done": false
+  },
+  "tetra:upgrades/sword_hone": {
+    "criteria": {
+      "blade_hone/damage": "2025-01-23 17:11:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-01-23 17:09:58 +0000"
     },
     "done": true
   },

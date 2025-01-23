@@ -1,0 +1,15 @@
+{
+	id: "b864dc43-e684-455c-ab80-db541c5c6f2c"
+	type: "player"
+	player_name: "WooshieUwU"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "WooshieUwU"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59E9FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
