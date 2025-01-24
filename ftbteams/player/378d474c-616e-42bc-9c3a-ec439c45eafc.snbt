@@ -2,9 +2,7 @@
 	id: "378d474c-616e-42bc-9c3a-ec439c45eafc"
 	type: "player"
 	player_name: "_SOUKA_"
-	ranks: {
-		378d474c-616e-42bc-9c3a-ec439c45eafc: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "_SOUKA_"
 		"ftbteams:description": ""

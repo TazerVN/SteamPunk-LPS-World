@@ -831,11 +831,19 @@
       "coniferous_forest": "2025-01-18 15:00:50 +0000",
       "spider_nest": "2025-01-21 13:53:05 +0000",
       "redwood_forest": "2025-01-18 12:56:14 +0000",
+      "aspen_glade": "2025-01-24 16:36:07 +0000",
+      "seasonal_forest": "2025-01-24 16:41:51 +0000",
+      "auroral_garden": "2025-01-24 13:57:11 +0000",
       "pasture": "2025-01-20 16:20:23 +0000",
       "fir_clearing": "2025-01-18 13:48:06 +0000",
+      "pumpkin_patch": "2025-01-24 16:35:24 +0000",
       "prairie": "2025-01-18 13:07:49 +0000",
+      "snowy_coniferous_forest": "2025-01-24 13:59:13 +0000",
+      "snowy_fir_clearing": "2025-01-24 13:56:57 +0000",
       "undergrowth": "2025-01-21 16:00:53 +0000",
-      "rainforest": "2025-01-21 12:58:02 +0000"
+      "rainforest": "2025-01-21 12:58:02 +0000",
+      "crag": "2025-01-24 13:33:46 +0000",
+      "snowy_maple_woods": "2025-01-24 16:08:11 +0000"
     },
     "done": false
   },
@@ -915,9 +923,11 @@
       "baked_potato": "2025-01-21 13:43:30 +0000",
       "apple": "2025-01-20 13:40:12 +0000",
       "potato": "2025-01-20 14:20:14 +0000",
+      "pumpkin_pie": "2025-01-24 16:12:13 +0000",
       "bread": "2025-01-18 13:14:03 +0000",
       "golden_apple": "2025-01-23 13:54:15 +0000",
       "rotten_flesh": "2025-01-20 14:04:30 +0000",
+      "suspicious_stew": "2025-01-24 14:23:44 +0000",
       "carrot": "2025-01-20 13:01:25 +0000"
     },
     "done": false
@@ -939,6 +949,7 @@
       "minecraft:vindicator": "2025-01-21 12:58:28 +0000",
       "minecraft:spider": "2025-01-18 13:14:22 +0000",
       "minecraft:creeper": "2025-01-20 16:16:30 +0000",
+      "minecraft:evoker": "2025-01-24 15:46:08 +0000",
       "minecraft:phantom": "2025-01-20 15:55:06 +0000",
       "minecraft:witch": "2025-01-20 16:16:42 +0000",
       "minecraft:wither_skeleton": "2025-01-21 16:04:40 +0000",
@@ -1002,6 +1013,8 @@
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_hay_storage": "2025-01-20 16:29:43 +0000",
+      "entered_castle": "2025-01-24 13:40:47 +0000",
+      "entered_watch_tower": "2025-01-24 16:30:08 +0000",
       "entered_ruined_building": "2025-01-18 13:25:29 +0000"
     },
     "done": false
@@ -1014,16 +1027,27 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2025-01-24 16:08:20 +0000",
+      "minecraft:frozen_river": "2025-01-24 13:57:10 +0000",
       "minecraft:cherry_grove": "2025-01-18 15:40:12 +0000",
       "minecraft:birch_forest": "2025-01-21 12:36:56 +0000",
       "minecraft:beach": "2025-01-20 16:26:09 +0000",
       "minecraft:sparse_jungle": "2025-01-21 12:40:04 +0000",
       "minecraft:river": "2025-01-18 13:40:22 +0000",
       "minecraft:lukewarm_ocean": "2025-01-20 16:21:58 +0000",
+      "minecraft:snowy_plains": "2025-01-24 13:38:22 +0000",
+      "minecraft:stony_shore": "2025-01-24 16:41:18 +0000",
       "minecraft:dripstone_caves": "2025-01-21 13:53:24 +0000",
+      "minecraft:snowy_taiga": "2025-01-24 13:55:52 +0000",
+      "minecraft:grove": "2025-01-24 13:35:29 +0000",
+      "minecraft:cold_ocean": "2025-01-24 16:35:22 +0000",
       "minecraft:forest": "2025-01-18 13:26:42 +0000",
+      "minecraft:frozen_ocean": "2025-01-24 14:06:40 +0000",
+      "minecraft:windswept_forest": "2025-01-24 16:28:17 +0000",
       "minecraft:jungle": "2025-01-21 12:36:59 +0000",
       "minecraft:ocean": "2025-01-23 13:37:06 +0000",
+      "minecraft:snowy_beach": "2025-01-24 14:05:07 +0000",
+      "minecraft:frozen_peaks": "2025-01-24 13:35:18 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-21 12:41:56 +0000",
       "minecraft:deep_dark": "2025-01-21 13:48:52 +0000",
       "minecraft:meadow": "2025-01-23 15:57:28 +0000",
@@ -1648,10 +1672,11 @@
   },
   "friendsandfoes:adventure/the_magicians": {
     "criteria": {
+      "killed_evoker": "2025-01-24 15:46:08 +0000",
       "killed_illusioner": "2025-01-22 14:31:35 +0000",
       "killed_iceologer": "2025-01-23 13:48:53 +0000"
     },
-    "done": false
+    "done": true
   },
   "alexscaves:alexscaves/cave_tablet": {
     "criteria": {
@@ -1659,45 +1684,15 @@
     },
     "done": true
   },
-  "farmersdelight:main/place_cooking_pot": {
-    "criteria": {
-      "cooking_pot": "2025-01-23 15:26:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2025-01-23 15:37:23 +0000"
-    },
-    "done": true
-  },
-  "morevillagers:all_professions_traded": {
-    "criteria": {
-      "librarian": "2025-01-23 16:15:04 +0000"
-    },
-    "done": false
-  },
   "cold_sweat:boiler_icebox": {
     "criteria": {
       "has_item": "2025-01-23 13:11:24 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
+  "cold_sweat:survival_tactics": {
     "criteria": {
-      "shot_arrow": "2025-01-23 13:47:58 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/iron/m3_carabine": {
-    "criteria": {
-      "m3_carabine": "2025-01-23 15:04:22 +0000"
-    },
-    "done": true
-  },
-  "morevillagers:first_trade": {
-    "criteria": {
-      "villagertrade": "2025-01-23 16:15:04 +0000"
+      "freezing_on_fire": "2025-01-23 13:45:05 +0000"
     },
     "done": true
   },
@@ -1713,21 +1708,39 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-01-23 13:47:58 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/kill_iceologer": {
+    "criteria": {
+      "killed_iceologer": "2025-01-23 13:48:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/hero_of_the_village": {
     "criteria": {
       "hero_of_the_village": "2025-01-23 13:55:48 +0000"
     },
     "done": true
   },
-  "cold_sweat:survival_tactics": {
+  "scguns:main/iron/m3_carabine": {
     "criteria": {
-      "freezing_on_fire": "2025-01-23 13:45:05 +0000"
+      "m3_carabine": "2025-01-23 15:04:22 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/trade": {
+  "farmersdelight:main/place_cooking_pot": {
     "criteria": {
-      "traded": "2025-01-23 16:15:04 +0000"
+      "cooking_pot": "2025-01-23 15:26:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-01-23 15:37:23 +0000"
     },
     "done": true
   },
@@ -1743,11 +1756,107 @@
     },
     "done": true
   },
-  "friendsandfoes:adventure/kill_iceologer": {
+  "morevillagers:all_professions_traded": {
     "criteria": {
-      "killed_iceologer": "2025-01-23 13:48:53 +0000"
+      "librarian": "2025-01-23 16:15:04 +0000"
+    },
+    "done": false
+  },
+  "morevillagers:first_trade": {
+    "criteria": {
+      "villagertrade": "2025-01-23 16:15:04 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-01-23 16:15:04 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:airship_village": {
+    "criteria": {
+      "in_airship_village": "2025-01-24 13:59:00 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:kill_villager": {
+    "criteria": {
+      "killedvillager": "2025-01-24 16:21:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-01-24 14:08:28 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/blackpowder/blunderbuss": {
+    "criteria": {
+      "blunderbuss": "2025-01-24 15:16:13 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "has_item": "2025-01-24 17:21:52 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-01-24 16:37:39 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:wars_and_kingdoms": {
+    "criteria": {
+      "entered_castle": "2025-01-24 13:40:47 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:tavern_village": {
+    "criteria": {
+      "in_tavern_village": "2025-01-24 14:04:32 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:seven_world_wonders": {
+    "criteria": {
+      "entered_castle": "2025-01-24 13:40:47 +0000"
+    },
+    "done": false
+  },
+  "create:rose_quartz": {
+    "criteria": {
+      "0": "2025-01-24 17:14:32 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/disenchanter": {
+    "criteria": {
+      "has_item": "2025-01-24 17:21:52 +0000"
+    },
+    "done": true
+  },
+  "idas:winter_wagon": {
+    "criteria": {
+      "in_winter_wagon": "2025-01-24 13:38:50 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:husbandry/sus_stew": {
+    "criteria": {
+      "stew": "2025-01-24 14:23:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:black": "2025-01-24 14:08:28 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

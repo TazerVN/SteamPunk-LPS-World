@@ -4,6 +4,7 @@
 	owner: "663eebf0-6130-48ab-be1f-f8a0994e5c38"
 	ranks: {
 		45ea1c5e-b1d2-404f-bb36-3735b62cfce5: "member"
+		378d474c-616e-42bc-9c3a-ec439c45eafc: "member"
 		80c15a99-c866-4816-8a97-0cd7ae1b4935: "member"
 		581c7ea1-370b-46e1-9e2e-7b874e96d6ff: "member"
 		0ff1b81d-88de-4174-9796-9088b192f5ad: "member"
@@ -30,6 +31,8 @@
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1737462116825L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"ent1fy\"}]}" }
 		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1737638821025L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"WooshieUwU\"}]}" }
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1737638828614L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"WooshieUwU\"}]}" }
+		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1737723709006L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"_SOUKA_\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1737723713116L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"_SOUKA_\"}]}" }
 	]
 	extra: { }
 }

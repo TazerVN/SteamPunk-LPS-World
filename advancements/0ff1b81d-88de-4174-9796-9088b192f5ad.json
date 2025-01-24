@@ -1610,5 +1610,11 @@
     },
     "done": true
   },
+  "twilightforest:magic_map_focus": {
+    "criteria": {
+      "focus": "2025-01-24 17:22:55 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

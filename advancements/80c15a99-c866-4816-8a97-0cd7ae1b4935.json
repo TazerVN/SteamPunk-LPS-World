@@ -824,18 +824,31 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "muskeg": "2025-01-24 13:31:47 +0000",
       "woodland": "2025-01-21 14:21:21 +0000",
+      "snowblossom_grove": "2025-01-24 13:33:38 +0000",
       "scrubland": "2025-01-21 14:23:34 +0000",
+      "highland": "2025-01-24 13:00:02 +0000",
+      "jacaranda_glade": "2025-01-24 12:32:02 +0000",
+      "marsh": "2025-01-24 13:00:13 +0000",
+      "jade_cliffs": "2025-01-24 12:31:56 +0000",
       "cold_desert": "2025-01-23 14:19:51 +0000",
       "old_growth_woodland": "2025-01-21 14:21:47 +0000",
+      "maple_woods": "2025-01-24 13:31:07 +0000",
       "orchard": "2025-01-21 20:19:42 +0000",
       "coniferous_forest": "2025-01-21 12:05:49 +0000",
+      "spider_nest": "2025-01-24 07:23:22 +0000",
       "redwood_forest": "2025-01-18 13:01:53 +0000",
       "aspen_glade": "2025-01-21 20:22:14 +0000",
+      "dune_beach": "2025-01-24 12:55:14 +0000",
       "seasonal_forest": "2025-01-21 20:19:57 +0000",
+      "auroral_garden": "2025-01-24 13:58:55 +0000",
+      "lavender_field": "2025-01-24 12:31:16 +0000",
       "fir_clearing": "2025-01-18 13:47:59 +0000",
       "pumpkin_patch": "2025-01-21 20:20:01 +0000",
       "prairie": "2025-01-18 13:07:39 +0000",
+      "snowy_coniferous_forest": "2025-01-24 13:58:48 +0000",
+      "snowy_fir_clearing": "2025-01-24 14:16:08 +0000",
       "tundra": "2025-01-23 17:33:06 +0000",
       "rainforest": "2025-01-23 07:41:51 +0000",
       "crag": "2025-01-23 14:17:49 +0000"
@@ -896,20 +909,31 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-01-23 15:17:30 +0000",
+      "minecraft:taiga": "2025-01-24 12:21:40 +0000",
+      "minecraft:deep_ocean": "2025-01-24 12:49:52 +0000",
       "minecraft:frozen_river": "2025-01-23 17:34:44 +0000",
       "minecraft:cherry_grove": "2025-01-21 11:29:21 +0000",
+      "minecraft:sunflower_plains": "2025-01-24 13:23:01 +0000",
       "minecraft:birch_forest": "2025-01-21 14:10:44 +0000",
+      "minecraft:windswept_hills": "2025-01-24 13:23:28 +0000",
       "minecraft:beach": "2025-01-21 14:15:24 +0000",
       "minecraft:river": "2025-01-18 13:39:13 +0000",
       "minecraft:lukewarm_ocean": "2025-01-21 14:20:49 +0000",
       "minecraft:snowy_plains": "2025-01-21 20:23:58 +0000",
       "minecraft:stony_shore": "2025-01-21 20:21:06 +0000",
       "minecraft:dripstone_caves": "2025-01-21 12:02:33 +0000",
+      "minecraft:snowy_taiga": "2025-01-24 13:58:00 +0000",
+      "minecraft:grove": "2025-01-24 13:56:13 +0000",
+      "minecraft:swamp": "2025-01-24 13:10:32 +0000",
       "minecraft:cold_ocean": "2025-01-21 20:20:24 +0000",
       "minecraft:forest": "2025-01-18 13:26:56 +0000",
+      "minecraft:deep_cold_ocean": "2025-01-24 13:29:27 +0000",
+      "minecraft:frozen_ocean": "2025-01-24 13:34:20 +0000",
       "minecraft:ocean": "2025-01-18 13:07:52 +0000",
       "minecraft:jungle": "2025-01-22 14:35:16 +0000",
+      "minecraft:snowy_beach": "2025-01-24 14:04:35 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-21 14:09:39 +0000",
+      "minecraft:deep_dark": "2025-01-24 07:48:32 +0000",
       "minecraft:meadow": "2025-01-23 16:37:32 +0000",
       "minecraft:savanna": "2025-01-22 12:57:27 +0000",
       "minecraft:plains": "2025-01-18 13:25:48 +0000"
@@ -943,6 +967,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-01-22 12:00:57 +0000",
+      "minecraft:blaze": "2025-01-24 15:10:41 +0000",
       "minecraft:skeleton": "2025-01-21 09:27:39 +0000",
       "minecraft:zoglin": "2025-01-21 14:19:08 +0000",
       "minecraft:ravager": "2025-01-22 13:06:07 +0000",
@@ -978,7 +1003,10 @@
   },
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
+      "entered_tower_of_the_undead": "2025-01-24 12:59:25 +0000",
+      "entered_stables": "2025-01-24 13:26:41 +0000",
       "entered_hay_storage": "2025-01-21 14:24:32 +0000",
+      "entered_fishing_ship": "2025-01-24 12:44:28 +0000",
       "entered_castle": "2025-01-23 09:26:07 +0000",
       "entered_watch_tower": "2025-01-23 15:17:39 +0000",
       "entered_ruined_building": "2025-01-18 13:24:23 +0000"
@@ -1903,7 +1931,15 @@
   },
   "morevillagers:all_professions_traded": {
     "criteria": {
-      "librarian": "2025-01-23 16:26:33 +0000"
+      "cartographer": "2025-01-24 12:45:46 +0000",
+      "librarian": "2025-01-23 16:26:33 +0000",
+      "farmer": "2025-01-24 06:19:59 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:progression_end": {
+    "criteria": {
+      "plateau": "2025-01-23 16:51:27 +0000"
     },
     "done": false
   },
@@ -1913,35 +1949,24 @@
     },
     "done": true
   },
-  "tetra:upgrades/place_holosphere": {
-    "criteria": {
-      "use": "2025-01-23 17:20:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/bred_all_animals": {
-    "criteria": {
-      "minecraft:cow": "2025-01-23 17:09:58 +0000"
-    },
-    "done": false
-  },
-  "repurposed_structures:temples": {
-    "criteria": {
-      "in_temple_taiga": "2025-01-23 17:36:42 +0000"
-    },
-    "done": false
-  },
   "twilightforest:magic_map_focus": {
     "criteria": {
       "focus": "2025-01-23 16:59:37 +0000"
     },
     "done": true
   },
-  "twilightforest:progression_end": {
+  "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "plateau": "2025-01-23 16:51:27 +0000"
+      "minecraft:cow": "2025-01-23 17:09:58 +0000",
+      "minecraft:cat": "2025-01-24 14:10:27 +0000"
     },
     "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-01-23 17:09:58 +0000"
+    },
+    "done": true
   },
   "tetra:upgrades/sword_hone": {
     "criteria": {
@@ -1949,11 +1974,355 @@
     },
     "done": true
   },
-  "minecraft:husbandry/breed_an_animal": {
+  "tetra:upgrades/place_holosphere": {
     "criteria": {
-      "bred": "2025-01-23 17:09:58 +0000"
+      "use": "2025-01-23 17:20:54 +0000"
     },
     "done": true
+  },
+  "repurposed_structures:temples": {
+    "criteria": {
+      "in_temple_taiga": "2025-01-23 17:36:42 +0000"
+    },
+    "done": false
+  },
+  "alexscaves:alexscaves/root": {
+    "criteria": {
+      "underground_cabin": "2025-01-24 04:47:47 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/accessories/forger_gem": {
+    "criteria": {
+      "has_items": "2025-01-24 04:55:10 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/emu": {
+    "criteria": {
+      "killed_by": "2025-01-24 06:13:50 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass_blueprint": {
+    "criteria": {
+      "treated_brass_blueprint": "2025-01-24 06:38:24 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "corrupted_eye": "2025-01-24 06:38:43 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/corrupted_eye": {
+    "criteria": {
+      "corrupted_eye": "2025-01-24 06:38:43 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/ancient_ruins": {
+    "criteria": {
+      "regular_ruin": "2025-01-24 07:23:33 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_bolt": {
+    "criteria": {
+      "forged_bolt": "2025-01-24 07:32:35 +0000"
+    },
+    "done": true
+  },
+  "tetra:recipes/forged_mesh": {
+    "criteria": {
+      "got_mesh": "2025-01-24 07:35:28 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_cell": {
+    "criteria": {
+      "get_cell": "2025-01-24 07:35:41 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/hammer_fix": {
+    "criteria": {
+      "fuel": "2025-01-24 07:37:32 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_planar": {
+    "criteria": {
+      "find_planar": "2025-01-24 07:40:26 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/chthonic_extractor": {
+    "criteria": {
+      "earthpiercer": "2025-01-24 07:40:52 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/hammer_remove": {
+    "criteria": {
+      "module": "2025-01-24 07:44:45 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/hammer_power": {
+    "criteria": {
+      "module": "2025-01-24 07:44:49 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/hammer_craft": {
+    "criteria": {
+      "craft": "2025-01-24 07:44:59 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/hammer_5": {
+    "criteria": {
+      "head_left": "2025-01-24 07:46:45 +0000",
+      "head_right": "2025-01-24 07:44:59 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/hammer_jam": {
+    "criteria": {
+      "fuel": "2025-01-24 07:45:19 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/hammer_unjam": {
+    "criteria": {
+      "crit1": "2025-01-24 07:46:29 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/refill_cell": {
+    "criteria": {
+      "refill_cell": "2025-01-24 07:49:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-01-24 07:49:46 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/chthonic_module": {
+    "criteria": {
+      "sword": "2025-01-24 07:52:08 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/tool_upgrade": {
+    "criteria": {
+      "pickaxe": "2025-01-24 07:52:44 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/diamond_steel_blueprint": {
+    "criteria": {
+      "diamond_steel_blueprint": "2025-01-24 13:04:52 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_canister": {
+    "criteria": {
+      "canister": "2025-01-24 08:03:24 +0000"
+    },
+    "done": true
+  },
+  "idas:sunken_ship": {
+    "criteria": {
+      "in_sunken_ship": "2025-01-24 12:54:25 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/netherite": {
+    "criteria": {
+      "has_scrap": "2025-01-24 10:33:10 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/enigmatic_eye": {
+    "criteria": {
+      "impossible": "2025-01-24 11:21:31 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:airship_village": {
+    "criteria": {
+      "in_airship_village": "2025-01-24 14:00:40 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crimson_mosquito": {
+    "criteria": {
+      "killed_by": "2025-01-24 10:02:00 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/ocean_blueprint": {
+    "criteria": {
+      "ocean_blueprint": "2025-01-24 14:45:53 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/sword_improvement_hone": {
+    "criteria": {
+      "tempered": "2025-01-24 13:53:05 +0000"
+    },
+    "done": false
+  },
+  "mowziesmobs:kill_ferrous_wroughtnaut": {
+    "criteria": {
+      "ferrous_wroughtnaut": "2025-01-24 11:21:09 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/bow_upgrade": {
+    "criteria": {
+      "module": "2025-01-24 08:36:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-01-24 13:09:59 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:buy_map": {
+    "criteria": {
+      "trade": "2025-01-24 12:45:46 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/magnet_ring": {
+    "criteria": {
+      "spellstone": "2025-01-24 13:30:11 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:tavern_village": {
+    "criteria": {
+      "in_tavern_village": "2025-01-24 12:22:03 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/rack": {
+    "criteria": {
+      "rack": "2025-01-24 09:00:54 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2025-01-24 13:10:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-01-24 15:10:42 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/diamond_steel/uppercut": {
+    "criteria": {
+      "uppercut": "2025-01-24 13:07:40 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_latch": {
+    "criteria": {
+      "quiver": "2025-01-24 09:38:02 +0000",
+      "find_latch": "2025-01-24 07:57:10 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:mineshafts": {
+    "criteria": {
+      "in_mineshaft_crimson": "2025-01-24 15:10:42 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:book/brewing/molten_heart_potion": {
+    "criteria": {
+      "has_items": "2025-01-24 15:10:42 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_howling": {
+    "criteria": {
+      "find": "2025-01-24 11:06:50 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/ancient_debris": {
+    "criteria": {
+      "has_scrap": "2025-01-24 10:33:10 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/relics/lost_engine": {
+    "criteria": {
+      "has_items": "2025-01-24 08:11:25 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/get_scroll_katana": {
+    "criteria": {
+      "find": "2025-01-24 11:04:58 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_large_casing_mold": {
+    "criteria": {
+      "large_casing_mold": "2025-01-24 13:04:53 +0000"
+    },
+    "done": true
+  },
+  "cold_sweat:fuel_soul_lamp": {
+    "criteria": {
+      "requirement": "2025-01-24 15:06:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-01-24 10:10:00 +0000"
+    },
+    "done": true
+  },
+  "tetra:art_of_forging/katana_upgrade": {
+    "criteria": {
+      "module": "2025-01-24 11:07:23 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_nano_insectoid": {
+    "criteria": {
+      "insectoid": "2025-01-24 08:15:08 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_codex": {
+    "criteria": {
+      "codex": "2025-01-24 07:57:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:red": "2025-01-24 14:09:41 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

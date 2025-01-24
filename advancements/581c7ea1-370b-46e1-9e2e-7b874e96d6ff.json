@@ -1022,6 +1022,7 @@
       "minecraft:spider": "2025-01-20 15:17:36 +0000",
       "minecraft:creeper": "2025-01-21 10:23:22 +0000",
       "minecraft:phantom": "2025-01-20 15:33:57 +0000",
+      "minecraft:witch": "2025-01-24 11:10:04 +0000",
       "minecraft:zombie": "2025-01-20 13:36:40 +0000",
       "minecraft:zombie_villager": "2025-01-21 10:10:16 +0000"
     },
@@ -1195,7 +1196,8 @@
     "criteria": {
       "green": "2025-01-21 10:09:47 +0000",
       "black": "2025-01-21 10:09:42 +0000",
-      "violet": "2025-01-22 14:52:59 +0000"
+      "violet": "2025-01-22 14:52:59 +0000",
+      "yellow": "2025-01-24 11:12:45 +0000"
     },
     "done": false
   },
@@ -1573,27 +1575,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-01-23 13:55:48 +0000"
+    },
+    "done": true
+  },
   "tetra:spelunking/ancient_ruins": {
     "criteria": {
       "regular_ruin": "2025-01-23 14:49:32 +0000"
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/grizzly_bear": {
-    "criteria": {
-      "killed_by": "2025-01-23 15:36:01 +0000"
-    },
-    "done": true
-  },
   "tetra:spelunking/refill_cell": {
     "criteria": {
       "refill_cell": "2025-01-23 14:52:48 +0000"
-    },
-    "done": true
-  },
-  "tetra:spelunking/find_scroll_howling": {
-    "criteria": {
-      "find": "2025-01-23 15:22:14 +0000"
     },
     "done": true
   },
@@ -1615,15 +1611,111 @@
     },
     "done": true
   },
+  "tetra:spelunking/find_scroll_howling": {
+    "criteria": {
+      "find": "2025-01-23 15:22:14 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2025-01-23 15:36:01 +0000"
+    },
+    "done": true
+  },
   "create:copper_casing": {
     "criteria": {
       "0": "2025-01-23 16:12:52 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/hero_of_the_village": {
+  "tetra:spelunking/hammer_jam": {
     "criteria": {
-      "hero_of_the_village": "2025-01-23 13:55:48 +0000"
+      "fuel": "2025-01-24 07:45:19 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/hammer_fix": {
+    "criteria": {
+      "fuel": "2025-01-24 07:46:02 +0000"
+    },
+    "done": true
+  },
+  "tetra:recipes/forged_mesh": {
+    "criteria": {
+      "got_mesh": "2025-01-24 07:48:36 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/chthonic_extractor": {
+    "criteria": {
+      "earthpiercer": "2025-01-24 07:51:47 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_bolt": {
+    "criteria": {
+      "forged_bolt": "2025-01-24 07:55:27 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_planar": {
+    "criteria": {
+      "find_planar": "2025-01-24 08:00:38 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_codex": {
+    "criteria": {
+      "codex": "2025-01-24 08:09:48 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/geode_open": {
+    "criteria": {
+      "consume_geode": "2025-01-24 08:23:17 +0000"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2025-01-24 09:57:12 +0000"
+    },
+    "done": true
+  },
+  "create:contraption_actors": {
+    "criteria": {
+      "0": "2025-01-24 10:01:30 +0000"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2025-01-24 10:26:22 +0000"
+    },
+    "done": true
+  },
+  "create:portable_storage_interface": {
+    "criteria": {
+      "0": "2025-01-24 10:26:22 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/enigmatic_eye": {
+    "criteria": {
+      "impossible": "2025-01-24 10:31:17 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "has_item": "2025-01-24 17:21:32 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/disenchanter": {
+    "criteria": {
+      "has_item": "2025-01-24 17:21:32 +0000"
     },
     "done": true
   },
