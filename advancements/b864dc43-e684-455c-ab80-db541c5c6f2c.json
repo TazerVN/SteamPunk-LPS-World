@@ -826,13 +826,16 @@
     "criteria": {
       "highland": "2025-01-23 16:44:43 +0000",
       "orchard": "2025-01-23 16:43:51 +0000",
+      "field": "2025-01-25 17:35:08 +0000",
       "coniferous_forest": "2025-01-23 13:19:55 +0000",
+      "forested_field": "2025-01-25 17:36:48 +0000",
       "redwood_forest": "2025-01-23 08:05:57 +0000",
       "seasonal_forest": "2025-01-23 13:22:18 +0000",
       "fir_clearing": "2025-01-23 08:43:43 +0000",
       "pumpkin_patch": "2025-01-23 13:32:05 +0000",
       "prairie": "2025-01-23 08:12:25 +0000",
-      "tundra": "2025-01-23 17:34:38 +0000"
+      "tundra": "2025-01-23 17:34:38 +0000",
+      "gravel_beach": "2025-01-25 17:34:45 +0000"
     },
     "done": false
   },
@@ -844,14 +847,21 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2025-01-25 17:11:45 +0000",
       "minecraft:frozen_river": "2025-01-23 17:34:48 +0000",
       "minecraft:cherry_grove": "2025-01-23 16:42:59 +0000",
       "minecraft:birch_forest": "2025-01-23 15:23:11 +0000",
+      "minecraft:beach": "2025-01-25 17:18:04 +0000",
       "minecraft:river": "2025-01-23 08:54:40 +0000",
       "minecraft:stony_shore": "2025-01-23 13:23:15 +0000",
       "minecraft:dripstone_caves": "2025-01-23 17:23:41 +0000",
+      "minecraft:cold_ocean": "2025-01-25 17:31:14 +0000",
       "minecraft:forest": "2025-01-23 08:55:33 +0000",
+      "minecraft:deep_cold_ocean": "2025-01-25 17:31:04 +0000",
+      "minecraft:ocean": "2025-01-25 17:09:36 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-01-25 17:37:53 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-23 15:23:40 +0000",
+      "minecraft:deep_dark": "2025-01-25 19:52:46 +0000",
       "minecraft:meadow": "2025-01-23 13:21:22 +0000",
       "minecraft:plains": "2025-01-23 08:13:36 +0000"
     },
@@ -949,7 +959,10 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-01-25 16:48:49 +0000",
       "minecraft:skeleton": "2025-01-23 09:11:24 +0000",
+      "minecraft:ravager": "2025-01-25 16:49:51 +0000",
+      "minecraft:vindicator": "2025-01-25 16:48:44 +0000",
       "minecraft:spider": "2025-01-23 17:48:10 +0000",
       "minecraft:phantom": "2025-01-23 16:29:42 +0000",
       "minecraft:zombie": "2025-01-23 08:53:55 +0000"
@@ -1113,15 +1126,9 @@
     },
     "done": true
   },
-  "create_enchantment_industry:experienced_engineer": {
+  "farmersdelight:main/craft_knife": {
     "criteria": {
-      "have_experience_nugget": "2025-01-23 14:43:40 +0000"
-    },
-    "done": true
-  },
-  "create:brass": {
-    "criteria": {
-      "0": "2025-01-23 14:43:45 +0000"
+      "flint_knife": "2025-01-23 14:10:36 +0000"
     },
     "done": true
   },
@@ -1137,51 +1144,9 @@
     },
     "done": true
   },
-  "moped:copper_moped_root": {
-    "criteria": {
-      "copper_moped_root": "2025-01-23 14:43:46 +0000"
-    },
-    "done": true
-  },
-  "dungeons_enhanced:wars_and_kingdoms": {
-    "criteria": {
-      "entered_castle": "2025-01-23 17:39:03 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/brewing/haste_potion": {
-    "criteria": {
-      "has_items": "2025-01-23 17:58:40 +0000"
-    },
-    "done": true
-  },
-  "create:copper": {
-    "criteria": {
-      "0": "2025-01-23 14:43:46 +0000"
-    },
-    "done": true
-  },
   "blue_skies:recipes/blue_skies_tools/horizonite_shovel": {
     "criteria": {
       "has_resource": "2025-01-23 14:43:02 +0000"
-    },
-    "done": true
-  },
-  "repurposed_structures:temples": {
-    "criteria": {
-      "in_temple_taiga": "2025-01-23 17:36:38 +0000"
-    },
-    "done": false
-  },
-  "dungeons_enhanced:seven_world_wonders": {
-    "criteria": {
-      "entered_castle": "2025-01-23 17:39:03 +0000"
-    },
-    "done": false
-  },
-  "create_enchantment_industry:recipes/experience_rotor": {
-    "criteria": {
-      "has_item": "2025-01-23 14:43:40 +0000"
     },
     "done": true
   },
@@ -1190,12 +1155,6 @@
       "requirement": "2025-01-23 14:43:02 +0000"
     },
     "done": true
-  },
-  "dungeons_enhanced:ambitious_explorer": {
-    "criteria": {
-      "entered_castle": "2025-01-23 17:39:03 +0000"
-    },
-    "done": false
   },
   "blue_skies:everdawn/get_horizonite": {
     "criteria": {
@@ -1209,21 +1168,9 @@
     },
     "done": true
   },
-  "dungeons_enhanced:root": {
-    "criteria": {
-      "entered_castle": "2025-01-23 17:39:03 +0000"
-    },
-    "done": true
-  },
   "blue_skies:recipes/blue_skies_tools/horizonite_axe": {
     "criteria": {
       "has_resource": "2025-01-23 14:43:02 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/craft_knife": {
-    "criteria": {
-      "flint_knife": "2025-01-23 14:10:36 +0000"
     },
     "done": true
   },
@@ -1233,9 +1180,47 @@
     },
     "done": true
   },
+  "blue_skies:recipes/blue_skies_tools/horizonite_hoe": {
+    "criteria": {
+      "has_resource": "2025-01-23 14:43:02 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:experienced_engineer": {
+    "criteria": {
+      "have_experience_nugget": "2025-01-23 14:43:40 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/experience_rotor": {
+    "criteria": {
+      "has_item": "2025-01-23 14:43:40 +0000"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2025-01-23 14:43:45 +0000"
+    },
+    "done": true
+  },
+  "moped:copper_moped_root": {
+    "criteria": {
+      "copper_moped_root": "2025-01-23 14:43:46 +0000"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2025-01-23 14:43:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2025-01-25 18:14:11 +0000",
       "apple": "2025-01-23 15:15:27 +0000",
+      "rotten_flesh": "2025-01-25 18:04:35 +0000",
       "cooked_salmon": "2025-01-23 16:52:06 +0000"
     },
     "done": false
@@ -1246,9 +1231,202 @@
     },
     "done": true
   },
-  "blue_skies:recipes/blue_skies_tools/horizonite_hoe": {
+  "repurposed_structures:temples": {
     "criteria": {
-      "has_resource": "2025-01-23 14:43:02 +0000"
+      "in_temple_taiga": "2025-01-23 17:36:38 +0000"
+    },
+    "done": false
+  },
+  "dungeons_enhanced:wars_and_kingdoms": {
+    "criteria": {
+      "entered_castle": "2025-01-23 17:39:03 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:seven_world_wonders": {
+    "criteria": {
+      "entered_castle": "2025-01-23 17:39:03 +0000"
+    },
+    "done": false
+  },
+  "dungeons_enhanced:ambitious_explorer": {
+    "criteria": {
+      "entered_castle": "2025-01-23 17:39:03 +0000"
+    },
+    "done": false
+  },
+  "dungeons_enhanced:root": {
+    "criteria": {
+      "entered_castle": "2025-01-23 17:39:03 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/haste_potion": {
+    "criteria": {
+      "has_items": "2025-01-23 17:58:40 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/disaster_sword": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 16:06:48 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/astral_spear": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 16:06:48 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/evil_dagger": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 16:06:48 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/misc/totem_of_malice": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 16:06:48 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/iron/m3_carabine": {
+    "criteria": {
+      "m3_carabine": "2025-01-25 16:44:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-01-25 16:48:44 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2025-01-25 16:54:15 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:goblins_encounter_success": {
+    "criteria": {
+      "goblins_encounter_success_0": "2025-01-25 17:23:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2025-01-25 17:35:38 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/root": {
+    "criteria": {
+      "spelunking": "2025-01-25 18:56:39 +0000"
+    },
+    "done": true
+  },
+  "tempad:tempad": {
+    "criteria": {
+      "requirement": "2025-01-25 17:52:56 +0000"
+    },
+    "done": true
+  },
+  "thinair:soul": {
+    "criteria": {
+      "bad_air": "2025-01-25 18:11:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-01-25 18:28:46 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "has_item": "2025-01-25 17:46:59 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/enchantments/generic": {
+    "criteria": {
+      "has_items": "2025-01-25 18:43:12 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/geode": {
+    "criteria": {
+      "get_geode": "2025-01-25 19:37:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2025-01-25 20:13:36 +0000"
+    },
+    "done": false
+  },
+  "morevillagers:all_workstations_get": {
+    "criteria": {
+      "blastfurnace": "2025-01-25 20:08:32 +0000"
+    },
+    "done": false
+  },
+  "tetra:art_of_forging/root": {
+    "criteria": {
+      "double": "2025-01-25 18:42:37 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/geode_open": {
+    "criteria": {
+      "consume_geode": "2025-01-25 20:05:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-01-25 20:12:44 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/sulfur_chunk": {
+    "criteria": {
+      "sulfur_chunk": "2025-01-25 18:47:36 +0000"
+    },
+    "done": true
+  },
+  "create:precision_mechanism": {
+    "criteria": {
+      "0": "2025-01-25 17:46:59 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/disenchanter": {
+    "criteria": {
+      "has_item": "2025-01-25 17:46:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "sugar_cane": "2025-01-25 19:19:59 +0000",
+      "wheat": "2025-01-25 20:12:44 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-01-25 20:13:36 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:first_workstation_get": {
+    "criteria": {
+      "blastfurnace": "2025-01-25 20:08:32 +0000"
     },
     "done": true
   },

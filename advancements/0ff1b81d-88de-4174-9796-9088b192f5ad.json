@@ -825,6 +825,7 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "scrubland": "2025-01-19 03:43:29 +0000",
+      "highland": "2025-01-25 16:31:16 +0000",
       "cold_desert": "2025-01-19 05:01:30 +0000",
       "orchard": "2025-01-19 07:46:04 +0000",
       "coniferous_forest": "2025-01-18 14:30:35 +0000",
@@ -852,6 +853,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-01-19 06:32:50 +0000",
+      "minecraft:deep_ocean": "2025-01-25 07:09:36 +0000",
       "minecraft:frozen_river": "2025-01-19 05:01:58 +0000",
       "minecraft:cherry_grove": "2025-01-18 16:05:47 +0000",
       "minecraft:beach": "2025-01-19 03:41:19 +0000",
@@ -867,6 +869,7 @@
       "minecraft:ocean": "2025-01-19 03:41:25 +0000",
       "minecraft:snowy_beach": "2025-01-19 07:24:03 +0000",
       "minecraft:deep_dark": "2025-01-21 13:48:51 +0000",
+      "minecraft:savanna": "2025-01-25 07:08:08 +0000",
       "minecraft:plains": "2025-01-18 14:03:38 +0000"
     },
     "done": false
@@ -983,9 +986,11 @@
     "criteria": {
       "minecraft:pillager": "2025-01-18 18:05:26 +0000",
       "minecraft:skeleton": "2025-01-18 14:47:33 +0000",
+      "minecraft:ghast": "2025-01-25 06:24:36 +0000",
       "minecraft:spider": "2025-01-18 14:53:37 +0000",
       "minecraft:creeper": "2025-01-18 16:40:59 +0000",
       "minecraft:phantom": "2025-01-21 15:15:05 +0000",
+      "minecraft:witch": "2025-01-25 16:56:38 +0000",
       "minecraft:cave_spider": "2025-01-18 16:39:24 +0000",
       "minecraft:stray": "2025-01-19 06:21:07 +0000",
       "minecraft:enderman": "2025-01-20 15:33:34 +0000",
@@ -1074,6 +1079,7 @@
       "grindstone": "2025-01-18 19:48:51 +0000",
       "smoker": "2025-01-21 13:39:25 +0000",
       "blastfurnace": "2025-01-18 15:53:50 +0000",
+      "lectern": "2025-01-25 07:56:30 +0000",
       "stonecutter": "2025-01-18 20:01:29 +0000",
       "composter": "2025-01-18 18:57:27 +0000"
     },
@@ -1108,7 +1114,8 @@
   "quark:get_all_corundum": {
     "criteria": {
       "green": "2025-01-18 16:38:14 +0000",
-      "black": "2025-01-18 16:37:50 +0000"
+      "black": "2025-01-18 16:37:50 +0000",
+      "indigo": "2025-01-25 15:39:26 +0000"
     },
     "done": false
   },
@@ -1182,6 +1189,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "sweet_berries": "2025-01-25 06:32:29 +0000",
       "potato": "2025-01-18 17:36:34 +0000",
       "wheat": "2025-01-19 07:58:42 +0000"
     },
@@ -1474,6 +1482,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-01-25 06:26:12 +0000",
       "minecraft:warped_forest": "2025-01-21 15:54:25 +0000"
     },
     "done": false
@@ -1613,6 +1622,144 @@
   "twilightforest:magic_map_focus": {
     "criteria": {
       "focus": "2025-01-24 17:22:55 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/disaster_sword": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 05:55:27 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/astral_spear": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 05:55:27 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/evil_dagger": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 05:55:27 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/misc/totem_of_malice": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 05:55:27 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:all_professions_traded": {
+    "criteria": {
+      "librarian": "2025-01-25 06:02:44 +0000"
+    },
+    "done": false
+  },
+  "morevillagers:first_trade": {
+    "criteria": {
+      "villagertrade": "2025-01-25 06:02:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-01-25 06:02:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-01-25 06:24:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2025-01-25 06:24:59 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "has_item": "2025-01-25 06:36:34 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/disenchanter": {
+    "criteria": {
+      "has_item": "2025-01-25 06:36:34 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "flint_knife": "2025-01-25 06:59:44 +0000"
+    },
+    "done": true
+  },
+  "cold_sweat:boiler_icebox": {
+    "criteria": {
+      "has_item": "2025-01-25 07:19:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-01-25 07:47:50 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/molten_heart_potion": {
+    "criteria": {
+      "has_items": "2025-01-25 07:47:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-01-25 07:53:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2025-01-25 07:58:24 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/magnet_ring": {
+    "criteria": {
+      "spellstone": "2025-01-25 16:21:16 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/root": {
+    "criteria": {
+      "underground_cabin": "2025-01-25 16:37:31 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_throwing": {
+    "criteria": {
+      "find": "2025-01-25 16:48:51 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_halberd": {
+    "criteria": {
+      "find": "2025-01-25 16:48:53 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_tablet": {
+    "criteria": {
+      "cave_tablet": "2025-01-25 16:37:42 +0000"
+    },
+    "done": true
+  },
+  "thinair:lantern": {
+    "criteria": {
+      "place": "2025-01-25 16:39:30 +0000"
     },
     "done": true
   },

@@ -826,8 +826,10 @@
     "criteria": {
       "woodland": "2025-01-21 14:53:43 +0000",
       "scrubland": "2025-01-21 14:38:23 +0000",
+      "highland": "2025-01-25 16:31:19 +0000",
       "cold_desert": "2025-01-23 14:19:50 +0000",
       "old_growth_woodland": "2025-01-21 14:52:53 +0000",
+      "orchard": "2025-01-25 16:30:40 +0000",
       "coniferous_forest": "2025-01-18 14:30:37 +0000",
       "spider_nest": "2025-01-21 13:54:03 +0000",
       "redwood_forest": "2025-01-18 13:52:27 +0000",
@@ -859,7 +861,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2025-01-25 16:47:38 +0000",
       "minecraft:frozen_river": "2025-01-23 15:07:49 +0000",
+      "minecraft:cherry_grove": "2025-01-25 17:05:35 +0000",
       "minecraft:birch_forest": "2025-01-22 10:06:29 +0000",
       "minecraft:beach": "2025-01-21 14:35:52 +0000",
       "minecraft:river": "2025-01-18 14:09:40 +0000",
@@ -1023,7 +1027,9 @@
       "minecraft:creeper": "2025-01-21 10:23:22 +0000",
       "minecraft:phantom": "2025-01-20 15:33:57 +0000",
       "minecraft:witch": "2025-01-24 11:10:04 +0000",
+      "minecraft:cave_spider": "2025-01-25 16:13:40 +0000",
       "minecraft:zombie": "2025-01-20 13:36:40 +0000",
+      "minecraft:drowned": "2025-01-25 15:07:00 +0000",
       "minecraft:zombie_villager": "2025-01-21 10:10:16 +0000"
     },
     "done": false
@@ -1716,6 +1722,84 @@
   "create_enchantment_industry:recipes/disenchanter": {
     "criteria": {
       "has_item": "2025-01-24 17:21:32 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/disaster_sword": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 14:50:37 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/astral_spear": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 14:50:37 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/evil_dagger": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 14:50:37 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/misc/totem_of_malice": {
+    "criteria": {
+      "has_the_recipe": "2025-01-25 14:50:37 +0000"
+    },
+    "done": true
+  },
+  "create:precision_mechanism": {
+    "criteria": {
+      "0": "2025-01-25 14:54:14 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/copper_blueprint": {
+    "criteria": {
+      "copper_blueprint": "2025-01-25 17:11:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-01-25 15:37:46 +0000"
+    },
+    "done": true
+  },
+  "create:hand_crank_000": {
+    "criteria": {
+      "0": "2025-01-25 15:57:28 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/root": {
+    "criteria": {
+      "underground_cabin": "2025-01-25 16:37:30 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_throwing": {
+    "criteria": {
+      "find": "2025-01-25 17:28:31 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_halberd": {
+    "criteria": {
+      "find": "2025-01-25 17:28:31 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_tablet": {
+    "criteria": {
+      "cave_tablet": "2025-01-25 16:37:55 +0000"
+    },
+    "done": true
+  },
+  "thinair:lantern": {
+    "criteria": {
+      "place": "2025-01-25 16:39:03 +0000"
     },
     "done": true
   },
