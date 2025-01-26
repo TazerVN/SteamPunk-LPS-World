@@ -855,6 +855,7 @@
       "tundra": "2025-01-23 17:33:06 +0000",
       "glowing_grotto": "2025-01-25 17:50:26 +0000",
       "gravel_beach": "2025-01-25 17:34:43 +0000",
+      "undergrowth": "2025-01-26 15:37:23 +0000",
       "rainforest": "2025-01-23 07:41:51 +0000",
       "crag": "2025-01-23 14:17:49 +0000"
     },
@@ -922,6 +923,7 @@
       "minecraft:birch_forest": "2025-01-21 14:10:44 +0000",
       "minecraft:windswept_hills": "2025-01-24 13:23:28 +0000",
       "minecraft:beach": "2025-01-21 14:15:24 +0000",
+      "minecraft:dark_forest": "2025-01-26 10:29:06 +0000",
       "minecraft:river": "2025-01-18 13:39:13 +0000",
       "minecraft:lukewarm_ocean": "2025-01-21 14:20:49 +0000",
       "minecraft:snowy_plains": "2025-01-21 20:23:58 +0000",
@@ -977,6 +979,7 @@
       "minecraft:skeleton": "2025-01-21 09:27:39 +0000",
       "minecraft:zoglin": "2025-01-21 14:19:08 +0000",
       "minecraft:ravager": "2025-01-22 13:06:07 +0000",
+      "minecraft:ghast": "2025-01-26 15:54:46 +0000",
       "minecraft:hoglin": "2025-01-25 18:30:17 +0000",
       "minecraft:vindicator": "2025-01-21 14:39:27 +0000",
       "minecraft:magma_cube": "2025-01-22 08:09:10 +0000",
@@ -1018,6 +1021,7 @@
       "entered_fishing_ship": "2025-01-24 12:44:28 +0000",
       "entered_castle": "2025-01-23 09:26:07 +0000",
       "entered_watch_tower": "2025-01-23 15:17:39 +0000",
+      "entered_sunken_shrine": "2025-01-26 11:11:29 +0000",
       "entered_ruined_building": "2025-01-18 13:24:23 +0000"
     },
     "done": false
@@ -1526,9 +1530,10 @@
   },
   "create:wrench_goggles": {
     "criteria": {
+      "0": "2025-01-26 06:36:24 +0000",
       "1": "2025-01-21 14:41:44 +0000"
     },
-    "done": false
+    "done": true
   },
   "ad_astra:ocean_cleanup": {
     "criteria": {
@@ -2290,9 +2295,10 @@
   },
   "tetra:upgrades/sword_improvement_hone": {
     "criteria": {
-      "tempered": "2025-01-24 13:53:05 +0000"
+      "tempered": "2025-01-24 13:53:05 +0000",
+      "tempered+": "2025-01-26 14:05:31 +0000"
     },
-    "done": false
+    "done": true
   },
   "integrated_villages:airship_village": {
     "criteria": {
@@ -2396,33 +2402,21 @@
     },
     "done": true
   },
-  "enigmaticlegacy:book/materials/etherium_ore": {
-    "criteria": {
-      "generic_revelation": "2025-01-25 18:19:25 +0000"
-    },
-    "done": true
-  },
-  "tetra:spelunking/loot_ruins": {
-    "criteria": {
-      "platform_slab": "2025-01-25 19:20:35 +0000"
-    },
-    "done": true
-  },
   "repurposed_structures:pyramids": {
     "criteria": {
       "in_pyramid_ocean": "2025-01-25 17:14:51 +0000"
     },
     "done": false
   },
-  "endrem:main/old_eye": {
+  "enigmaticlegacy:book/materials/earth_heart": {
     "criteria": {
-      "old_eye": "2025-01-25 17:16:31 +0000"
+      "has_items": "2025-01-25 17:16:15 +0000"
     },
     "done": true
   },
-  "scguns:main/craft_bullet_mold": {
+  "endrem:main/old_eye": {
     "criteria": {
-      "bullet_mold": "2025-01-25 19:13:24 +0000"
+      "old_eye": "2025-01-25 17:16:31 +0000"
     },
     "done": true
   },
@@ -2444,36 +2438,6 @@
     },
     "done": true
   },
-  "enemyexpansion:troll_hunter": {
-    "criteria": {
-      "troll_hunter_0": "2025-01-25 19:22:21 +0000"
-    },
-    "done": true
-  },
-  "betterdungeons:small_dungeon": {
-    "criteria": {
-      "in_better_monster_room": "2025-01-25 18:40:38 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/sheol": {
-    "criteria": {
-      "sheol": "2025-01-25 18:29:14 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/materials/earth_heart": {
-    "criteria": {
-      "has_items": "2025-01-25 17:16:15 +0000"
-    },
-    "done": true
-  },
-  "thinair:lantern": {
-    "criteria": {
-      "place": "2025-01-25 18:08:34 +0000"
-    },
-    "done": true
-  },
   "dungeons_enhanced:ahoy": {
     "criteria": {
       "entered_pirate_ship": "2025-01-25 18:00:19 +0000"
@@ -2483,6 +2447,216 @@
   "enigmaticlegacy:book/relics/golem_heart": {
     "criteria": {
       "has_items": "2025-01-25 18:05:18 +0000"
+    },
+    "done": true
+  },
+  "thinair:lantern": {
+    "criteria": {
+      "place": "2025-01-25 18:08:34 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/etherium_ore": {
+    "criteria": {
+      "generic_revelation": "2025-01-25 18:19:25 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/sheol": {
+    "criteria": {
+      "sheol": "2025-01-25 18:29:14 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:small_dungeon": {
+    "criteria": {
+      "in_better_monster_room": "2025-01-25 18:40:38 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_bullet_mold": {
+    "criteria": {
+      "bullet_mold": "2025-01-25 19:13:24 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/loot_ruins": {
+    "criteria": {
+      "platform_slab": "2025-01-25 19:20:35 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:troll_hunter": {
+    "criteria": {
+      "troll_hunter_0": "2025-01-25 19:22:21 +0000"
+    },
+    "done": true
+  },
+  "cold_sweat:survival_tactics": {
+    "criteria": {
+      "freezing_on_fire": "2025-01-26 06:41:47 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/chthonic_hammer": {
+    "criteria": {
+      "module": "2025-01-26 06:48:26 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:mars": {
+    "criteria": {
+      "entered_mars": "2025-01-26 09:24:55 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2025-01-26 10:50:19 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/get_scroll_flamberge": {
+    "criteria": {
+      "find": "2025-01-26 10:52:05 +0000"
+    },
+    "done": true
+  },
+  "art_of_forging:materials/vobrite_crystal": {
+    "criteria": {
+      "vobrite_crystal": "2025-01-26 11:12:22 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2025-01-26 11:22:20 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/relics/void_tome": {
+    "criteria": {
+      "has_items": "2025-01-26 11:32:04 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-01-26 11:32:14 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_land_icy": "2025-01-26 11:33:00 +0000"
+    },
+    "done": false
+  },
+  "ad_astra:cryo_freezer": {
+    "criteria": {
+      "has_cryo_freezer": "2025-01-26 13:10:01 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:cryo_fuel": {
+    "criteria": {
+      "has_cryo_fuel": "2025-01-26 13:32:41 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:tier_3_rocket": {
+    "criteria": {
+      "has_tier_3_rocket": "2025-01-26 13:37:27 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/get_scroll_murasama": {
+    "criteria": {
+      "find": "2025-01-26 15:28:30 +0000"
+    },
+    "done": true
+  },
+  "tetra:art_of_forging/flamberge_upgrade": {
+    "criteria": {
+      "module": "2025-01-26 14:45:39 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/unholy_grail": {
+    "criteria": {
+      "has_items": "2025-01-26 14:29:01 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:energizer": {
+    "criteria": {
+      "has_energizer": "2025-01-26 12:42:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "beef_stew": "2025-01-26 14:23:39 +0000"
+    },
+    "done": false
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2025-01-26 15:07:09 +0000"
+    },
+    "done": true
+  },
+  "tetra:art_of_forging/murasama_blade": {
+    "criteria": {
+      "murasama_imprv": "2025-01-26 15:29:44 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/blackpowder/flintlock_pistol": {
+    "criteria": {
+      "flintlock_pistol": "2025-01-26 12:28:49 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/relics/antique_bag": {
+    "criteria": {
+      "has_items": "2025-01-26 12:28:45 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2025-01-26 13:42:25 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_umvuthi": {
+    "criteria": {
+      "barako": "2025-01-26 13:47:11 +0000"
+    },
+    "done": true
+  },
+  "takesapillage:bastille": {
+    "criteria": {
+      "in_bastille": "2025-01-26 14:24:55 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2025-01-26 14:23:39 +0000"
+    },
+    "done": true
+  },
+  "aether:read_lore": {
+    "criteria": {
+      "lore_book_entry": "2025-01-26 15:09:16 +0000"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2025-01-26 15:07:09 +0000"
     },
     "done": true
   },

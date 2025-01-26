@@ -825,8 +825,11 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "woodland": "2025-01-21 12:55:46 +0000",
+      "snowblossom_grove": "2025-01-26 12:51:29 +0000",
       "scrubland": "2025-01-20 16:20:27 +0000",
       "erupting_inferno": "2025-01-25 15:35:44 +0000",
+      "highland": "2025-01-26 12:47:13 +0000",
+      "cold_desert": "2025-01-26 14:20:55 +0000",
       "old_growth_woodland": "2025-01-21 12:55:18 +0000",
       "withered_abyss": "2025-01-25 15:40:44 +0000",
       "orchard": "2025-01-20 13:08:51 +0000",
@@ -834,6 +837,7 @@
       "spider_nest": "2025-01-21 13:53:05 +0000",
       "redwood_forest": "2025-01-18 12:56:14 +0000",
       "aspen_glade": "2025-01-24 16:36:07 +0000",
+      "dune_beach": "2025-01-26 13:21:09 +0000",
       "seasonal_forest": "2025-01-24 16:41:51 +0000",
       "auroral_garden": "2025-01-24 13:57:11 +0000",
       "pasture": "2025-01-20 16:20:23 +0000",
@@ -842,6 +846,7 @@
       "prairie": "2025-01-18 13:07:49 +0000",
       "snowy_coniferous_forest": "2025-01-24 13:59:13 +0000",
       "snowy_fir_clearing": "2025-01-24 13:56:57 +0000",
+      "tundra": "2025-01-26 12:53:06 +0000",
       "undergrowth": "2025-01-21 16:00:53 +0000",
       "rainforest": "2025-01-21 12:58:02 +0000",
       "crag": "2025-01-24 13:33:46 +0000",
@@ -875,13 +880,15 @@
   },
   "morevillagers:all_villages": {
     "criteria": {
-      "plains": "2025-01-18 13:06:57 +0000"
+      "plains": "2025-01-18 13:06:57 +0000",
+      "savanna": "2025-01-26 13:30:59 +0000"
     },
     "done": false
   },
   "morevillagers:all_workstations_get": {
     "criteria": {
       "barrel": "2025-01-18 13:07:06 +0000",
+      "fletchingtable": "2025-01-26 13:26:22 +0000",
       "brewingstand": "2025-01-20 16:37:48 +0000",
       "grindstone": "2025-01-18 13:26:54 +0000",
       "smoker": "2025-01-18 13:27:19 +0000",
@@ -889,6 +896,7 @@
       "blastfurnace": "2025-01-23 11:54:25 +0000",
       "lectern": "2025-01-23 14:21:16 +0000",
       "stonecutter": "2025-01-22 04:45:58 +0000",
+      "cauldron": "2025-01-26 13:41:44 +0000",
       "composter": "2025-01-25 04:01:29 +0000"
     },
     "done": false
@@ -924,6 +932,7 @@
       "sweet_berries": "2025-01-18 15:35:16 +0000",
       "cooked_beef": "2025-01-18 15:41:26 +0000",
       "baked_potato": "2025-01-21 13:43:30 +0000",
+      "beef": "2025-01-26 13:29:57 +0000",
       "apple": "2025-01-20 13:40:12 +0000",
       "potato": "2025-01-20 14:20:14 +0000",
       "pumpkin_pie": "2025-01-24 16:12:13 +0000",
@@ -963,6 +972,7 @@
       "minecraft:piglin": "2025-01-25 15:55:04 +0000",
       "minecraft:enderman": "2025-01-21 13:39:06 +0000",
       "minecraft:stray": "2025-01-21 13:32:24 +0000",
+      "minecraft:silverfish": "2025-01-26 16:16:33 +0000",
       "minecraft:zombie": "2025-01-18 13:14:34 +0000",
       "minecraft:drowned": "2025-01-21 11:22:45 +0000",
       "minecraft:zombie_villager": "2025-01-21 13:58:34 +0000"
@@ -1034,6 +1044,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-01-26 12:51:04 +0000",
       "minecraft:taiga": "2025-01-24 16:08:20 +0000",
       "minecraft:deep_ocean": "2025-01-25 07:09:35 +0000",
       "minecraft:frozen_river": "2025-01-24 13:57:10 +0000",
@@ -1451,6 +1462,7 @@
   },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
+      "nether_wart": "2025-01-26 10:43:10 +0000",
       "wheat": "2025-01-20 16:52:25 +0000"
     },
     "done": true
@@ -1629,6 +1641,7 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-01-25 07:34:01 +0000",
       "minecraft:nether_wastes": "2025-01-25 15:47:06 +0000",
+      "minecraft:soul_sand_valley": "2025-01-26 11:01:40 +0000",
       "minecraft:warped_forest": "2025-01-21 15:54:25 +0000"
     },
     "done": false
@@ -1929,6 +1942,126 @@
     },
     "done": true
   },
+  "create:precision_mechanism": {
+    "criteria": {
+      "0": "2025-01-25 13:03:06 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/geode": {
+    "criteria": {
+      "get_geode": "2025-01-25 13:42:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-01-25 13:56:49 +0000"
+    },
+    "done": true
+  },
+  "thinair:lantern": {
+    "criteria": {
+      "place": "2025-01-25 13:57:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2025-01-25 14:14:30 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/magnet_ring": {
+    "criteria": {
+      "spellstone": "2025-01-25 15:23:24 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/recall_potion": {
+    "criteria": {
+      "has_items": "2025-01-25 15:25:17 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/eyes_recipe": {
+    "criteria": {
+      "eyes": "2025-01-25 15:25:17 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/super_magnet_ring": {
+    "criteria": {
+      "spellstone": "2025-01-25 15:25:26 +0000"
+    },
+    "done": true
+  },
+  "tempad:tempad": {
+    "criteria": {
+      "requirement": "2025-01-25 15:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2025-01-25 15:36:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-01-25 15:37:07 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_warforge": {
+    "criteria": {
+      "find": "2025-01-25 15:37:59 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crimson_mosquito": {
+    "criteria": {
+      "killed": "2025-01-25 15:39:30 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/straddler": {
+    "criteria": {
+      "killed_by": "2025-01-25 15:40:45 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/blackpowder/flintlock_pistol": {
+    "criteria": {
+      "flintlock_pistol": "2025-01-25 15:42:19 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/nether_eye": {
+    "criteria": {
+      "nether_eye": "2025-01-25 15:44:55 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "nether_eye": "2025-01-25 15:44:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-01-25 15:53:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-01-25 15:55:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
       "crying_obsidian": "2025-01-25 15:55:38 +0000"
@@ -1941,111 +2074,9 @@
     },
     "done": true
   },
-  "minecraft:nether/distract_piglin": {
-    "criteria": {
-      "distract_piglin": "2025-01-25 15:36:25 +0000"
-    },
-    "done": true
-  },
-  "tempad:tempad": {
-    "criteria": {
-      "requirement": "2025-01-25 15:32:02 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/crimson_mosquito": {
-    "criteria": {
-      "killed": "2025-01-25 15:39:30 +0000"
-    },
-    "done": true
-  },
-  "endrem:main/nether_eye": {
-    "criteria": {
-      "nether_eye": "2025-01-25 15:44:55 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:main/super_magnet_ring": {
-    "criteria": {
-      "spellstone": "2025-01-25 15:25:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
-    "criteria": {
-      "kill_mob_near_sculk_catalyst": "2025-01-25 13:56:49 +0000"
-    },
-    "done": true
-  },
-  "tetra:spelunking/find_scroll_warforge": {
-    "criteria": {
-      "find": "2025-01-25 15:37:59 +0000"
-    },
-    "done": true
-  },
-  "tetra:upgrades/place_holosphere": {
-    "criteria": {
-      "use": "2025-01-25 16:44:21 +0000"
-    },
-    "done": true
-  },
-  "tetra:spelunking/geode": {
-    "criteria": {
-      "get_geode": "2025-01-25 13:42:13 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/brewing/recall_potion": {
-    "criteria": {
-      "has_items": "2025-01-25 15:25:17 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/straddler": {
-    "criteria": {
-      "killed_by": "2025-01-25 15:40:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/cure_zombie_villager": {
-    "criteria": {
-      "cured_zombie": "2025-01-25 14:14:30 +0000"
-    },
-    "done": true
-  },
   "enigmaticlegacy:main/discover_scroll": {
     "criteria": {
       "spellstone": "2025-01-25 16:01:18 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:main/magnet_ring": {
-    "criteria": {
-      "spellstone": "2025-01-25 15:23:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2025-01-25 15:37:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/loot_bastion": {
-    "criteria": {
-      "loot_bastion_other": "2025-01-25 15:55:23 +0000"
-    },
-    "done": true
-  },
-  "endrem:main/root": {
-    "criteria": {
-      "nether_eye": "2025-01-25 15:44:55 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/blackpowder/flintlock_pistol": {
-    "criteria": {
-      "flintlock_pistol": "2025-01-25 15:42:19 +0000"
     },
     "done": true
   },
@@ -2055,9 +2086,9 @@
     },
     "done": true
   },
-  "tetra:spelunking/find_scroll_howling": {
+  "enigmaticaddons:book/materials/ichor_droplet": {
     "criteria": {
-      "find": "2025-01-25 16:33:53 +0000"
+      "has_items": "2025-01-25 16:01:18 +0000"
     },
     "done": true
   },
@@ -2067,39 +2098,159 @@
     },
     "done": true
   },
-  "minecraft:nether/find_bastion": {
-    "criteria": {
-      "bastion": "2025-01-25 15:53:02 +0000"
-    },
-    "done": true
-  },
   "cold_sweat:fuel_soul_lamp": {
     "criteria": {
       "requirement": "2025-01-25 16:03:21 +0000"
     },
     "done": true
   },
-  "thinair:lantern": {
+  "tetra:spelunking/find_scroll_howling": {
     "criteria": {
-      "place": "2025-01-25 13:57:28 +0000"
+      "find": "2025-01-25 16:33:53 +0000"
     },
     "done": true
   },
-  "create:precision_mechanism": {
+  "tetra:upgrades/place_holosphere": {
     "criteria": {
-      "0": "2025-01-25 13:03:06 +0000"
+      "use": "2025-01-25 16:44:21 +0000"
     },
     "done": true
   },
-  "endrem:main/eyes_recipe": {
+  "enigmaticlegacy:book/materials/earth_heart": {
     "criteria": {
-      "eyes": "2025-01-25 15:25:17 +0000"
+      "has_items": "2025-01-26 09:42:53 +0000"
     },
     "done": true
   },
-  "enigmaticaddons:book/materials/ichor_droplet": {
+  "tetra:spelunking/find_cell": {
     "criteria": {
-      "has_items": "2025-01-25 16:01:18 +0000"
+      "get_cell": "2025-01-26 10:31:49 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/hammer_jam": {
+    "criteria": {
+      "fuel": "2025-01-26 10:34:55 +0000"
+    },
+    "done": true
+  },
+  "tetra:art_of_forging/katana_upgrade": {
+    "criteria": {
+      "module": "2025-01-26 10:34:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-01-26 10:47:51 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_nether": "2025-01-26 10:59:25 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:book/relics/void_stone": {
+    "criteria": {
+      "has_items": "2025-01-26 11:13:17 +0000"
+    },
+    "done": true
+  },
+  "create:arm_blaze_burner": {
+    "criteria": {
+      "0": "2025-01-26 12:40:59 +0000"
+    },
+    "done": true
+  },
+  "create:compacting": {
+    "criteria": {
+      "0": "2025-01-26 12:44:43 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/skreecher": {
+    "criteria": {
+      "killed": "2025-01-26 12:57:03 +0000"
+    },
+    "done": true
+  },
+  "idas:wizardtower": {
+    "criteria": {
+      "in_wizardtower": "2025-01-26 13:11:03 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/spinefish": {
+    "criteria": {
+      "has_item": "2025-01-26 13:41:23 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:solar_panel": {
+    "criteria": {
+      "has_solar_panel": "2025-01-26 14:12:26 +0000"
+    },
+    "done": true
+  },
+  "takesapillage:bastille": {
+    "criteria": {
+      "in_bastille": "2025-01-26 14:24:45 +0000"
+    },
+    "done": true
+  },
+  "create:arm_many_targets": {
+    "criteria": {
+      "0": "2025-01-26 14:47:17 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2025-01-26 15:32:12 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_arm": {
+    "criteria": {
+      "0": "2025-01-26 17:56:18 +0000"
+    },
+    "done": true
+  },
+  "create:stressometer": {
+    "criteria": {
+      "0": "2025-01-26 17:31:32 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:troll_hunter": {
+    "criteria": {
+      "troll_hunter_0": "2025-01-26 16:16:40 +0000"
+    },
+    "done": true
+  },
+  "create:steam_engine": {
+    "criteria": {
+      "0": "2025-01-26 17:30:09 +0000"
+    },
+    "done": true
+  },
+  "create:speed_controller": {
+    "criteria": {
+      "0": "2025-01-26 17:34:10 +0000"
+    },
+    "done": true
+  },
+  "create:spout": {
+    "criteria": {
+      "0": "2025-01-26 17:32:00 +0000"
+    },
+    "done": true
+  },
+  "create:water_supply": {
+    "criteria": {
+      "0": "2025-01-26 17:30:09 +0000"
     },
     "done": true
   },
