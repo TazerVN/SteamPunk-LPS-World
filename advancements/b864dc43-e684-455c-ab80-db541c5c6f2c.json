@@ -987,6 +987,7 @@
       "minecraft:slime": "2025-01-26 15:22:05 +0000",
       "minecraft:phantom": "2025-01-23 16:29:42 +0000",
       "minecraft:witch": "2025-01-26 07:36:54 +0000",
+      "minecraft:enderman": "2025-01-27 09:13:44 +0000",
       "minecraft:zombie": "2025-01-23 08:53:55 +0000",
       "minecraft:zombie_villager": "2025-01-26 09:45:13 +0000"
     },
@@ -1685,6 +1686,24 @@
       "librarian": "2025-01-26 15:32:50 +0000"
     },
     "done": false
+  },
+  "enemyexpansion:wasp_drone_summon": {
+    "criteria": {
+      "wasp_drone_summon_0": "2025-01-27 04:39:38 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:moon_cheese": {
+    "criteria": {
+      "has_moon_cheese": "2025-01-27 06:47:49 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/harvest_straw": {
+    "criteria": {
+      "harvest_straw": "2025-01-27 09:24:41 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

@@ -891,6 +891,7 @@
       "cooked_mutton": "2025-01-18 16:27:31 +0000",
       "baked_potato": "2025-01-18 14:11:17 +0000",
       "apple": "2025-01-19 04:35:05 +0000",
+      "potato": "2025-01-27 15:56:48 +0000",
       "bread": "2025-01-18 14:40:24 +0000",
       "rotten_flesh": "2025-01-21 15:03:28 +0000",
       "salmon": "2025-01-21 12:58:47 +0000",
@@ -1081,6 +1082,7 @@
       "blastfurnace": "2025-01-18 15:53:50 +0000",
       "lectern": "2025-01-25 07:56:30 +0000",
       "stonecutter": "2025-01-18 20:01:29 +0000",
+      "cauldron": "2025-01-27 09:02:35 +0000",
       "composter": "2025-01-18 18:57:27 +0000"
     },
     "done": false
@@ -1739,6 +1741,18 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/cave_tablet": {
+    "criteria": {
+      "cave_tablet": "2025-01-25 16:37:42 +0000"
+    },
+    "done": true
+  },
+  "thinair:lantern": {
+    "criteria": {
+      "place": "2025-01-25 16:39:30 +0000"
+    },
+    "done": true
+  },
   "tetra:spelunking/find_scroll_throwing": {
     "criteria": {
       "find": "2025-01-25 16:48:51 +0000"
@@ -1751,15 +1765,117 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/cave_tablet": {
+  "ad_astra:solar_panel": {
     "criteria": {
-      "cave_tablet": "2025-01-25 16:37:42 +0000"
+      "has_solar_panel": "2025-01-27 07:55:48 +0000"
     },
     "done": true
   },
-  "thinair:lantern": {
+  "ad_astra:moon_cheese": {
     "criteria": {
-      "place": "2025-01-25 16:39:30 +0000"
+      "has_moon_cheese": "2025-01-27 07:56:16 +0000"
+    },
+    "done": true
+  },
+  "create:precision_mechanism": {
+    "criteria": {
+      "0": "2025-01-27 07:56:19 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/anthralite": {
+    "criteria": {
+      "anthralite_ingot": "2025-01-27 08:19:15 +0000"
+    },
+    "done": true
+  },
+  "create:burner": {
+    "criteria": {
+      "0": "2025-01-27 08:27:35 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2025-01-27 08:47:51 +0000"
+    },
+    "done": true
+  },
+  "create:copper_casing": {
+    "criteria": {
+      "0": "2025-01-27 09:29:28 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2025-01-27 09:32:06 +0000"
+    },
+    "done": true
+  },
+  "create:glass_pipe": {
+    "criteria": {
+      "0": "2025-01-27 09:32:08 +0000"
+    },
+    "done": true
+  },
+  "create:spout": {
+    "criteria": {
+      "0": "2025-01-27 09:32:26 +0000"
+    },
+    "done": true
+  },
+  "create:arm_blaze_burner": {
+    "criteria": {
+      "0": "2025-01-27 09:42:15 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_arm": {
+    "criteria": {
+      "0": "2025-01-27 09:43:31 +0000"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2025-01-27 09:46:41 +0000"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2025-01-27 09:50:15 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_mixer": {
+    "criteria": {
+      "0": "2025-01-27 09:54:49 +0000"
+    },
+    "done": true
+  },
+  "create:hand_crank_000": {
+    "criteria": {
+      "0": "2025-01-27 16:14:24 +0000"
+    },
+    "done": true
+  },
+  "create:millstone": {
+    "criteria": {
+      "0": "2025-01-27 15:05:10 +0000"
+    },
+    "done": true
+  },
+  "create:fan_processing": {
+    "criteria": {
+      "0": "2025-01-27 13:53:29 +0000"
+    },
+    "done": true
+  },
+  "create:compacting": {
+    "criteria": {
+      "0": "2025-01-27 15:48:28 +0000"
     },
     "done": true
   },

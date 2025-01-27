@@ -983,6 +983,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "glow_berries": "2025-01-27 08:03:43 +0000",
       "sweet_berries": "2025-01-18 14:21:02 +0000",
       "sugar_cane": "2025-01-18 15:50:26 +0000",
       "wheat": "2025-01-18 15:40:39 +0000"
@@ -1755,12 +1756,6 @@
     },
     "done": true
   },
-  "scguns:main/copper_blueprint": {
-    "criteria": {
-      "copper_blueprint": "2025-01-25 17:11:57 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2025-01-25 15:37:46 +0000"
@@ -1779,6 +1774,24 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/cave_tablet": {
+    "criteria": {
+      "cave_tablet": "2025-01-25 16:37:55 +0000"
+    },
+    "done": true
+  },
+  "thinair:lantern": {
+    "criteria": {
+      "place": "2025-01-25 16:39:03 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/copper_blueprint": {
+    "criteria": {
+      "copper_blueprint": "2025-01-25 17:11:57 +0000"
+    },
+    "done": true
+  },
   "tetra:spelunking/find_scroll_throwing": {
     "criteria": {
       "find": "2025-01-25 17:28:31 +0000"
@@ -1791,15 +1804,69 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/cave_tablet": {
+  "aether:enter_aether": {
     "criteria": {
-      "cave_tablet": "2025-01-25 16:37:55 +0000"
+      "enter_aether": "2025-01-27 06:51:38 +0000"
     },
     "done": true
   },
-  "thinair:lantern": {
+  "aether:the_aether": {
     "criteria": {
-      "place": "2025-01-25 16:39:03 +0000"
+      "the_aether": "2025-01-27 06:51:38 +0000"
+    },
+    "done": true
+  },
+  "aether:read_lore": {
+    "criteria": {
+      "lore_book_entry": "2025-01-27 06:53:01 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:solar_panel": {
+    "criteria": {
+      "has_solar_panel": "2025-01-27 07:00:35 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/netherite": {
+    "criteria": {
+      "has_ingot": "2025-01-27 07:02:56 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/ancient_debris": {
+    "criteria": {
+      "has_ingot": "2025-01-27 07:02:56 +0000"
+    },
+    "done": true
+  },
+  "create:encased_fan": {
+    "criteria": {
+      "0": "2025-01-27 09:17:09 +0000"
+    },
+    "done": true
+  },
+  "create:crushing_wheel": {
+    "criteria": {
+      "0": "2025-01-27 09:54:15 +0000"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2025-01-27 08:47:04 +0000"
+    },
+    "done": true
+  },
+  "create:speed_controller": {
+    "criteria": {
+      "0": "2025-01-27 10:18:02 +0000"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2025-01-27 08:43:28 +0000"
     },
     "done": true
   },

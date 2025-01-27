@@ -940,6 +940,7 @@
       "golden_apple": "2025-01-23 13:54:15 +0000",
       "rotten_flesh": "2025-01-20 14:04:30 +0000",
       "suspicious_stew": "2025-01-24 14:23:44 +0000",
+      "enchanted_golden_apple": "2025-01-27 12:05:32 +0000",
       "carrot": "2025-01-20 13:01:25 +0000"
     },
     "done": false
@@ -2212,18 +2213,6 @@
     },
     "done": true
   },
-  "create:mechanical_arm": {
-    "criteria": {
-      "0": "2025-01-26 17:56:18 +0000"
-    },
-    "done": true
-  },
-  "create:stressometer": {
-    "criteria": {
-      "0": "2025-01-26 17:31:32 +0000"
-    },
-    "done": true
-  },
   "enemyexpansion:troll_hunter": {
     "criteria": {
       "troll_hunter_0": "2025-01-26 16:16:40 +0000"
@@ -2236,9 +2225,15 @@
     },
     "done": true
   },
-  "create:speed_controller": {
+  "create:water_supply": {
     "criteria": {
-      "0": "2025-01-26 17:34:10 +0000"
+      "0": "2025-01-26 17:30:09 +0000"
+    },
+    "done": true
+  },
+  "create:stressometer": {
+    "criteria": {
+      "0": "2025-01-26 17:31:32 +0000"
     },
     "done": true
   },
@@ -2248,9 +2243,21 @@
     },
     "done": true
   },
-  "create:water_supply": {
+  "create:speed_controller": {
     "criteria": {
-      "0": "2025-01-26 17:30:09 +0000"
+      "0": "2025-01-26 17:34:10 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_arm": {
+    "criteria": {
+      "0": "2025-01-26 17:56:18 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:moon_cheese": {
+    "criteria": {
+      "has_moon_cheese": "2025-01-27 11:02:52 +0000"
     },
     "done": true
   },
