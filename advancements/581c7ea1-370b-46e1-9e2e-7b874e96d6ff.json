@@ -826,17 +826,32 @@
     "criteria": {
       "woodland": "2025-01-21 14:53:43 +0000",
       "scrubland": "2025-01-21 14:38:23 +0000",
+      "fungal_jungle": "2025-01-28 05:54:02 +0000",
+      "floodplain": "2025-01-28 05:52:54 +0000",
+      "lush_savanna": "2025-01-28 05:54:14 +0000",
       "highland": "2025-01-25 16:31:19 +0000",
       "cold_desert": "2025-01-23 14:19:50 +0000",
       "old_growth_woodland": "2025-01-21 14:52:53 +0000",
       "orchard": "2025-01-25 16:30:40 +0000",
+      "field": "2025-01-28 16:12:53 +0000",
       "coniferous_forest": "2025-01-18 14:30:37 +0000",
       "spider_nest": "2025-01-21 13:54:03 +0000",
+      "wasteland": "2025-01-28 05:55:25 +0000",
+      "lush_desert": "2025-01-28 05:54:35 +0000",
       "redwood_forest": "2025-01-18 13:52:27 +0000",
+      "dune_beach": "2025-01-28 15:44:06 +0000",
       "seasonal_forest": "2025-01-23 15:33:44 +0000",
+      "auroral_garden": "2025-01-28 16:15:35 +0000",
+      "rocky_rainforest": "2025-01-28 05:54:12 +0000",
+      "pasture": "2025-01-28 15:44:35 +0000",
+      "volcanic_plains": "2025-01-28 15:49:47 +0000",
       "fir_clearing": "2025-01-21 13:48:52 +0000",
       "prairie": "2025-01-18 13:58:58 +0000",
+      "snowy_fir_clearing": "2025-01-28 16:14:26 +0000",
       "tundra": "2025-01-23 14:48:34 +0000",
+      "glowing_grotto": "2025-01-28 05:56:39 +0000",
+      "gravel_beach": "2025-01-28 16:11:44 +0000",
+      "rainforest": "2025-01-28 05:52:57 +0000",
       "crag": "2025-01-23 14:17:45 +0000"
     },
     "done": false
@@ -865,13 +880,28 @@
       "minecraft:frozen_river": "2025-01-23 15:07:49 +0000",
       "minecraft:cherry_grove": "2025-01-25 17:05:35 +0000",
       "minecraft:birch_forest": "2025-01-22 10:06:29 +0000",
+      "minecraft:bamboo_jungle": "2025-01-28 15:51:32 +0000",
       "minecraft:beach": "2025-01-21 14:35:52 +0000",
+      "minecraft:dark_forest": "2025-01-28 15:43:04 +0000",
+      "minecraft:sparse_jungle": "2025-01-28 15:10:48 +0000",
       "minecraft:river": "2025-01-18 14:09:40 +0000",
       "minecraft:lukewarm_ocean": "2025-01-21 14:36:35 +0000",
+      "minecraft:snowy_plains": "2025-01-28 14:31:24 +0000",
+      "minecraft:stony_shore": "2025-01-28 15:53:33 +0000",
       "minecraft:dripstone_caves": "2025-01-21 13:53:34 +0000",
+      "minecraft:grove": "2025-01-28 14:01:09 +0000",
       "minecraft:forest": "2025-01-18 13:57:35 +0000",
+      "minecraft:lush_caves": "2025-01-28 05:59:30 +0000",
+      "minecraft:frozen_ocean": "2025-01-28 16:16:21 +0000",
+      "minecraft:desert": "2025-01-28 06:01:06 +0000",
       "minecraft:ocean": "2025-01-21 14:56:56 +0000",
+      "minecraft:jungle": "2025-01-28 15:08:44 +0000",
+      "minecraft:snowy_beach": "2025-01-28 16:26:16 +0000",
+      "minecraft:windswept_savanna": "2025-01-28 15:08:29 +0000",
+      "minecraft:warm_ocean": "2025-01-28 06:05:53 +0000",
+      "minecraft:old_growth_birch_forest": "2025-01-28 15:42:12 +0000",
       "minecraft:deep_dark": "2025-01-21 13:48:53 +0000",
+      "minecraft:meadow": "2025-01-28 14:00:37 +0000",
       "minecraft:savanna": "2025-01-22 12:57:54 +0000",
       "minecraft:plains": "2025-01-18 13:59:36 +0000"
     },
@@ -904,13 +934,16 @@
       "cooked_beef": "2025-01-21 12:22:06 +0000",
       "baked_potato": "2025-01-22 10:11:20 +0000",
       "apple": "2025-01-18 14:52:38 +0000",
+      "spider_eye": "2025-01-28 13:55:20 +0000",
       "potato": "2025-01-22 06:58:32 +0000",
       "cooked_cod": "2025-01-21 13:51:44 +0000",
+      "supplementaries:candy": "2025-01-28 15:19:30 +0000",
       "bread": "2025-01-18 14:29:45 +0000",
       "rotten_flesh": "2025-01-20 13:58:01 +0000",
       "melon_slice": "2025-01-22 10:09:16 +0000",
       "cooked_chicken": "2025-01-23 12:51:04 +0000",
-      "cooked_salmon": "2025-01-23 12:55:10 +0000"
+      "cooked_salmon": "2025-01-23 12:55:10 +0000",
+      "carrot": "2025-01-28 13:31:27 +0000"
     },
     "done": false
   },
@@ -1022,6 +1055,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-01-28 07:20:30 +0000",
       "minecraft:skeleton": "2025-01-18 14:53:21 +0000",
       "minecraft:vindicator": "2025-01-21 14:49:17 +0000",
       "minecraft:spider": "2025-01-20 15:17:36 +0000",
@@ -1029,6 +1063,7 @@
       "minecraft:phantom": "2025-01-20 15:33:57 +0000",
       "minecraft:witch": "2025-01-24 11:10:04 +0000",
       "minecraft:cave_spider": "2025-01-25 16:13:40 +0000",
+      "minecraft:enderman": "2025-01-28 13:01:26 +0000",
       "minecraft:zombie": "2025-01-20 13:36:40 +0000",
       "minecraft:drowned": "2025-01-25 15:07:00 +0000",
       "minecraft:zombie_villager": "2025-01-21 10:10:16 +0000"
@@ -1128,12 +1163,16 @@
   "morevillagers:all_workstations_get": {
     "criteria": {
       "barrel": "2025-01-20 15:16:31 +0000",
+      "blueprinttable": "2025-01-28 15:57:36 +0000",
+      "cartographytable": "2025-01-28 05:51:04 +0000",
       "miningbench": "2025-01-21 14:40:47 +0000",
       "fletchingtable": "2025-01-21 11:05:12 +0000",
       "brewingstand": "2025-01-20 14:24:44 +0000",
       "smoker": "2025-01-20 15:16:26 +0000",
       "smithingtable": "2025-01-21 12:30:49 +0000",
       "blastfurnace": "2025-01-21 14:40:22 +0000",
+      "lectern": "2025-01-28 16:06:52 +0000",
+      "woodworkingtable": "2025-01-28 09:21:18 +0000",
       "stonecutter": "2025-01-22 09:48:34 +0000",
       "cauldron": "2025-01-21 11:05:10 +0000"
     },
@@ -1228,6 +1267,7 @@
   },
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
+      "entered_tower_of_the_undead": "2025-01-28 15:23:11 +0000",
       "entered_hay_storage": "2025-01-21 14:54:03 +0000",
       "entered_ruined_building": "2025-01-21 10:56:16 +0000"
     },
@@ -1840,6 +1880,18 @@
     },
     "done": true
   },
+  "create:belt": {
+    "criteria": {
+      "0": "2025-01-27 08:43:28 +0000"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2025-01-27 08:47:04 +0000"
+    },
+    "done": true
+  },
   "create:encased_fan": {
     "criteria": {
       "0": "2025-01-27 09:17:09 +0000"
@@ -1852,21 +1904,300 @@
     },
     "done": true
   },
-  "create:funnel": {
-    "criteria": {
-      "0": "2025-01-27 08:47:04 +0000"
-    },
-    "done": true
-  },
   "create:speed_controller": {
     "criteria": {
       "0": "2025-01-27 10:18:02 +0000"
     },
     "done": true
   },
-  "create:belt": {
+  "morevillagers:first_village": {
     "criteria": {
-      "0": "2025-01-27 08:43:28 +0000"
+      "savanna": "2025-01-28 05:48:23 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:all_villages": {
+    "criteria": {
+      "savanna": "2025-01-28 05:48:23 +0000",
+      "plains": "2025-01-28 15:56:42 +0000"
+    },
+    "done": false
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2025-01-28 05:54:19 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/acacia_blossom": {
+    "criteria": {
+      "acacia_blossom": "2025-01-28 05:55:11 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_umvuthana_raptor": {
+    "criteria": {
+      "umvuthana_raptor": "2025-01-28 06:08:06 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/nether_eye": {
+    "criteria": {
+      "nether_eye": "2025-01-28 06:12:29 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:energizer": {
+    "criteria": {
+      "has_energizer": "2025-01-28 06:12:29 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/old_eye": {
+    "criteria": {
+      "old_eye": "2025-01-28 06:12:29 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "fur": "2025-01-28 06:12:29 +0000"
+    },
+    "done": false
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "corrupted_eye": "2025-01-28 06:12:29 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/corrupted_eye": {
+    "criteria": {
+      "corrupted_eye": "2025-01-28 06:12:29 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/cursed_eye": {
+    "criteria": {
+      "cursed_eye": "2025-01-28 06:12:29 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/witch_eye": {
+    "criteria": {
+      "witch_eye": "2025-01-28 06:12:29 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/wither_eye": {
+    "criteria": {
+      "wither_eye": "2025-01-28 06:12:29 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/the_magicians": {
+    "criteria": {
+      "killed_iceologer": "2025-01-28 09:16:38 +0000"
+    },
+    "done": false
+  },
+  "friendsandfoes:adventure/kill_iceologer": {
+    "criteria": {
+      "killed_iceologer": "2025-01-28 09:16:38 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_gun_bench": {
+    "criteria": {
+      "gun_bench": "2025-01-28 09:20:50 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:all_professions_traded": {
+    "criteria": {
+      "butcher": "2025-01-28 09:23:28 +0000",
+      "florist": "2025-01-28 09:23:34 +0000"
+    },
+    "done": false
+  },
+  "morevillagers:first_trade": {
+    "criteria": {
+      "villagertrade": "2025-01-28 09:23:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-01-28 09:23:28 +0000"
+    },
+    "done": true
+  },
+  "yungscavebiomes:lost_caves": {
+    "criteria": {
+      "lost_caves": "2025-01-28 09:25:30 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/relics/antique_bag": {
+    "criteria": {
+      "has_items": "2025-01-28 09:30:35 +0000"
+    },
+    "done": true
+  },
+  "create:compacting": {
+    "criteria": {
+      "0": "2025-01-28 09:41:44 +0000"
+    },
+    "done": true
+  },
+  "tempad:tempad": {
+    "criteria": {
+      "requirement": "2025-01-28 13:21:25 +0000"
+    },
+    "done": true
+  },
+  "cold_sweat:survival_tactics": {
+    "criteria": {
+      "freezing_on_fire": "2025-01-28 13:31:41 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/peal": {
+    "criteria": {
+      "peal": "2025-01-28 14:24:25 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/deep_dark_blueprint": {
+    "criteria": {
+      "deep_dark_blueprint": "2025-01-28 14:24:28 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "trophy": "2025-01-28 14:54:44 +0000"
+    },
+    "done": false
+  },
+  "blue_skies:get_moonstone_shard": {
+    "criteria": {
+      "obtain_moonstone_shard": "2025-01-28 15:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-01-28 15:05:25 +0000"
+    },
+    "done": true
+  },
+  "idas:tinkers_workshop": {
+    "criteria": {
+      "in_tinkers_workshop": "2025-01-28 15:13:03 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/consume_poseidons_breakfast": {
+    "criteria": {
+      "poseidons_breakfast": "2025-01-28 16:54:49 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_magnetic_caves": {
+    "criteria": {
+      "discover": "2025-01-28 16:34:26 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/magnet": {
+    "criteria": {
+      "scarlet": "2025-01-28 16:51:32 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_boundroid": {
+    "criteria": {
+      "killed": "2025-01-28 16:45:30 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_book": {
+    "criteria": {
+      "cave_book": "2025-01-28 16:36:30 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/telecore": {
+    "criteria": {
+      "limestone": "2025-01-28 16:40:10 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_codex": {
+    "criteria": {
+      "cave_codex": "2025-01-28 15:28:55 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/guster": {
+    "criteria": {
+      "killed": "2025-01-28 15:47:00 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:root": {
+    "criteria": {
+      "enter_everbright": "2025-01-28 16:00:42 +0000"
+    },
+    "done": true
+  },
+  "idas:apothecary_abode": {
+    "criteria": {
+      "in_apothecary_abode": "2025-01-28 16:06:30 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/spinefish": {
+    "criteria": {
+      "has_item": "2025-01-28 16:22:30 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everbright/enter": {
+    "criteria": {
+      "enter_everbright": "2025-01-28 16:00:42 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_magnetron": {
+    "criteria": {
+      "killed": "2025-01-28 16:54:27 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_map": {
+    "criteria": {
+      "cave_map": "2025-01-28 15:49:13 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/neodymium": {
+    "criteria": {
+      "scarlet": "2025-01-28 16:36:55 +0000",
+      "azure": "2025-01-28 16:39:23 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:thinking_with_portals": {
+    "criteria": {
+      "enter_everbright": "2025-01-28 16:00:42 +0000"
+    },
+    "done": false
+  },
+  "alexscaves:alexscaves/neodymium_ingot": {
+    "criteria": {
+      "azure": "2025-01-28 16:44:55 +0000"
     },
     "done": true
   },

@@ -828,25 +828,31 @@
       "snowblossom_grove": "2025-01-26 12:51:29 +0000",
       "scrubland": "2025-01-20 16:20:27 +0000",
       "erupting_inferno": "2025-01-25 15:35:44 +0000",
+      "floodplain": "2025-01-28 15:50:27 +0000",
       "highland": "2025-01-26 12:47:13 +0000",
       "cold_desert": "2025-01-26 14:20:55 +0000",
       "old_growth_woodland": "2025-01-21 12:55:18 +0000",
       "withered_abyss": "2025-01-25 15:40:44 +0000",
       "orchard": "2025-01-20 13:08:51 +0000",
+      "field": "2025-01-28 16:12:50 +0000",
       "coniferous_forest": "2025-01-18 15:00:50 +0000",
       "spider_nest": "2025-01-21 13:53:05 +0000",
+      "wasteland": "2025-01-28 15:46:19 +0000",
       "redwood_forest": "2025-01-18 12:56:14 +0000",
       "aspen_glade": "2025-01-24 16:36:07 +0000",
       "dune_beach": "2025-01-26 13:21:09 +0000",
       "seasonal_forest": "2025-01-24 16:41:51 +0000",
       "auroral_garden": "2025-01-24 13:57:11 +0000",
       "pasture": "2025-01-20 16:20:23 +0000",
+      "rocky_rainforest": "2025-01-28 15:51:16 +0000",
+      "volcanic_plains": "2025-01-28 15:49:43 +0000",
       "fir_clearing": "2025-01-18 13:48:06 +0000",
       "pumpkin_patch": "2025-01-24 16:35:24 +0000",
       "prairie": "2025-01-18 13:07:49 +0000",
       "snowy_coniferous_forest": "2025-01-24 13:59:13 +0000",
       "snowy_fir_clearing": "2025-01-24 13:56:57 +0000",
       "tundra": "2025-01-26 12:53:06 +0000",
+      "gravel_beach": "2025-01-28 16:11:37 +0000",
       "undergrowth": "2025-01-21 16:00:53 +0000",
       "rainforest": "2025-01-21 12:58:02 +0000",
       "crag": "2025-01-24 13:33:46 +0000",
@@ -940,6 +946,7 @@
       "golden_apple": "2025-01-23 13:54:15 +0000",
       "rotten_flesh": "2025-01-20 14:04:30 +0000",
       "suspicious_stew": "2025-01-24 14:23:44 +0000",
+      "dried_kelp": "2025-01-28 04:05:52 +0000",
       "enchanted_golden_apple": "2025-01-27 12:05:32 +0000",
       "carrot": "2025-01-20 13:01:25 +0000"
     },
@@ -1051,7 +1058,9 @@
       "minecraft:frozen_river": "2025-01-24 13:57:10 +0000",
       "minecraft:cherry_grove": "2025-01-18 15:40:12 +0000",
       "minecraft:birch_forest": "2025-01-21 12:36:56 +0000",
+      "minecraft:bamboo_jungle": "2025-01-28 15:51:45 +0000",
       "minecraft:beach": "2025-01-20 16:26:09 +0000",
+      "minecraft:dark_forest": "2025-01-28 15:42:55 +0000",
       "minecraft:sparse_jungle": "2025-01-21 12:40:04 +0000",
       "minecraft:river": "2025-01-18 13:40:22 +0000",
       "minecraft:lukewarm_ocean": "2025-01-20 16:21:58 +0000",
@@ -1063,10 +1072,12 @@
       "minecraft:cold_ocean": "2025-01-24 16:35:22 +0000",
       "minecraft:forest": "2025-01-18 13:26:42 +0000",
       "minecraft:frozen_ocean": "2025-01-24 14:06:40 +0000",
+      "minecraft:desert": "2025-01-28 15:46:49 +0000",
       "minecraft:windswept_forest": "2025-01-24 16:28:17 +0000",
       "minecraft:jungle": "2025-01-21 12:36:59 +0000",
       "minecraft:ocean": "2025-01-23 13:37:06 +0000",
       "minecraft:snowy_beach": "2025-01-24 14:05:07 +0000",
+      "minecraft:warm_ocean": "2025-01-28 15:47:54 +0000",
       "minecraft:frozen_peaks": "2025-01-24 13:35:18 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-21 12:41:56 +0000",
       "minecraft:deep_dark": "2025-01-21 13:48:52 +0000",
@@ -1685,6 +1696,7 @@
   },
   "quark:get_all_corundum": {
     "criteria": {
+      "red": "2025-01-28 16:08:39 +0000",
       "green": "2025-01-22 13:18:48 +0000"
     },
     "done": false
@@ -2258,6 +2270,283 @@
   "ad_astra:moon_cheese": {
     "criteria": {
       "has_moon_cheese": "2025-01-27 11:02:52 +0000"
+    },
+    "done": true
+  },
+  "create:glass_pipe": {
+    "criteria": {
+      "0": "2025-01-28 02:51:51 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:energizer": {
+    "criteria": {
+      "has_energizer": "2025-01-28 04:06:27 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "fur": "2025-01-28 04:06:42 +0000"
+    },
+    "done": false
+  },
+  "endrem:main/corrupted_eye": {
+    "criteria": {
+      "corrupted_eye": "2025-01-28 04:06:42 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/old_eye": {
+    "criteria": {
+      "old_eye": "2025-01-28 04:06:48 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/witch_eye": {
+    "criteria": {
+      "witch_eye": "2025-01-28 04:06:51 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/wither_eye": {
+    "criteria": {
+      "wither_eye": "2025-01-28 04:06:51 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/nether_star": {
+    "criteria": {
+      "has_items": "2025-01-28 04:15:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2025-01-28 04:26:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2025-01-28 04:46:51 +0000"
+    },
+    "done": true
+  },
+  "create:sturdy_sheet": {
+    "criteria": {
+      "0": "2025-01-28 05:07:40 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/enchanting_guide": {
+    "criteria": {
+      "has_item": "2025-01-28 05:07:40 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_crafter": {
+    "criteria": {
+      "0": "2025-01-28 07:05:09 +0000"
+    },
+    "done": true
+  },
+  "moped:sign_adv": {
+    "criteria": {
+      "sign_adv": "2025-01-28 12:30:51 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:buy_map": {
+    "criteria": {
+      "trade": "2025-01-28 12:56:18 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_templates": {
+    "criteria": {
+      "got_terminite": "2025-01-28 13:43:40 +0000"
+    },
+    "done": false
+  },
+  "scguns:main/treated_brass_blueprint": {
+    "criteria": {
+      "treated_brass_blueprint": "2025-01-28 13:54:57 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/iron_blueprint": {
+    "criteria": {
+      "iron_blueprint": "2025-01-28 14:01:45 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/peal": {
+    "criteria": {
+      "peal": "2025-01-28 14:10:34 +0000"
+    },
+    "done": true
+  },
+  "art_of_forging:materials/find_demonic_item": {
+    "criteria": {
+      "axe": "2025-01-28 14:10:37 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/diamond_steel_blueprint": {
+    "criteria": {
+      "diamond_steel_blueprint": "2025-01-28 14:21:19 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/iron/greaser_smg": {
+    "criteria": {
+      "greaser_smg": "2025-01-28 14:24:50 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/deep_dark_blueprint": {
+    "criteria": {
+      "deep_dark_blueprint": "2025-01-28 14:30:50 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_codex": {
+    "criteria": {
+      "cave_codex": "2025-01-28 15:04:31 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_book": {
+    "criteria": {
+      "cave_book": "2025-01-28 15:05:36 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_map": {
+    "criteria": {
+      "cave_map": "2025-01-28 15:11:41 +0000"
+    },
+    "done": true
+  },
+  "shieldexp:get_diamond_shield": {
+    "criteria": {
+      "diamond_shield": "2025-01-28 15:22:06 +0000"
+    },
+    "done": true
+  },
+  "shieldexp:get_netherite_shield": {
+    "criteria": {
+      "netherite_shield": "2025-01-28 15:22:45 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:master_trade": {
+    "criteria": {
+      "villagertrade": "2025-01-28 15:26:58 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/guster": {
+    "criteria": {
+      "killed": "2025-01-28 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:root": {
+    "criteria": {
+      "enter_everbright": "2025-01-28 16:00:46 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everbright/enter": {
+    "criteria": {
+      "enter_everbright": "2025-01-28 16:00:46 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:thinking_with_portals": {
+    "criteria": {
+      "enter_everbright": "2025-01-28 16:00:46 +0000"
+    },
+    "done": false
+  },
+  "idas:apothecary_abode": {
+    "criteria": {
+      "in_apothecary_abode": "2025-01-28 16:06:08 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_magnetic_caves": {
+    "criteria": {
+      "discover": "2025-01-28 16:34:04 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/root": {
+    "criteria": {
+      "underground_cabin": "2025-01-28 16:36:12 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/neodymium": {
+    "criteria": {
+      "scarlet": "2025-01-28 16:38:42 +0000",
+      "azure": "2025-01-28 16:39:45 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/telecore": {
+    "criteria": {
+      "limestone": "2025-01-28 16:39:46 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/neodymium_ingot": {
+    "criteria": {
+      "azure": "2025-01-28 16:44:16 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_notor": {
+    "criteria": {
+      "killed": "2025-01-28 16:47:40 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_boundroid": {
+    "criteria": {
+      "killed": "2025-01-28 16:47:55 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/murmur": {
+    "criteria": {
+      "killed": "2025-01-28 16:49:16 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_magnetron": {
+    "criteria": {
+      "killed": "2025-01-28 16:49:21 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/magnet": {
+    "criteria": {
+      "scarlet": "2025-01-28 16:51:22 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/hologram_projector": {
+    "criteria": {
+      "hologram_projector": "2025-01-28 16:55:22 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/quarry": {
+    "criteria": {
+      "quarry": "2025-01-28 17:25:39 +0000"
     },
     "done": true
   },
