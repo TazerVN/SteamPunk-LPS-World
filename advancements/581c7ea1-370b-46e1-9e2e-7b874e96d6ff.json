@@ -836,6 +836,7 @@
       "field": "2025-01-28 16:12:53 +0000",
       "coniferous_forest": "2025-01-18 14:30:37 +0000",
       "spider_nest": "2025-01-21 13:54:03 +0000",
+      "dryland": "2025-01-29 16:54:19 +0000",
       "wasteland": "2025-01-28 05:55:25 +0000",
       "lush_desert": "2025-01-28 05:54:35 +0000",
       "redwood_forest": "2025-01-18 13:52:27 +0000",
@@ -877,6 +878,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:deep_ocean": "2025-01-25 16:47:38 +0000",
+      "minecraft:eroded_badlands": "2025-01-29 16:53:54 +0000",
       "minecraft:frozen_river": "2025-01-23 15:07:49 +0000",
       "minecraft:cherry_grove": "2025-01-25 17:05:35 +0000",
       "minecraft:birch_forest": "2025-01-22 10:06:29 +0000",
@@ -937,11 +939,14 @@
       "spider_eye": "2025-01-28 13:55:20 +0000",
       "potato": "2025-01-22 06:58:32 +0000",
       "cooked_cod": "2025-01-21 13:51:44 +0000",
+      "poisonous_potato": "2025-01-29 15:17:27 +0000",
       "supplementaries:candy": "2025-01-28 15:19:30 +0000",
       "bread": "2025-01-18 14:29:45 +0000",
       "rotten_flesh": "2025-01-20 13:58:01 +0000",
+      "dried_kelp": "2025-01-29 14:42:37 +0000",
       "melon_slice": "2025-01-22 10:09:16 +0000",
       "cooked_chicken": "2025-01-23 12:51:04 +0000",
+      "rabbit_stew": "2025-01-29 14:25:22 +0000",
       "cooked_salmon": "2025-01-23 12:55:10 +0000",
       "carrot": "2025-01-28 13:31:27 +0000"
     },
@@ -1062,8 +1067,10 @@
       "minecraft:creeper": "2025-01-21 10:23:22 +0000",
       "minecraft:phantom": "2025-01-20 15:33:57 +0000",
       "minecraft:witch": "2025-01-24 11:10:04 +0000",
+      "minecraft:husk": "2025-01-29 17:00:58 +0000",
       "minecraft:cave_spider": "2025-01-25 16:13:40 +0000",
       "minecraft:enderman": "2025-01-28 13:01:26 +0000",
+      "minecraft:stray": "2025-01-29 17:02:13 +0000",
       "minecraft:zombie": "2025-01-20 13:36:40 +0000",
       "minecraft:drowned": "2025-01-25 15:07:00 +0000",
       "minecraft:zombie_villager": "2025-01-21 10:10:16 +0000"
@@ -1166,6 +1173,7 @@
       "blueprinttable": "2025-01-28 15:57:36 +0000",
       "cartographytable": "2025-01-28 05:51:04 +0000",
       "miningbench": "2025-01-21 14:40:47 +0000",
+      "oceanographytable": "2025-01-29 16:56:34 +0000",
       "fletchingtable": "2025-01-21 11:05:12 +0000",
       "brewingstand": "2025-01-20 14:24:44 +0000",
       "smoker": "2025-01-20 15:16:26 +0000",
@@ -1192,7 +1200,8 @@
   },
   "enigmaticlegacy:main/all_spellstones": {
     "criteria": {
-      "spellstone2": "2025-01-20 14:24:52 +0000"
+      "spellstone2": "2025-01-20 14:24:52 +0000",
+      "spellstone1": "2025-01-29 16:44:37 +0000"
     },
     "done": false
   },
@@ -1204,6 +1213,7 @@
   },
   "enigmaticlegacy:book/relics/the_cube": {
     "criteria": {
+      "has_item_1": "2025-01-29 16:44:37 +0000",
       "has_item_2": "2025-01-20 14:24:52 +0000"
     },
     "done": false
@@ -1234,6 +1244,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:nether_wastes": "2025-01-29 15:01:44 +0000",
       "minecraft:warped_forest": "2025-01-21 10:01:48 +0000"
     },
     "done": false
@@ -2016,7 +2027,8 @@
   "morevillagers:all_professions_traded": {
     "criteria": {
       "butcher": "2025-01-28 09:23:28 +0000",
-      "florist": "2025-01-28 09:23:34 +0000"
+      "florist": "2025-01-28 09:23:34 +0000",
+      "farmer": "2025-01-29 16:33:42 +0000"
     },
     "done": false
   },
@@ -2098,42 +2110,6 @@
     },
     "done": true
   },
-  "aquamirae:adventure/consume_poseidons_breakfast": {
-    "criteria": {
-      "poseidons_breakfast": "2025-01-28 16:54:49 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/discover_magnetic_caves": {
-    "criteria": {
-      "discover": "2025-01-28 16:34:26 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/magnet": {
-    "criteria": {
-      "scarlet": "2025-01-28 16:51:32 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/defeat_boundroid": {
-    "criteria": {
-      "killed": "2025-01-28 16:45:30 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/cave_book": {
-    "criteria": {
-      "cave_book": "2025-01-28 16:36:30 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/telecore": {
-    "criteria": {
-      "limestone": "2025-01-28 16:40:10 +0000"
-    },
-    "done": true
-  },
   "alexscaves:alexscaves/cave_codex": {
     "criteria": {
       "cave_codex": "2025-01-28 15:28:55 +0000"
@@ -2146,11 +2122,29 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/cave_map": {
+    "criteria": {
+      "cave_map": "2025-01-28 15:49:13 +0000"
+    },
+    "done": true
+  },
   "blue_skies:root": {
     "criteria": {
       "enter_everbright": "2025-01-28 16:00:42 +0000"
     },
     "done": true
+  },
+  "blue_skies:everbright/enter": {
+    "criteria": {
+      "enter_everbright": "2025-01-28 16:00:42 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:thinking_with_portals": {
+    "criteria": {
+      "enter_everbright": "2025-01-28 16:00:42 +0000"
+    },
+    "done": false
   },
   "idas:apothecary_abode": {
     "criteria": {
@@ -2164,21 +2158,15 @@
     },
     "done": true
   },
-  "blue_skies:everbright/enter": {
+  "alexscaves:alexscaves/discover_magnetic_caves": {
     "criteria": {
-      "enter_everbright": "2025-01-28 16:00:42 +0000"
+      "discover": "2025-01-28 16:34:26 +0000"
     },
     "done": true
   },
-  "alexscaves:alexscaves/defeat_magnetron": {
+  "alexscaves:alexscaves/cave_book": {
     "criteria": {
-      "killed": "2025-01-28 16:54:27 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/cave_map": {
-    "criteria": {
-      "cave_map": "2025-01-28 15:49:13 +0000"
+      "cave_book": "2025-01-28 16:36:30 +0000"
     },
     "done": true
   },
@@ -2189,15 +2177,99 @@
     },
     "done": true
   },
-  "blue_skies:thinking_with_portals": {
+  "alexscaves:alexscaves/telecore": {
     "criteria": {
-      "enter_everbright": "2025-01-28 16:00:42 +0000"
+      "limestone": "2025-01-28 16:40:10 +0000"
     },
-    "done": false
+    "done": true
   },
   "alexscaves:alexscaves/neodymium_ingot": {
     "criteria": {
       "azure": "2025-01-28 16:44:55 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_boundroid": {
+    "criteria": {
+      "killed": "2025-01-28 16:45:30 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/magnet": {
+    "criteria": {
+      "scarlet": "2025-01-28 16:51:32 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_magnetron": {
+    "criteria": {
+      "killed": "2025-01-28 16:54:27 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/consume_poseidons_breakfast": {
+    "criteria": {
+      "poseidons_breakfast": "2025-01-28 16:54:49 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2025-01-29 14:25:22 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/sharp_bones": {
+    "criteria": {
+      "has_item": "2025-01-29 15:09:14 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/resistor_shield": {
+    "criteria": {
+      "resistor_shield": "2025-01-29 15:14:48 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/relics/lost_engine": {
+    "criteria": {
+      "has_items": "2025-01-29 15:30:02 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "maze_wafer": "2025-01-29 15:34:32 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_ocean": "2025-01-29 16:39:39 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_desert": "2025-01-29 16:41:35 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:book/relics/golem_heart": {
+    "criteria": {
+      "has_items": "2025-01-29 16:44:37 +0000"
+    },
+    "done": true
+  },
+  "idas:labyrinth": {
+    "criteria": {
+      "in_labyrinth": "2025-01-29 16:58:54 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:kutcha_village": {
+    "criteria": {
+      "in_kutcha_village": "2025-01-29 16:54:19 +0000"
     },
     "done": true
   },

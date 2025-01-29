@@ -835,6 +835,8 @@
       "maple_woods": "2025-01-28 06:36:44 +0000",
       "withered_abyss": "2025-01-28 05:34:38 +0000",
       "coniferous_forest": "2025-01-21 13:48:32 +0000",
+      "dryland": "2025-01-29 16:54:15 +0000",
+      "lush_desert": "2025-01-29 16:58:35 +0000",
       "redwood_forest": "2025-01-21 12:03:35 +0000",
       "seasonal_forest": "2025-01-27 14:35:21 +0000",
       "pasture": "2025-01-21 12:07:33 +0000",
@@ -856,6 +858,7 @@
   "morevillagers:all_villages": {
     "criteria": {
       "plains": "2025-01-21 12:05:32 +0000",
+      "desert": "2025-01-29 17:56:36 +0000",
       "snowy": "2025-01-28 05:22:24 +0000"
     },
     "done": false
@@ -870,15 +873,18 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-01-28 06:25:00 +0000",
       "minecraft:taiga": "2025-01-28 05:20:30 +0000",
+      "minecraft:eroded_badlands": "2025-01-29 16:53:55 +0000",
       "minecraft:frozen_river": "2025-01-28 05:21:33 +0000",
       "minecraft:cherry_grove": "2025-01-21 13:38:43 +0000",
       "minecraft:birch_forest": "2025-01-28 05:19:24 +0000",
       "minecraft:wooded_badlands": "2025-01-28 16:02:00 +0000",
       "minecraft:beach": "2025-01-28 15:59:00 +0000",
       "minecraft:river": "2025-01-21 12:24:37 +0000",
+      "minecraft:lukewarm_ocean": "2025-01-29 16:20:21 +0000",
       "minecraft:dripstone_caves": "2025-01-27 13:21:05 +0000",
       "minecraft:forest": "2025-01-21 12:16:35 +0000",
       "minecraft:desert": "2025-01-28 16:02:02 +0000",
+      "minecraft:ocean": "2025-01-29 16:20:07 +0000",
       "minecraft:warm_ocean": "2025-01-28 16:02:24 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-28 05:19:43 +0000",
       "minecraft:meadow": "2025-01-27 13:20:49 +0000",
@@ -916,9 +922,11 @@
       "bread": "2025-01-21 12:48:02 +0000",
       "golden_apple": "2025-01-27 14:24:29 +0000",
       "suspicious_stew": "2025-01-21 12:08:35 +0000",
+      "dried_kelp": "2025-01-29 17:44:22 +0000",
       "melon_slice": "2025-01-27 14:10:57 +0000",
       "cooked_rabbit": "2025-01-28 05:03:34 +0000",
       "cooked_chicken": "2025-01-28 05:17:46 +0000",
+      "enchanted_golden_apple": "2025-01-29 17:38:15 +0000",
       "mushroom_stew": "2025-01-28 05:35:16 +0000"
     },
     "done": false
@@ -1092,6 +1100,7 @@
       "minecraft:skeleton": "2025-01-21 13:34:29 +0000",
       "minecraft:ghast": "2025-01-28 08:18:17 +0000",
       "minecraft:hoglin": "2025-01-28 06:09:15 +0000",
+      "minecraft:vindicator": "2025-01-29 16:56:22 +0000",
       "minecraft:magma_cube": "2025-01-28 06:10:27 +0000",
       "minecraft:spider": "2025-01-21 13:35:27 +0000",
       "minecraft:piglin_brute": "2025-01-28 06:02:38 +0000",
@@ -1100,12 +1109,15 @@
       "minecraft:zombified_piglin": "2025-01-28 06:09:10 +0000",
       "minecraft:witch": "2025-01-21 13:39:26 +0000",
       "minecraft:wither_skeleton": "2025-01-28 05:47:54 +0000",
+      "minecraft:husk": "2025-01-29 16:50:09 +0000",
       "minecraft:cave_spider": "2025-01-21 13:39:22 +0000",
       "minecraft:piglin": "2025-01-28 05:37:41 +0000",
       "minecraft:silverfish": "2025-01-27 12:49:53 +0000",
       "minecraft:enderman": "2025-01-27 13:52:28 +0000",
+      "minecraft:stray": "2025-01-29 17:00:55 +0000",
       "minecraft:zombie": "2025-01-21 13:34:58 +0000",
-      "minecraft:drowned": "2025-01-21 12:49:45 +0000"
+      "minecraft:drowned": "2025-01-21 12:49:45 +0000",
+      "minecraft:zombie_villager": "2025-01-29 16:56:50 +0000"
     },
     "done": false
   },
@@ -1155,6 +1167,7 @@
       "grindstone": "2025-01-28 16:03:11 +0000",
       "smoker": "2025-01-27 14:13:18 +0000",
       "smithingtable": "2025-01-28 02:51:01 +0000",
+      "blastfurnace": "2025-01-29 17:47:50 +0000",
       "stonecutter": "2025-01-28 07:56:51 +0000",
       "cauldron": "2025-01-27 14:12:34 +0000"
     },
@@ -2007,15 +2020,76 @@
     },
     "done": true
   },
+  "shieldexp:get_netherite_shield": {
+    "criteria": {
+      "netherite_shield": "2025-01-28 15:51:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2025-01-28 16:04:07 +0000"
     },
     "done": true
   },
-  "shieldexp:get_netherite_shield": {
+  "alexscaves:alexscaves/neodymium": {
     "criteria": {
-      "netherite_shield": "2025-01-28 15:51:56 +0000"
+      "scarlet": "2025-01-29 15:17:03 +0000",
+      "azure": "2025-01-29 15:17:03 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/neodymium_ingot": {
+    "criteria": {
+      "azure": "2025-01-29 15:17:03 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:master_trade": {
+    "criteria": {
+      "villagertrade": "2025-01-29 15:58:34 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:mediterranean_village": {
+    "criteria": {
+      "in_mediterranean_village": "2025-01-29 16:32:53 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_ocean": "2025-01-29 16:38:52 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_desert": "2025-01-29 16:41:31 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2025-01-29 16:49:09 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rattlesnake": {
+    "criteria": {
+      "killed": "2025-01-29 17:38:33 +0000"
+    },
+    "done": true
+  },
+  "idas:labyrinth": {
+    "criteria": {
+      "in_labyrinth": "2025-01-29 16:59:08 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:kutcha_village": {
+    "criteria": {
+      "in_kutcha_village": "2025-01-29 16:55:05 +0000"
     },
     "done": true
   },

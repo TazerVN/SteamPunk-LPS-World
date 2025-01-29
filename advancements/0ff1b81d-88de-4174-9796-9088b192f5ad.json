@@ -835,7 +835,9 @@
       "mediterranean_forest": "2025-01-28 15:48:26 +0000",
       "coniferous_forest": "2025-01-18 14:30:35 +0000",
       "spider_nest": "2025-01-19 06:41:37 +0000",
+      "dryland": "2025-01-29 16:54:30 +0000",
       "wasteland": "2025-01-28 15:50:08 +0000",
+      "lush_desert": "2025-01-29 16:58:37 +0000",
       "redwood_forest": "2025-01-18 13:53:14 +0000",
       "seasonal_forest": "2025-01-18 18:16:19 +0000",
       "auroral_garden": "2025-01-19 06:52:47 +0000",
@@ -864,6 +866,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-01-19 06:32:50 +0000",
       "minecraft:deep_ocean": "2025-01-25 07:09:36 +0000",
+      "minecraft:eroded_badlands": "2025-01-29 16:53:55 +0000",
       "minecraft:frozen_river": "2025-01-19 05:01:58 +0000",
       "minecraft:cherry_grove": "2025-01-18 16:05:47 +0000",
       "minecraft:birch_forest": "2025-01-28 15:45:13 +0000",
@@ -911,6 +914,7 @@
       "apple": "2025-01-19 04:35:05 +0000",
       "potato": "2025-01-27 15:56:48 +0000",
       "bread": "2025-01-18 14:40:24 +0000",
+      "golden_apple": "2025-01-29 17:09:18 +0000",
       "rotten_flesh": "2025-01-21 15:03:28 +0000",
       "salmon": "2025-01-21 12:58:47 +0000",
       "mushroom_stew": "2025-01-19 06:00:46 +0000",
@@ -1011,7 +1015,9 @@
       "minecraft:creeper": "2025-01-18 16:40:59 +0000",
       "minecraft:phantom": "2025-01-21 15:15:05 +0000",
       "minecraft:witch": "2025-01-25 16:56:38 +0000",
+      "minecraft:husk": "2025-01-29 16:50:04 +0000",
       "minecraft:cave_spider": "2025-01-18 16:39:24 +0000",
+      "minecraft:piglin": "2025-01-29 15:30:13 +0000",
       "minecraft:stray": "2025-01-19 06:21:07 +0000",
       "minecraft:enderman": "2025-01-20 15:33:34 +0000",
       "minecraft:zombie": "2025-01-18 15:14:33 +0000",
@@ -1505,6 +1511,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2025-01-25 06:26:12 +0000",
+      "minecraft:nether_wastes": "2025-01-29 15:29:28 +0000",
       "minecraft:warped_forest": "2025-01-21 15:54:25 +0000"
     },
     "done": false
@@ -1905,21 +1912,9 @@
     },
     "done": true
   },
-  "scguns:main/diamond_steel_blueprint": {
+  "enigmaticaddons:book/relics/antique_bag": {
     "criteria": {
-      "diamond_steel_blueprint": "2025-01-28 14:22:38 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/murmur": {
-    "criteria": {
-      "killed_by": "2025-01-28 16:49:03 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/materials/netherite": {
-    "criteria": {
-      "has_ingot": "2025-01-28 14:25:06 +0000"
+      "has_items": "2025-01-28 12:50:40 +0000"
     },
     "done": true
   },
@@ -1929,9 +1924,15 @@
     },
     "done": true
   },
-  "tetra:scrolls/find_scroll_tonal_blade": {
+  "art_of_forging:materials/find_demonic_item": {
     "criteria": {
-      "find": "2025-01-28 14:36:58 +0000"
+      "flail": "2025-01-28 14:14:03 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/peal": {
+    "criteria": {
+      "peal": "2025-01-28 14:14:16 +0000"
     },
     "done": true
   },
@@ -1941,69 +1942,9 @@
     },
     "done": true
   },
-  "friendsandfoes:adventure/kill_illusioner": {
-    "criteria": {
-      "killed_illusioner": "2025-01-28 16:06:49 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/iron/greaser_smg": {
-    "criteria": {
-      "greaser_smg": "2025-01-28 14:30:27 +0000"
-    },
-    "done": true
-  },
-  "endrem:main/cryptic_eye": {
-    "criteria": {
-      "cryptic_eye": "2025-01-28 14:56:08 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/discover_magnetic_caves": {
-    "criteria": {
-      "discover": "2025-01-28 16:34:10 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/magnet": {
-    "criteria": {
-      "azure": "2025-01-28 16:43:06 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/defeat_boundroid": {
-    "criteria": {
-      "killed": "2025-01-28 16:41:00 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/defeat_notor": {
-    "criteria": {
-      "killed": "2025-01-28 16:40:24 +0000"
-    },
-    "done": true
-  },
-  "friendsandfoes:adventure/the_magicians": {
-    "criteria": {
-      "killed_illusioner": "2025-01-28 16:06:49 +0000"
-    },
-    "done": false
-  },
-  "alexscaves:alexscaves/telecore": {
-    "criteria": {
-      "limestone": "2025-01-28 16:40:08 +0000"
-    },
-    "done": true
-  },
   "ad_astra:energizer": {
     "criteria": {
       "has_energizer": "2025-01-28 14:15:31 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/peal": {
-    "criteria": {
-      "peal": "2025-01-28 14:14:16 +0000"
     },
     "done": true
   },
@@ -2016,18 +1957,6 @@
   "blue_skies:recipes/blue_skies_tools/horizonite_shovel": {
     "criteria": {
       "has_resource": "2025-01-28 14:15:31 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:root": {
-    "criteria": {
-      "enter_everbright": "2025-01-28 16:00:51 +0000"
-    },
-    "done": true
-  },
-  "idas:apothecary_abode": {
-    "criteria": {
-      "in_apothecary_abode": "2025-01-28 16:06:22 +0000"
     },
     "done": true
   },
@@ -2049,39 +1978,9 @@
     },
     "done": true
   },
-  "morevillagers:first_village": {
-    "criteria": {
-      "plains": "2025-01-28 15:58:22 +0000"
-    },
-    "done": true
-  },
-  "morevillagers:all_villages": {
-    "criteria": {
-      "plains": "2025-01-28 15:58:22 +0000"
-    },
-    "done": false
-  },
-  "blue_skies:everbright/enter": {
-    "criteria": {
-      "enter_everbright": "2025-01-28 16:00:51 +0000"
-    },
-    "done": true
-  },
   "blue_skies:everdawn/get_horizonite": {
     "criteria": {
       "obtain_material": "2025-01-28 14:15:31 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/materials/ancient_debris": {
-    "criteria": {
-      "has_ingot": "2025-01-28 14:25:06 +0000"
-    },
-    "done": true
-  },
-  "art_of_forging:materials/find_demonic_item": {
-    "criteria": {
-      "flail": "2025-01-28 14:14:03 +0000"
     },
     "done": true
   },
@@ -2091,21 +1990,9 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/defeat_magnetron": {
-    "criteria": {
-      "killed": "2025-01-28 16:49:11 +0000"
-    },
-    "done": true
-  },
   "blue_skies:recipes/blue_skies_tools/horizonite_axe": {
     "criteria": {
       "has_resource": "2025-01-28 14:15:31 +0000"
-    },
-    "done": true
-  },
-  "enigmaticaddons:book/relics/antique_bag": {
-    "criteria": {
-      "has_items": "2025-01-28 12:50:40 +0000"
     },
     "done": true
   },
@@ -2115,34 +2002,9 @@
     },
     "done": true
   },
-  "enigmaticaddons:book/accessories/forger_gem": {
-    "criteria": {
-      "has_items": "2025-01-28 14:36:34 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/deep_dark_blueprint": {
-    "criteria": {
-      "deep_dark_blueprint": "2025-01-28 14:47:37 +0000"
-    },
-    "done": true
-  },
   "blue_skies:recipes/blue_skies_tools/horizonite_pickaxe": {
     "criteria": {
       "has_resource": "2025-01-28 14:15:31 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/cave_map": {
-    "criteria": {
-      "cave_map": "2025-01-28 16:57:30 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/neodymium": {
-    "criteria": {
-      "scarlet": "2025-01-28 16:38:52 +0000",
-      "azure": "2025-01-28 16:39:51 +0000"
     },
     "done": true
   },
@@ -2151,12 +2013,6 @@
       "has_resource": "2025-01-28 14:15:31 +0000"
     },
     "done": true
-  },
-  "blue_skies:thinking_with_portals": {
-    "criteria": {
-      "enter_everbright": "2025-01-28 16:00:51 +0000"
-    },
-    "done": false
   },
   "endrem:main/witch_eye": {
     "criteria": {
@@ -2170,9 +2026,208 @@
     },
     "done": true
   },
+  "scguns:main/diamond_steel_blueprint": {
+    "criteria": {
+      "diamond_steel_blueprint": "2025-01-28 14:22:38 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/netherite": {
+    "criteria": {
+      "has_ingot": "2025-01-28 14:25:06 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/ancient_debris": {
+    "criteria": {
+      "has_ingot": "2025-01-28 14:25:06 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/iron/greaser_smg": {
+    "criteria": {
+      "greaser_smg": "2025-01-28 14:30:27 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/accessories/forger_gem": {
+    "criteria": {
+      "has_items": "2025-01-28 14:36:34 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_tonal_blade": {
+    "criteria": {
+      "find": "2025-01-28 14:36:58 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/deep_dark_blueprint": {
+    "criteria": {
+      "deep_dark_blueprint": "2025-01-28 14:47:37 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/cryptic_eye": {
+    "criteria": {
+      "cryptic_eye": "2025-01-28 14:56:08 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:first_village": {
+    "criteria": {
+      "plains": "2025-01-28 15:58:22 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:all_villages": {
+    "criteria": {
+      "plains": "2025-01-28 15:58:22 +0000"
+    },
+    "done": false
+  },
+  "blue_skies:root": {
+    "criteria": {
+      "enter_everbright": "2025-01-28 16:00:51 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everbright/enter": {
+    "criteria": {
+      "enter_everbright": "2025-01-28 16:00:51 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:thinking_with_portals": {
+    "criteria": {
+      "enter_everbright": "2025-01-28 16:00:51 +0000"
+    },
+    "done": false
+  },
+  "idas:apothecary_abode": {
+    "criteria": {
+      "in_apothecary_abode": "2025-01-28 16:06:22 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/kill_illusioner": {
+    "criteria": {
+      "killed_illusioner": "2025-01-28 16:06:49 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/the_magicians": {
+    "criteria": {
+      "killed_illusioner": "2025-01-28 16:06:49 +0000"
+    },
+    "done": false
+  },
+  "alexscaves:alexscaves/discover_magnetic_caves": {
+    "criteria": {
+      "discover": "2025-01-28 16:34:10 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/neodymium": {
+    "criteria": {
+      "scarlet": "2025-01-28 16:38:52 +0000",
+      "azure": "2025-01-28 16:39:51 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/telecore": {
+    "criteria": {
+      "limestone": "2025-01-28 16:40:08 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_notor": {
+    "criteria": {
+      "killed": "2025-01-28 16:40:24 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_boundroid": {
+    "criteria": {
+      "killed": "2025-01-28 16:41:00 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/magnet": {
+    "criteria": {
+      "azure": "2025-01-28 16:43:06 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/murmur": {
+    "criteria": {
+      "killed_by": "2025-01-28 16:49:03 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_magnetron": {
+    "criteria": {
+      "killed": "2025-01-28 16:49:11 +0000"
+    },
+    "done": true
+  },
   "alexscaves:alexscaves/neodymium_ingot": {
     "criteria": {
       "azure": "2025-01-28 16:55:28 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_map": {
+    "criteria": {
+      "cave_map": "2025-01-28 16:57:30 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/resistor_shield": {
+    "criteria": {
+      "resistor_shield": "2025-01-29 15:15:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-01-29 15:30:11 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:mediterranean_village": {
+    "criteria": {
+      "in_mediterranean_village": "2025-01-29 16:34:17 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_ocean": "2025-01-29 16:39:09 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_desert": "2025-01-29 16:41:29 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-01-29 16:41:37 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:kutcha_village": {
+    "criteria": {
+      "in_kutcha_village": "2025-01-29 16:54:48 +0000"
+    },
+    "done": true
+  },
+  "idas:labyrinth": {
+    "criteria": {
+      "in_labyrinth": "2025-01-29 16:59:00 +0000"
     },
     "done": true
   },

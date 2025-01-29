@@ -837,7 +837,9 @@
       "field": "2025-01-28 16:12:50 +0000",
       "coniferous_forest": "2025-01-18 15:00:50 +0000",
       "spider_nest": "2025-01-21 13:53:05 +0000",
+      "dryland": "2025-01-29 16:54:32 +0000",
       "wasteland": "2025-01-28 15:46:19 +0000",
+      "lush_desert": "2025-01-29 16:58:34 +0000",
       "redwood_forest": "2025-01-18 12:56:14 +0000",
       "aspen_glade": "2025-01-24 16:36:07 +0000",
       "dune_beach": "2025-01-26 13:21:09 +0000",
@@ -947,6 +949,7 @@
       "rotten_flesh": "2025-01-20 14:04:30 +0000",
       "suspicious_stew": "2025-01-24 14:23:44 +0000",
       "dried_kelp": "2025-01-28 04:05:52 +0000",
+      "melon_slice": "2025-01-29 15:31:12 +0000",
       "enchanted_golden_apple": "2025-01-27 12:05:32 +0000",
       "carrot": "2025-01-20 13:01:25 +0000"
     },
@@ -976,6 +979,7 @@
       "minecraft:zombified_piglin": "2025-01-25 06:54:48 +0000",
       "minecraft:witch": "2025-01-20 16:16:42 +0000",
       "minecraft:wither_skeleton": "2025-01-21 16:04:40 +0000",
+      "minecraft:husk": "2025-01-29 16:50:19 +0000",
       "minecraft:cave_spider": "2025-01-21 13:42:30 +0000",
       "minecraft:piglin": "2025-01-25 15:55:04 +0000",
       "minecraft:enderman": "2025-01-21 13:39:06 +0000",
@@ -1055,6 +1059,7 @@
       "minecraft:snowy_slopes": "2025-01-26 12:51:04 +0000",
       "minecraft:taiga": "2025-01-24 16:08:20 +0000",
       "minecraft:deep_ocean": "2025-01-25 07:09:35 +0000",
+      "minecraft:eroded_badlands": "2025-01-29 16:53:53 +0000",
       "minecraft:frozen_river": "2025-01-24 13:57:10 +0000",
       "minecraft:cherry_grove": "2025-01-18 15:40:12 +0000",
       "minecraft:birch_forest": "2025-01-21 12:36:56 +0000",
@@ -1292,7 +1297,8 @@
   "enigmaticlegacy:main/all_spellstones": {
     "criteria": {
       "spellstone2": "2025-01-20 14:26:42 +0000",
-      "spellstone1": "2025-01-20 13:58:09 +0000"
+      "spellstone1": "2025-01-20 13:58:09 +0000",
+      "spellstone4": "2025-01-29 15:32:38 +0000"
     },
     "done": false
   },
@@ -1305,7 +1311,8 @@
   "enigmaticlegacy:book/relics/the_cube": {
     "criteria": {
       "has_item_1": "2025-01-20 13:58:09 +0000",
-      "has_item_2": "2025-01-20 14:26:42 +0000"
+      "has_item_2": "2025-01-20 14:26:42 +0000",
+      "has_item_4": "2025-01-29 15:32:38 +0000"
     },
     "done": false
   },
@@ -2547,6 +2554,114 @@
   "alexscaves:alexscaves/quarry": {
     "criteria": {
       "quarry": "2025-01-28 17:25:39 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/blazing_core": {
+    "criteria": {
+      "has_items": "2025-01-29 15:32:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-01-29 16:41:53 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/piglin_blueprint": {
+    "criteria": {
+      "piglin_blueprint": "2025-01-29 14:22:45 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/resistor_shield": {
+    "criteria": {
+      "resistor_shield": "2025-01-29 15:12:05 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass/cogloader": {
+    "criteria": {
+      "cogloader": "2025-01-29 15:32:38 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/consume_poseidons_breakfast": {
+    "criteria": {
+      "poseidons_breakfast": "2025-01-29 15:30:02 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_ocean": "2025-01-29 16:39:49 +0000"
+    },
+    "done": false
+  },
+  "alexsmobs:alexsmobs/rattlesnake": {
+    "criteria": {
+      "killed": "2025-01-29 16:50:59 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:temples": {
+    "criteria": {
+      "in_temple_nether_wasteland": "2025-01-29 14:34:30 +0000"
+    },
+    "done": false
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2025-01-29 17:06:00 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "maze_wafer": "2025-01-29 15:32:37 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_desert": "2025-01-29 16:41:33 +0000"
+    },
+    "done": false
+  },
+  "idas:labyrinth": {
+    "criteria": {
+      "in_labyrinth": "2025-01-29 16:59:43 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:kutcha_village": {
+    "criteria": {
+      "in_kutcha_village": "2025-01-29 16:56:29 +0000"
+    },
+    "done": true
+  },
+  "create:millstone": {
+    "criteria": {
+      "0": "2025-01-29 15:57:13 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2025-01-29 16:29:37 +0000"
+    },
+    "done": true
+  },
+  "cold_sweat:full_insulation": {
+    "criteria": {
+      "requirement": "2025-01-29 14:37:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-01-29 14:14:25 +0000"
     },
     "done": true
   },
