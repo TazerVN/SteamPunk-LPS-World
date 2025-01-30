@@ -871,7 +871,10 @@
       "minecraft:cherry_grove": "2025-01-18 16:05:47 +0000",
       "minecraft:birch_forest": "2025-01-28 15:45:13 +0000",
       "minecraft:bamboo_jungle": "2025-01-28 15:53:56 +0000",
+      "minecraft:wooded_badlands": "2025-01-30 14:36:06 +0000",
+      "minecraft:badlands": "2025-01-30 05:32:29 +0000",
       "minecraft:beach": "2025-01-19 03:41:19 +0000",
+      "minecraft:sparse_jungle": "2025-01-30 05:36:06 +0000",
       "minecraft:river": "2025-01-18 14:12:33 +0000",
       "minecraft:lukewarm_ocean": "2025-01-19 03:41:28 +0000",
       "minecraft:snowy_plains": "2025-01-18 18:20:56 +0000",
@@ -881,6 +884,7 @@
       "minecraft:grove": "2025-01-28 14:01:12 +0000",
       "minecraft:cold_ocean": "2025-01-18 18:17:32 +0000",
       "minecraft:forest": "2025-01-18 14:03:24 +0000",
+      "minecraft:lush_caves": "2025-01-30 06:21:43 +0000",
       "minecraft:frozen_ocean": "2025-01-18 18:23:22 +0000",
       "minecraft:desert": "2025-01-28 15:50:34 +0000",
       "minecraft:ocean": "2025-01-19 03:41:25 +0000",
@@ -916,6 +920,7 @@
       "bread": "2025-01-18 14:40:24 +0000",
       "golden_apple": "2025-01-29 17:09:18 +0000",
       "rotten_flesh": "2025-01-21 15:03:28 +0000",
+      "glow_berries": "2025-01-30 16:00:53 +0000",
       "salmon": "2025-01-21 12:58:47 +0000",
       "mushroom_stew": "2025-01-19 06:00:46 +0000",
       "carrot": "2025-01-28 16:11:23 +0000"
@@ -1010,9 +1015,12 @@
     "criteria": {
       "minecraft:pillager": "2025-01-18 18:05:26 +0000",
       "minecraft:skeleton": "2025-01-18 14:47:33 +0000",
+      "minecraft:ravager": "2025-01-30 04:46:40 +0000",
       "minecraft:ghast": "2025-01-25 06:24:36 +0000",
+      "minecraft:vindicator": "2025-01-30 04:46:41 +0000",
       "minecraft:spider": "2025-01-18 14:53:37 +0000",
       "minecraft:creeper": "2025-01-18 16:40:59 +0000",
+      "minecraft:evoker": "2025-01-30 04:48:40 +0000",
       "minecraft:phantom": "2025-01-21 15:15:05 +0000",
       "minecraft:witch": "2025-01-25 16:56:38 +0000",
       "minecraft:husk": "2025-01-29 16:50:04 +0000",
@@ -1020,6 +1028,7 @@
       "minecraft:piglin": "2025-01-29 15:30:13 +0000",
       "minecraft:stray": "2025-01-19 06:21:07 +0000",
       "minecraft:enderman": "2025-01-20 15:33:34 +0000",
+      "minecraft:vex": "2025-01-30 04:48:22 +0000",
       "minecraft:zombie": "2025-01-18 15:14:33 +0000",
       "minecraft:drowned": "2025-01-18 18:36:05 +0000",
       "minecraft:zombie_villager": "2025-01-21 14:35:10 +0000"
@@ -1217,6 +1226,7 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "sweet_berries": "2025-01-25 06:32:29 +0000",
+      "sugar_cane": "2025-01-30 14:41:10 +0000",
       "potato": "2025-01-18 17:36:34 +0000",
       "wheat": "2025-01-19 07:58:42 +0000"
     },
@@ -1308,6 +1318,7 @@
   },
   "dungeons_enhanced:seven_world_wonders": {
     "criteria": {
+      "entered_desert_temple": "2025-01-30 05:21:18 +0000",
       "entered_ice_pit": "2025-01-19 06:14:30 +0000",
       "entered_castle": "2025-01-19 05:11:00 +0000"
     },
@@ -1315,6 +1326,7 @@
   },
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
+      "entered_desert_temple": "2025-01-30 05:21:18 +0000",
       "entered_ice_pit": "2025-01-19 06:14:30 +0000",
       "entered_castle": "2025-01-19 05:11:00 +0000",
       "entered_ruined_building": "2025-01-28 16:27:05 +0000"
@@ -2082,7 +2094,8 @@
   },
   "morevillagers:all_villages": {
     "criteria": {
-      "plains": "2025-01-28 15:58:22 +0000"
+      "plains": "2025-01-28 15:58:22 +0000",
+      "desert": "2025-01-30 05:21:54 +0000"
     },
     "done": false
   },
@@ -2118,9 +2131,11 @@
   },
   "friendsandfoes:adventure/the_magicians": {
     "criteria": {
-      "killed_illusioner": "2025-01-28 16:06:49 +0000"
+      "killed_evoker": "2025-01-30 04:48:40 +0000",
+      "killed_illusioner": "2025-01-28 16:06:49 +0000",
+      "killed_iceologer": "2025-01-30 04:50:56 +0000"
     },
-    "done": false
+    "done": true
   },
   "alexscaves:alexscaves/discover_magnetic_caves": {
     "criteria": {
@@ -2228,6 +2243,66 @@
   "idas:labyrinth": {
     "criteria": {
       "in_labyrinth": "2025-01-29 16:59:00 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/kill_iceologer": {
+    "criteria": {
+      "killed_iceologer": "2025-01-30 04:50:56 +0000"
+    },
+    "done": true
+  },
+  "betterdeserttemples:temple_entry": {
+    "criteria": {
+      "in_better_desert_temple": "2025-01-30 05:17:58 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:traps_and_curses": {
+    "criteria": {
+      "entered_desert_temple": "2025-01-30 05:21:18 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:oasis_village": {
+    "criteria": {
+      "in_oasis_village": "2025-01-30 05:26:54 +0000"
+    },
+    "done": true
+  },
+  "yungscavebiomes:lost_caves": {
+    "criteria": {
+      "lost_caves": "2025-01-30 05:27:25 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/rogue_eye": {
+    "criteria": {
+      "rogue_eye": "2025-01-30 06:19:06 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/magical_eye": {
+    "criteria": {
+      "magical_eye": "2025-01-30 06:19:06 +0000"
+    },
+    "done": true
+  },
+  "quark:overlevel_enchant": {
+    "criteria": {
+      "overlevel_enchant": "2025-01-30 15:41:06 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/activate_zombie_horse_trap": {
+    "criteria": {
+      "friendsandfoes:activate_zombie_horse_trap": "2025-01-30 16:10:53 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2025-01-30 16:27:55 +0000"
     },
     "done": true
   },

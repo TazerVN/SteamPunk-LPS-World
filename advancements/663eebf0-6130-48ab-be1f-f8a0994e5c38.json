@@ -950,6 +950,7 @@
       "suspicious_stew": "2025-01-24 14:23:44 +0000",
       "dried_kelp": "2025-01-28 04:05:52 +0000",
       "melon_slice": "2025-01-29 15:31:12 +0000",
+      "cooked_rabbit": "2025-01-30 07:22:42 +0000",
       "enchanted_golden_apple": "2025-01-27 12:05:32 +0000",
       "carrot": "2025-01-20 13:01:25 +0000"
     },
@@ -985,6 +986,7 @@
       "minecraft:enderman": "2025-01-21 13:39:06 +0000",
       "minecraft:stray": "2025-01-21 13:32:24 +0000",
       "minecraft:silverfish": "2025-01-26 16:16:33 +0000",
+      "minecraft:vex": "2025-01-30 07:16:14 +0000",
       "minecraft:zombie": "2025-01-18 13:14:34 +0000",
       "minecraft:drowned": "2025-01-21 11:22:45 +0000",
       "minecraft:zombie_villager": "2025-01-21 13:58:34 +0000"
@@ -1064,6 +1066,7 @@
       "minecraft:cherry_grove": "2025-01-18 15:40:12 +0000",
       "minecraft:birch_forest": "2025-01-21 12:36:56 +0000",
       "minecraft:bamboo_jungle": "2025-01-28 15:51:45 +0000",
+      "minecraft:badlands": "2025-01-30 07:37:12 +0000",
       "minecraft:beach": "2025-01-20 16:26:09 +0000",
       "minecraft:dark_forest": "2025-01-28 15:42:55 +0000",
       "minecraft:sparse_jungle": "2025-01-21 12:40:04 +0000",
@@ -2557,15 +2560,9 @@
     },
     "done": true
   },
-  "enigmaticlegacy:book/relics/blazing_core": {
+  "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
-      "has_items": "2025-01-29 15:32:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/deflect_arrow": {
-    "criteria": {
-      "deflected_projectile": "2025-01-29 16:41:53 +0000"
+      "ancient_debris": "2025-01-29 14:14:25 +0000"
     },
     "done": true
   },
@@ -2575,15 +2572,21 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/resistor_shield": {
+  "repurposed_structures:temples": {
     "criteria": {
-      "resistor_shield": "2025-01-29 15:12:05 +0000"
+      "in_temple_nether_wasteland": "2025-01-29 14:34:30 +0000"
+    },
+    "done": false
+  },
+  "cold_sweat:full_insulation": {
+    "criteria": {
+      "requirement": "2025-01-29 14:37:46 +0000"
     },
     "done": true
   },
-  "scguns:main/treated_brass/cogloader": {
+  "alexscaves:alexscaves/resistor_shield": {
     "criteria": {
-      "cogloader": "2025-01-29 15:32:38 +0000"
+      "resistor_shield": "2025-01-29 15:12:05 +0000"
     },
     "done": true
   },
@@ -2593,51 +2596,21 @@
     },
     "done": true
   },
-  "repurposed_structures:pyramids": {
-    "criteria": {
-      "in_pyramid_ocean": "2025-01-29 16:39:49 +0000"
-    },
-    "done": false
-  },
-  "alexsmobs:alexsmobs/rattlesnake": {
-    "criteria": {
-      "killed": "2025-01-29 16:50:59 +0000"
-    },
-    "done": true
-  },
-  "repurposed_structures:temples": {
-    "criteria": {
-      "in_temple_nether_wasteland": "2025-01-29 14:34:30 +0000"
-    },
-    "done": false
-  },
-  "alexsmobs:alexsmobs/crocodile": {
-    "criteria": {
-      "killed_by": "2025-01-29 17:06:00 +0000"
-    },
-    "done": true
-  },
   "twilightforest:twilight_dinner": {
     "criteria": {
       "maze_wafer": "2025-01-29 15:32:37 +0000"
     },
     "done": false
   },
-  "repurposed_structures:outposts": {
+  "enigmaticlegacy:book/relics/blazing_core": {
     "criteria": {
-      "in_outpost_desert": "2025-01-29 16:41:33 +0000"
-    },
-    "done": false
-  },
-  "idas:labyrinth": {
-    "criteria": {
-      "in_labyrinth": "2025-01-29 16:59:43 +0000"
+      "has_items": "2025-01-29 15:32:38 +0000"
     },
     "done": true
   },
-  "integrated_villages:kutcha_village": {
+  "scguns:main/treated_brass/cogloader": {
     "criteria": {
-      "in_kutcha_village": "2025-01-29 16:56:29 +0000"
+      "cogloader": "2025-01-29 15:32:38 +0000"
     },
     "done": true
   },
@@ -2653,15 +2626,81 @@
     },
     "done": true
   },
-  "cold_sweat:full_insulation": {
+  "repurposed_structures:pyramids": {
     "criteria": {
-      "requirement": "2025-01-29 14:37:46 +0000"
+      "in_pyramid_ocean": "2025-01-29 16:39:49 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_desert": "2025-01-29 16:41:33 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-01-29 16:41:53 +0000"
     },
     "done": true
   },
-  "minecraft:nether/obtain_ancient_debris": {
+  "alexsmobs:alexsmobs/rattlesnake": {
     "criteria": {
-      "ancient_debris": "2025-01-29 14:14:25 +0000"
+      "killed": "2025-01-29 16:50:59 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:kutcha_village": {
+    "criteria": {
+      "in_kutcha_village": "2025-01-29 16:56:29 +0000"
+    },
+    "done": true
+  },
+  "idas:labyrinth": {
+    "criteria": {
+      "in_labyrinth": "2025-01-29 16:59:43 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2025-01-29 17:06:00 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/cryptic_eye": {
+    "criteria": {
+      "cryptic_eye": "2025-01-30 05:53:14 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/rogue_eye": {
+    "criteria": {
+      "rogue_eye": "2025-01-30 06:11:30 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/magical_eye": {
+    "criteria": {
+      "magical_eye": "2025-01-30 06:12:57 +0000"
+    },
+    "done": true
+  },
+  "quark:overlevel_enchant": {
+    "criteria": {
+      "overlevel_enchant": "2025-01-30 06:18:46 +0000"
+    },
+    "done": true
+  },
+  "create:encased_fan": {
+    "criteria": {
+      "0": "2025-01-30 06:34:16 +0000"
+    },
+    "done": true
+  },
+  "create:fan_processing": {
+    "criteria": {
+      "0": "2025-01-30 06:34:24 +0000"
     },
     "done": true
   },

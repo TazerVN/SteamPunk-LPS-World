@@ -883,6 +883,8 @@
       "minecraft:cherry_grove": "2025-01-25 17:05:35 +0000",
       "minecraft:birch_forest": "2025-01-22 10:06:29 +0000",
       "minecraft:bamboo_jungle": "2025-01-28 15:51:32 +0000",
+      "minecraft:wooded_badlands": "2025-01-30 05:26:26 +0000",
+      "minecraft:badlands": "2025-01-30 05:26:31 +0000",
       "minecraft:beach": "2025-01-21 14:35:52 +0000",
       "minecraft:dark_forest": "2025-01-28 15:43:04 +0000",
       "minecraft:sparse_jungle": "2025-01-28 15:10:48 +0000",
@@ -935,6 +937,7 @@
       "sweet_berries": "2025-01-18 14:21:04 +0000",
       "cooked_beef": "2025-01-21 12:22:06 +0000",
       "baked_potato": "2025-01-22 10:11:20 +0000",
+      "porkchop": "2025-01-30 04:46:38 +0000",
       "apple": "2025-01-18 14:52:38 +0000",
       "spider_eye": "2025-01-28 13:55:20 +0000",
       "potato": "2025-01-22 06:58:32 +0000",
@@ -1062,6 +1065,7 @@
     "criteria": {
       "minecraft:pillager": "2025-01-28 07:20:30 +0000",
       "minecraft:skeleton": "2025-01-18 14:53:21 +0000",
+      "minecraft:ravager": "2025-01-30 04:23:11 +0000",
       "minecraft:vindicator": "2025-01-21 14:49:17 +0000",
       "minecraft:spider": "2025-01-20 15:17:36 +0000",
       "minecraft:creeper": "2025-01-21 10:23:22 +0000",
@@ -1170,6 +1174,7 @@
   "morevillagers:all_workstations_get": {
     "criteria": {
       "barrel": "2025-01-20 15:16:31 +0000",
+      "huntingpost": "2025-01-30 05:25:22 +0000",
       "blueprinttable": "2025-01-28 15:57:36 +0000",
       "cartographytable": "2025-01-28 05:51:04 +0000",
       "miningbench": "2025-01-21 14:40:47 +0000",
@@ -1280,6 +1285,7 @@
     "criteria": {
       "entered_tower_of_the_undead": "2025-01-28 15:23:11 +0000",
       "entered_hay_storage": "2025-01-21 14:54:03 +0000",
+      "entered_desert_temple": "2025-01-30 05:21:14 +0000",
       "entered_ruined_building": "2025-01-21 10:56:16 +0000"
     },
     "done": false
@@ -1930,7 +1936,8 @@
   "morevillagers:all_villages": {
     "criteria": {
       "savanna": "2025-01-28 05:48:23 +0000",
-      "plains": "2025-01-28 15:56:42 +0000"
+      "plains": "2025-01-28 15:56:42 +0000",
+      "desert": "2025-01-30 05:21:32 +0000"
     },
     "done": false
   },
@@ -2027,6 +2034,7 @@
   "morevillagers:all_professions_traded": {
     "criteria": {
       "butcher": "2025-01-28 09:23:28 +0000",
+      "librarian": "2025-01-30 15:34:35 +0000",
       "florist": "2025-01-28 09:23:34 +0000",
       "farmer": "2025-01-29 16:33:42 +0000"
     },
@@ -2261,15 +2269,99 @@
     },
     "done": true
   },
+  "integrated_villages:kutcha_village": {
+    "criteria": {
+      "in_kutcha_village": "2025-01-29 16:54:19 +0000"
+    },
+    "done": true
+  },
   "idas:labyrinth": {
     "criteria": {
       "in_labyrinth": "2025-01-29 16:58:54 +0000"
     },
     "done": true
   },
-  "integrated_villages:kutcha_village": {
+  "friendsandfoes:adventure/it_bites": {
     "criteria": {
-      "in_kutcha_village": "2025-01-29 16:54:19 +0000"
+      "killed_mauler": "2025-01-30 04:22:59 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/brewing/frozen_heart_potion": {
+    "criteria": {
+      "has_items": "2025-01-30 04:51:23 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/accessories/forger_gem": {
+    "criteria": {
+      "has_items": "2025-01-30 05:12:58 +0000"
+    },
+    "done": true
+  },
+  "betterdeserttemples:temple_entry": {
+    "criteria": {
+      "in_better_desert_temple": "2025-01-30 05:17:51 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:traps_and_curses": {
+    "criteria": {
+      "entered_desert_temple": "2025-01-30 05:21:14 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:seven_world_wonders": {
+    "criteria": {
+      "entered_desert_temple": "2025-01-30 05:21:14 +0000"
+    },
+    "done": false
+  },
+  "integrated_villages:oasis_village": {
+    "criteria": {
+      "in_oasis_village": "2025-01-30 05:26:56 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_ferrous_wroughtnaut": {
+    "criteria": {
+      "ferrous_wroughtnaut": "2025-01-30 05:28:44 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:airship_village": {
+    "criteria": {
+      "in_airship_village": "2025-01-30 05:34:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-01-30 05:39:38 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/rogue_eye": {
+    "criteria": {
+      "rogue_eye": "2025-01-30 14:35:35 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/magical_eye": {
+    "criteria": {
+      "magical_eye": "2025-01-30 14:35:35 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "squirrel": "2025-01-30 16:28:09 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:master_trade": {
+    "criteria": {
+      "villagertrade": "2025-01-30 15:34:35 +0000"
     },
     "done": true
   },

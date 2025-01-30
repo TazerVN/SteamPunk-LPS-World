@@ -824,28 +824,40 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "muskeg": "2025-01-30 07:10:55 +0000",
       "woodland": "2025-01-28 16:00:20 +0000",
+      "snowblossom_grove": "2025-01-30 07:13:57 +0000",
       "scrubland": "2025-01-21 12:06:26 +0000",
       "fungal_jungle": "2025-01-28 16:01:32 +0000",
       "erupting_inferno": "2025-01-28 05:34:26 +0000",
       "floodplain": "2025-01-28 16:01:15 +0000",
       "lush_savanna": "2025-01-28 16:01:49 +0000",
+      "marsh": "2025-01-30 07:25:30 +0000",
       "cold_desert": "2025-01-27 13:59:05 +0000",
       "old_growth_woodland": "2025-01-28 16:00:25 +0000",
       "maple_woods": "2025-01-28 06:36:44 +0000",
       "withered_abyss": "2025-01-28 05:34:38 +0000",
+      "orchard": "2025-01-30 06:41:03 +0000",
+      "overgrown_greens": "2025-01-30 07:18:07 +0000",
       "coniferous_forest": "2025-01-21 13:48:32 +0000",
       "dryland": "2025-01-29 16:54:15 +0000",
+      "wasteland": "2025-01-30 04:57:55 +0000",
       "lush_desert": "2025-01-29 16:58:35 +0000",
       "redwood_forest": "2025-01-21 12:03:35 +0000",
       "seasonal_forest": "2025-01-27 14:35:21 +0000",
+      "auroral_garden": "2025-01-30 06:50:51 +0000",
       "pasture": "2025-01-21 12:07:33 +0000",
       "rocky_rainforest": "2025-01-28 16:01:37 +0000",
       "fir_clearing": "2025-01-21 13:48:24 +0000",
+      "pumpkin_patch": "2025-01-30 06:47:23 +0000",
       "prairie": "2025-01-21 12:05:45 +0000",
+      "snowy_coniferous_forest": "2025-01-30 06:52:18 +0000",
+      "snowy_fir_clearing": "2025-01-30 06:53:05 +0000",
       "tundra": "2025-01-27 14:35:41 +0000",
+      "gravel_beach": "2025-01-30 07:17:12 +0000",
       "undergrowth": "2025-01-28 05:34:34 +0000",
-      "rainforest": "2025-01-28 16:01:10 +0000"
+      "rainforest": "2025-01-28 16:01:10 +0000",
+      "snowy_maple_woods": "2025-01-30 07:13:32 +0000"
     },
     "done": false
   },
@@ -873,19 +885,33 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-01-28 06:25:00 +0000",
       "minecraft:taiga": "2025-01-28 05:20:30 +0000",
+      "minecraft:deep_ocean": "2025-01-30 06:41:24 +0000",
       "minecraft:eroded_badlands": "2025-01-29 16:53:55 +0000",
       "minecraft:frozen_river": "2025-01-28 05:21:33 +0000",
       "minecraft:cherry_grove": "2025-01-21 13:38:43 +0000",
       "minecraft:birch_forest": "2025-01-28 05:19:24 +0000",
       "minecraft:wooded_badlands": "2025-01-28 16:02:00 +0000",
+      "minecraft:badlands": "2025-01-30 05:00:47 +0000",
       "minecraft:beach": "2025-01-28 15:59:00 +0000",
+      "minecraft:sparse_jungle": "2025-01-30 05:33:16 +0000",
       "minecraft:river": "2025-01-21 12:24:37 +0000",
       "minecraft:lukewarm_ocean": "2025-01-29 16:20:21 +0000",
+      "minecraft:snowy_plains": "2025-01-30 06:47:30 +0000",
+      "minecraft:stony_shore": "2025-01-30 07:11:06 +0000",
       "minecraft:dripstone_caves": "2025-01-27 13:21:05 +0000",
+      "minecraft:snowy_taiga": "2025-01-30 06:50:50 +0000",
+      "minecraft:swamp": "2025-01-30 07:26:11 +0000",
+      "minecraft:cold_ocean": "2025-01-30 06:44:29 +0000",
       "minecraft:forest": "2025-01-21 12:16:35 +0000",
+      "minecraft:deep_cold_ocean": "2025-01-30 06:44:48 +0000",
+      "minecraft:ice_spikes": "2025-01-30 06:55:14 +0000",
+      "minecraft:frozen_ocean": "2025-01-30 06:49:12 +0000",
       "minecraft:desert": "2025-01-28 16:02:02 +0000",
       "minecraft:ocean": "2025-01-29 16:20:07 +0000",
+      "minecraft:jungle": "2025-01-30 05:33:08 +0000",
+      "minecraft:snowy_beach": "2025-01-30 06:49:11 +0000",
       "minecraft:warm_ocean": "2025-01-28 16:02:24 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-01-30 06:42:04 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-28 05:19:43 +0000",
       "minecraft:meadow": "2025-01-27 13:20:49 +0000",
       "minecraft:savanna": "2025-01-21 12:06:46 +0000",
@@ -902,7 +928,12 @@
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_pillager_camp": "2025-01-28 16:03:36 +0000",
-      "entered_ruined_building": "2025-01-21 12:08:06 +0000"
+      "entered_fishing_ship": "2025-01-30 05:43:53 +0000",
+      "entered_castle": "2025-01-30 06:47:38 +0000",
+      "entered_tree_house": "2025-01-30 05:59:43 +0000",
+      "entered_sunken_shrine": "2025-01-30 06:45:48 +0000",
+      "entered_ruined_building": "2025-01-21 12:08:06 +0000",
+      "entered_desert_tomb": "2025-01-30 05:06:34 +0000"
     },
     "done": false
   },
@@ -1098,6 +1129,7 @@
       "minecraft:blaze": "2025-01-28 05:37:20 +0000",
       "minecraft:pillager": "2025-01-28 16:03:27 +0000",
       "minecraft:skeleton": "2025-01-21 13:34:29 +0000",
+      "minecraft:ravager": "2025-01-30 06:07:27 +0000",
       "minecraft:ghast": "2025-01-28 08:18:17 +0000",
       "minecraft:hoglin": "2025-01-28 06:09:15 +0000",
       "minecraft:vindicator": "2025-01-29 16:56:22 +0000",
@@ -1105,6 +1137,7 @@
       "minecraft:spider": "2025-01-21 13:35:27 +0000",
       "minecraft:piglin_brute": "2025-01-28 06:02:38 +0000",
       "minecraft:creeper": "2025-01-21 13:48:28 +0000",
+      "minecraft:evoker": "2025-01-30 06:03:18 +0000",
       "minecraft:phantom": "2025-01-27 11:52:55 +0000",
       "minecraft:zombified_piglin": "2025-01-28 06:09:10 +0000",
       "minecraft:witch": "2025-01-21 13:39:26 +0000",
@@ -1115,6 +1148,7 @@
       "minecraft:silverfish": "2025-01-27 12:49:53 +0000",
       "minecraft:enderman": "2025-01-27 13:52:28 +0000",
       "minecraft:stray": "2025-01-29 17:00:55 +0000",
+      "minecraft:vex": "2025-01-30 06:03:44 +0000",
       "minecraft:zombie": "2025-01-21 13:34:58 +0000",
       "minecraft:drowned": "2025-01-21 12:49:45 +0000",
       "minecraft:zombie_villager": "2025-01-29 16:56:50 +0000"
@@ -1205,9 +1239,10 @@
   },
   "create:wrench_goggles": {
     "criteria": {
+      "0": "2025-01-30 05:46:58 +0000",
       "1": "2025-01-21 13:10:27 +0000"
     },
-    "done": false
+    "done": true
   },
   "scguns:main/gunpowder": {
     "criteria": {
@@ -1935,6 +1970,7 @@
   },
   "morevillagers:all_professions_traded": {
     "criteria": {
+      "fletcher": "2025-01-30 05:16:03 +0000",
       "librarian": "2025-01-28 07:03:48 +0000",
       "hunter": "2025-01-28 06:31:43 +0000",
       "fisherman": "2025-01-28 06:30:58 +0000"
@@ -2059,7 +2095,8 @@
   },
   "repurposed_structures:pyramids": {
     "criteria": {
-      "in_pyramid_ocean": "2025-01-29 16:38:52 +0000"
+      "in_pyramid_ocean": "2025-01-29 16:38:52 +0000",
+      "in_pyramid_jungle": "2025-01-30 05:59:57 +0000"
     },
     "done": false
   },
@@ -2075,9 +2112,9 @@
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/rattlesnake": {
+  "integrated_villages:kutcha_village": {
     "criteria": {
-      "killed": "2025-01-29 17:38:33 +0000"
+      "in_kutcha_village": "2025-01-29 16:55:05 +0000"
     },
     "done": true
   },
@@ -2087,9 +2124,119 @@
     },
     "done": true
   },
-  "integrated_villages:kutcha_village": {
+  "alexsmobs:alexsmobs/rattlesnake": {
     "criteria": {
-      "in_kutcha_village": "2025-01-29 16:55:05 +0000"
+      "killed": "2025-01-29 17:38:33 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/the_magicians": {
+    "criteria": {
+      "killed_evoker": "2025-01-30 06:03:18 +0000",
+      "killed_illusioner": "2025-01-30 04:51:16 +0000",
+      "killed_iceologer": "2025-01-30 04:48:42 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/kill_iceologer": {
+    "criteria": {
+      "killed_iceologer": "2025-01-30 04:48:42 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/guster": {
+    "criteria": {
+      "killed_by": "2025-01-30 04:50:40 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/kill_illusioner": {
+    "criteria": {
+      "killed_illusioner": "2025-01-30 04:51:16 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/brewing/frozen_heart_potion": {
+    "criteria": {
+      "has_items": "2025-01-30 04:51:30 +0000"
+    },
+    "done": true
+  },
+  "yungscavebiomes:lost_caves": {
+    "criteria": {
+      "lost_caves": "2025-01-30 05:01:15 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:oasis_village": {
+    "criteria": {
+      "in_oasis_village": "2025-01-30 05:15:28 +0000"
+    },
+    "done": true
+  },
+  "betterdeserttemples:temple_entry": {
+    "criteria": {
+      "in_better_desert_temple": "2025-01-30 05:18:43 +0000"
+    },
+    "done": true
+  },
+  "yungscavebiomes:sandstorm_end": {
+    "criteria": {
+      "sandstorm_end": "2025-01-30 05:25:23 +0000"
+    },
+    "done": true
+  },
+  "integrated_villages:airship_village": {
+    "criteria": {
+      "in_airship_village": "2025-01-30 05:34:03 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/rogue_eye": {
+    "criteria": {
+      "rogue_eye": "2025-01-30 06:01:29 +0000"
+    },
+    "done": true
+  },
+  "idas:pillager_fortress": {
+    "criteria": {
+      "in_pillager_fortress": "2025-01-30 06:02:59 +0000"
+    },
+    "done": true
+  },
+  "cold_sweat:survival_tactics": {
+    "criteria": {
+      "freezing_on_fire": "2025-01-30 06:06:53 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/magical_eye": {
+    "criteria": {
+      "magical_eye": "2025-01-30 06:08:52 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:wars_and_kingdoms": {
+    "criteria": {
+      "entered_castle": "2025-01-30 06:47:38 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:seven_world_wonders": {
+    "criteria": {
+      "entered_castle": "2025-01-30 06:47:38 +0000"
+    },
+    "done": false
+  },
+  "takesapillage:bastille": {
+    "criteria": {
+      "in_bastille": "2025-01-30 07:03:07 +0000"
+    },
+    "done": true
+  },
+  "idas:winter_wagon": {
+    "criteria": {
+      "in_winter_wagon": "2025-01-30 07:07:18 +0000"
     },
     "done": true
   },
