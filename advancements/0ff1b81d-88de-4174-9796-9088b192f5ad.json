@@ -824,6 +824,7 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "muskeg": "2025-01-31 14:53:08 +0000",
       "scrubland": "2025-01-19 03:43:29 +0000",
       "fungal_jungle": "2025-01-28 15:52:37 +0000",
       "floodplain": "2025-01-28 15:53:14 +0000",
@@ -885,6 +886,7 @@
       "minecraft:cold_ocean": "2025-01-18 18:17:32 +0000",
       "minecraft:forest": "2025-01-18 14:03:24 +0000",
       "minecraft:lush_caves": "2025-01-30 06:21:43 +0000",
+      "minecraft:ice_spikes": "2025-01-31 14:01:06 +0000",
       "minecraft:frozen_ocean": "2025-01-18 18:23:22 +0000",
       "minecraft:desert": "2025-01-28 15:50:34 +0000",
       "minecraft:ocean": "2025-01-19 03:41:25 +0000",
@@ -913,6 +915,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "honey_bottle": "2025-01-31 15:46:34 +0000",
       "cooked_mutton": "2025-01-18 16:27:31 +0000",
       "baked_potato": "2025-01-18 14:11:17 +0000",
       "apple": "2025-01-19 04:35:05 +0000",
@@ -1110,9 +1113,14 @@
   "morevillagers:all_workstations_get": {
     "criteria": {
       "barrel": "2025-01-22 15:29:36 +0000",
+      "huntingpost": "2025-01-31 14:33:57 +0000",
+      "blueprinttable": "2025-01-31 14:33:27 +0000",
+      "oceanographytable": "2025-01-31 14:47:52 +0000",
       "brewingstand": "2025-01-18 15:44:21 +0000",
       "grindstone": "2025-01-18 19:48:51 +0000",
+      "gardeningtable": "2025-01-31 14:33:36 +0000",
       "smoker": "2025-01-21 13:39:25 +0000",
+      "smithingtable": "2025-01-31 18:16:35 +0000",
       "blastfurnace": "2025-01-18 15:53:50 +0000",
       "lectern": "2025-01-25 07:56:30 +0000",
       "stonecutter": "2025-01-18 20:01:29 +0000",
@@ -1329,6 +1337,7 @@
       "entered_desert_temple": "2025-01-30 05:21:18 +0000",
       "entered_ice_pit": "2025-01-19 06:14:30 +0000",
       "entered_castle": "2025-01-19 05:11:00 +0000",
+      "entered_watch_tower": "2025-01-31 13:59:26 +0000",
       "entered_ruined_building": "2025-01-28 16:27:05 +0000"
     },
     "done": false
@@ -2094,6 +2103,7 @@
   },
   "morevillagers:all_villages": {
     "criteria": {
+      "taiga": "2025-01-31 14:33:23 +0000",
       "plains": "2025-01-28 15:58:22 +0000",
       "desert": "2025-01-30 05:21:54 +0000"
     },
@@ -2303,6 +2313,60 @@
   "twilightforest:root": {
     "criteria": {
       "in_tf": "2025-01-30 16:27:55 +0000"
+    },
+    "done": true
+  },
+  "takesapillage:bastille": {
+    "criteria": {
+      "in_bastille": "2025-01-31 13:34:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-01-31 13:36:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2025-01-31 13:40:08 +0000"
+    },
+    "done": true
+  },
+  "idas:winter_wagon": {
+    "criteria": {
+      "in_winter_wagon": "2025-01-31 14:20:12 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:cryo_fuel": {
+    "criteria": {
+      "has_cryo_fuel": "2025-01-31 16:41:53 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:tier_3_rocket": {
+    "criteria": {
+      "has_tier_3_rocket": "2025-01-31 16:41:53 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:astronaut": {
+    "criteria": {
+      "has_astronaut": "2025-01-31 16:15:58 +0000"
+    },
+    "done": true
+  },
+  "quark:apply_color_rune": {
+    "criteria": {
+      "rune_purple": "2025-01-31 18:13:36 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:mars": {
+    "criteria": {
+      "entered_mars": "2025-01-31 16:40:59 +0000"
     },
     "done": true
   },

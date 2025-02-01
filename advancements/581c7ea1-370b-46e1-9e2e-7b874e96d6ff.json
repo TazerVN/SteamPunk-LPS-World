@@ -824,6 +824,7 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "muskeg": "2025-01-31 14:53:08 +0000",
       "woodland": "2025-01-21 14:53:43 +0000",
       "scrubland": "2025-01-21 14:38:23 +0000",
       "fungal_jungle": "2025-01-28 05:54:02 +0000",
@@ -849,6 +850,7 @@
       "fir_clearing": "2025-01-21 13:48:52 +0000",
       "prairie": "2025-01-18 13:58:58 +0000",
       "snowy_fir_clearing": "2025-01-28 16:14:26 +0000",
+      "snowy_coniferous_forest": "2025-01-31 14:08:48 +0000",
       "tundra": "2025-01-23 14:48:34 +0000",
       "glowing_grotto": "2025-01-28 05:56:39 +0000",
       "gravel_beach": "2025-01-28 16:11:44 +0000",
@@ -893,9 +895,11 @@
       "minecraft:snowy_plains": "2025-01-28 14:31:24 +0000",
       "minecraft:stony_shore": "2025-01-28 15:53:33 +0000",
       "minecraft:dripstone_caves": "2025-01-21 13:53:34 +0000",
+      "minecraft:snowy_taiga": "2025-01-31 14:09:06 +0000",
       "minecraft:grove": "2025-01-28 14:01:09 +0000",
       "minecraft:forest": "2025-01-18 13:57:35 +0000",
       "minecraft:lush_caves": "2025-01-28 05:59:30 +0000",
+      "minecraft:ice_spikes": "2025-01-31 14:01:09 +0000",
       "minecraft:frozen_ocean": "2025-01-28 16:16:21 +0000",
       "minecraft:desert": "2025-01-28 06:01:06 +0000",
       "minecraft:ocean": "2025-01-21 14:56:56 +0000",
@@ -1286,6 +1290,7 @@
       "entered_tower_of_the_undead": "2025-01-28 15:23:11 +0000",
       "entered_hay_storage": "2025-01-21 14:54:03 +0000",
       "entered_desert_temple": "2025-01-30 05:21:14 +0000",
+      "entered_watch_tower": "2025-01-31 13:59:27 +0000",
       "entered_ruined_building": "2025-01-21 10:56:16 +0000"
     },
     "done": false
@@ -1935,6 +1940,7 @@
   },
   "morevillagers:all_villages": {
     "criteria": {
+      "taiga": "2025-01-31 14:48:01 +0000",
       "savanna": "2025-01-28 05:48:23 +0000",
       "plains": "2025-01-28 15:56:42 +0000",
       "desert": "2025-01-30 05:21:32 +0000"
@@ -2150,9 +2156,10 @@
   },
   "blue_skies:thinking_with_portals": {
     "criteria": {
-      "enter_everbright": "2025-01-28 16:00:42 +0000"
+      "enter_everbright": "2025-01-28 16:00:42 +0000",
+      "enter_everdawn": "2025-01-31 15:58:37 +0000"
     },
-    "done": false
+    "done": true
   },
   "idas:apothecary_abode": {
     "criteria": {
@@ -2353,15 +2360,153 @@
     },
     "done": true
   },
+  "morevillagers:master_trade": {
+    "criteria": {
+      "villagertrade": "2025-01-30 15:34:35 +0000"
+    },
+    "done": true
+  },
   "twilightforest:twilight_hunter": {
     "criteria": {
       "squirrel": "2025-01-30 16:28:09 +0000"
     },
     "done": true
   },
-  "morevillagers:master_trade": {
+  "aether:icestone": {
     "criteria": {
-      "villagertrade": "2025-01-30 15:34:35 +0000"
+      "icestone": "2025-01-31 13:01:39 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_notor": {
+    "criteria": {
+      "killed": "2025-01-31 13:23:49 +0000"
+    },
+    "done": true
+  },
+  "takesapillage:bastille": {
+    "criteria": {
+      "in_bastille": "2025-01-31 13:50:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-01-31 14:06:10 +0000"
+    },
+    "done": true
+  },
+  "idas:winter_wagon": {
+    "criteria": {
+      "in_winter_wagon": "2025-01-31 14:10:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:wolf": "2025-01-31 14:14:41 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-01-31 14:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-01-31 14:18:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2025-01-31 14:24:09 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/enter": {
+    "criteria": {
+      "enter_everdawn": "2025-01-31 15:58:37 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_axe": {
+    "criteria": {
+      "has_resource": "2025-01-31 16:01:35 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_sword": {
+    "criteria": {
+      "has_resource": "2025-01-31 16:01:35 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_hoe": {
+    "criteria": {
+      "has_resource": "2025-01-31 16:01:35 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-01-31 16:01:35 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_shovel": {
+    "criteria": {
+      "has_resource": "2025-01-31 16:01:35 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_aquite": {
+    "criteria": {
+      "obtain_material": "2025-01-31 16:01:35 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/get_wood": {
+    "criteria": {
+      "has_maple_log": "2025-01-31 16:02:20 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/maple_axe": {
+    "criteria": {
+      "has_resource": "2025-01-31 16:02:31 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/maple_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-01-31 16:02:31 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/maple_sword": {
+    "criteria": {
+      "has_resource": "2025-01-31 16:02:31 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/maple_hoe": {
+    "criteria": {
+      "has_resource": "2025-01-31 16:02:31 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/maple_shovel": {
+    "criteria": {
+      "has_resource": "2025-01-31 16:02:31 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:mars": {
+    "criteria": {
+      "entered_mars": "2025-01-31 16:47:44 +0000"
     },
     "done": true
   },

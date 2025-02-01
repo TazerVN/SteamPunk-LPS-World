@@ -825,6 +825,7 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "muskeg": "2025-01-19 06:51:28 +0000",
+      "scrubland": "2025-01-31 08:11:46 +0000",
       "highland": "2025-01-24 13:02:22 +0000",
       "jacaranda_glade": "2025-01-24 12:32:17 +0000",
       "marsh": "2025-01-24 13:02:55 +0000",
@@ -839,6 +840,7 @@
       "dune_beach": "2025-01-24 12:54:45 +0000",
       "seasonal_forest": "2025-01-19 04:31:57 +0000",
       "auroral_garden": "2025-01-19 06:52:24 +0000",
+      "pasture": "2025-01-31 08:16:55 +0000",
       "lavender_field": "2025-01-24 12:31:18 +0000",
       "fir_clearing": "2025-01-19 04:13:06 +0000",
       "prairie": "2025-01-19 03:35:33 +0000",
@@ -859,7 +861,9 @@
       "minecraft:birch_forest": "2025-01-19 04:19:39 +0000",
       "minecraft:windswept_hills": "2025-01-24 13:00:21 +0000",
       "minecraft:beach": "2025-01-24 12:57:20 +0000",
+      "minecraft:sparse_jungle": "2025-01-31 08:19:24 +0000",
       "minecraft:river": "2025-01-19 03:43:44 +0000",
+      "minecraft:lukewarm_ocean": "2025-01-31 08:08:55 +0000",
       "minecraft:snowy_plains": "2025-01-19 06:14:56 +0000",
       "minecraft:stony_shore": "2025-01-19 07:45:04 +0000",
       "minecraft:dripstone_caves": "2025-01-19 04:24:14 +0000",
@@ -884,6 +888,7 @@
       "entered_ice_pit": "2025-01-19 06:18:30 +0000",
       "entered_castle": "2025-01-19 05:10:51 +0000",
       "entered_watch_tower": "2025-01-19 06:17:09 +0000",
+      "entered_sunken_shrine": "2025-01-31 08:02:06 +0000",
       "entered_ruined_building": "2025-01-19 03:36:21 +0000"
     },
     "done": false
@@ -915,6 +920,7 @@
   "morevillagers:all_villages": {
     "criteria": {
       "plains": "2025-01-19 03:37:33 +0000",
+      "savanna": "2025-01-31 08:12:23 +0000",
       "snowy": "2025-01-24 11:58:44 +0000"
     },
     "done": false
@@ -1294,24 +1300,6 @@
     },
     "done": true
   },
-  "create:andesite_alloy": {
-    "criteria": {
-      "0": "2025-01-24 11:46:33 +0000"
-    },
-    "done": true
-  },
-  "goblins_tyranny:goblins_encounter_success": {
-    "criteria": {
-      "goblins_encounter_success_0": "2025-01-24 13:35:28 +0000"
-    },
-    "done": true
-  },
-  "enemyexpansion:hunted": {
-    "criteria": {
-      "hunted_0": "2025-01-24 12:06:46 +0000"
-    },
-    "done": true
-  },
   "enigmaticlegacy:main/lore_inscriber": {
     "criteria": {
       "etherium": "2025-01-24 11:33:28 +0000"
@@ -1321,6 +1309,18 @@
   "scguns:main/iron/m3_carabine": {
     "criteria": {
       "m3_carabine": "2025-01-24 11:35:58 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2025-01-24 11:46:33 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:hunted": {
+    "criteria": {
+      "hunted_0": "2025-01-24 12:06:46 +0000"
     },
     "done": true
   },
@@ -1339,6 +1339,36 @@
   "betterdungeons:spider_dungeon": {
     "criteria": {
       "in_better_spider_dungeon": "2025-01-24 13:25:02 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:goblins_encounter_success": {
+    "criteria": {
+      "goblins_encounter_success_0": "2025-01-24 13:35:28 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/disaster_sword": {
+    "criteria": {
+      "has_the_recipe": "2025-01-31 08:00:10 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/astral_spear": {
+    "criteria": {
+      "has_the_recipe": "2025-01-31 08:00:10 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/tools/evil_dagger": {
+    "criteria": {
+      "has_the_recipe": "2025-01-31 08:00:10 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/misc/totem_of_malice": {
+    "criteria": {
+      "has_the_recipe": "2025-01-31 08:00:10 +0000"
     },
     "done": true
   },

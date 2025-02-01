@@ -1448,7 +1448,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2025-01-25 20:13:36 +0000"
+      "minecraft:cow": "2025-01-25 20:13:36 +0000",
+      "minecraft:sheep": "2025-01-31 15:54:47 +0000"
     },
     "done": false
   },
@@ -1702,6 +1703,97 @@
   "farmersdelight:main/harvest_straw": {
     "criteria": {
       "harvest_straw": "2025-01-27 09:24:41 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/skunk": {
+    "criteria": {
+      "ex": "2025-01-31 15:48:55 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/nether_eye": {
+    "criteria": {
+      "nether_eye": "2025-01-31 15:16:55 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/rogue_eye": {
+    "criteria": {
+      "rogue_eye": "2025-01-31 15:16:55 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/diamond_steel/krauser": {
+    "criteria": {
+      "krauser": "2025-01-31 14:59:45 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass/thunderhead": {
+    "criteria": {
+      "thunderhead": "2025-01-31 14:59:38 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:energizer": {
+    "criteria": {
+      "has_energizer": "2025-01-31 15:16:55 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/old_eye": {
+    "criteria": {
+      "old_eye": "2025-01-31 15:16:55 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "fur": "2025-01-31 15:16:55 +0000"
+    },
+    "done": false
+  },
+  "create:rose_quartz": {
+    "criteria": {
+      "0": "2025-01-31 15:18:13 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/magical_eye": {
+    "criteria": {
+      "magical_eye": "2025-01-31 15:19:22 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/cursed_eye": {
+    "criteria": {
+      "cursed_eye": "2025-01-31 15:19:22 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/neodymium": {
+    "criteria": {
+      "scarlet": "2025-01-31 15:18:13 +0000",
+      "azure": "2025-01-31 15:21:06 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/witch_eye": {
+    "criteria": {
+      "witch_eye": "2025-01-31 15:19:22 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/wither_eye": {
+    "criteria": {
+      "wither_eye": "2025-01-31 15:19:22 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/neodymium_ingot": {
+    "criteria": {
+      "azure": "2025-01-31 15:21:06 +0000"
     },
     "done": true
   },

@@ -832,6 +832,7 @@
       "highland": "2025-01-26 12:47:13 +0000",
       "cold_desert": "2025-01-26 14:20:55 +0000",
       "old_growth_woodland": "2025-01-21 12:55:18 +0000",
+      "crystalline_chasm": "2025-01-31 12:55:42 +0000",
       "withered_abyss": "2025-01-25 15:40:44 +0000",
       "orchard": "2025-01-20 13:08:51 +0000",
       "field": "2025-01-28 16:12:50 +0000",
@@ -2701,6 +2702,72 @@
   "create:fan_processing": {
     "criteria": {
       "0": "2025-01-30 06:34:24 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/soul_vulture": {
+    "criteria": {
+      "killed": "2025-01-31 12:46:10 +0000"
+    },
+    "done": true
+  },
+  "eeeabsmobs:eeeabsmobs/bloody_altar": {
+    "criteria": {
+      "requirement": "2025-01-31 12:51:24 +0000"
+    },
+    "done": true
+  },
+  "eeeabsmobs:eeeabsmobs/kill_corpse_warlock": {
+    "criteria": {
+      "requirement": "2025-01-31 12:54:18 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:foundry_basin": {
+    "criteria": {
+      "have_basin": "2025-01-31 14:25:22 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:belt_grinder": {
+    "criteria": {
+      "have_belt_grinder": "2025-01-31 14:27:10 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:astronaut": {
+    "criteria": {
+      "has_astronaut": "2025-01-31 16:05:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-01-31 16:18:46 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:doom_slayer": {
+    "criteria": {
+      "has_netherite_space_suit": "2025-01-31 16:21:19 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:cryo_fuel": {
+    "criteria": {
+      "has_cryo_fuel": "2025-01-31 16:39:32 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:mars": {
+    "criteria": {
+      "entered_mars": "2025-01-31 16:47:43 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:rocket_man": {
+    "criteria": {
+      "has_jet_suit": "2025-01-31 17:44:12 +0000"
     },
     "done": true
   },
