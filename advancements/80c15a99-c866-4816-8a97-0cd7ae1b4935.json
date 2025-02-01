@@ -826,9 +826,13 @@
     "criteria": {
       "muskeg": "2025-01-24 13:31:47 +0000",
       "woodland": "2025-01-21 14:21:21 +0000",
+      "shrubland": "2025-02-01 21:11:10 +0000",
       "snowblossom_grove": "2025-01-24 13:33:38 +0000",
       "scrubland": "2025-01-21 14:23:34 +0000",
+      "fungal_jungle": "2025-02-01 19:37:19 +0000",
+      "bayou": "2025-02-01 20:59:44 +0000",
       "erupting_inferno": "2025-01-25 18:27:03 +0000",
+      "floodplain": "2025-02-01 19:37:46 +0000",
       "highland": "2025-01-24 13:00:02 +0000",
       "jacaranda_glade": "2025-01-24 12:32:02 +0000",
       "marsh": "2025-01-24 13:00:13 +0000",
@@ -839,18 +843,26 @@
       "withered_abyss": "2025-01-31 15:34:46 +0000",
       "orchard": "2025-01-21 20:19:42 +0000",
       "field": "2025-01-25 17:35:08 +0000",
+      "overgrown_greens": "2025-02-01 21:00:26 +0000",
+      "mediterranean_forest": "2025-02-01 20:58:04 +0000",
       "coniferous_forest": "2025-01-21 12:05:49 +0000",
       "spider_nest": "2025-01-24 07:23:22 +0000",
       "forested_field": "2025-01-25 17:36:25 +0000",
+      "dryland": "2025-02-01 19:10:15 +0000",
+      "wasteland": "2025-02-01 19:12:57 +0000",
+      "lush_desert": "2025-02-01 18:35:18 +0000",
       "redwood_forest": "2025-01-18 13:01:53 +0000",
       "aspen_glade": "2025-01-21 20:22:14 +0000",
       "dune_beach": "2025-01-24 12:55:14 +0000",
       "seasonal_forest": "2025-01-21 20:19:57 +0000",
       "auroral_garden": "2025-01-24 13:58:55 +0000",
+      "pasture": "2025-02-01 18:31:56 +0000",
+      "rocky_rainforest": "2025-02-01 20:59:59 +0000",
       "lavender_field": "2025-01-24 12:31:16 +0000",
       "fir_clearing": "2025-01-18 13:47:59 +0000",
       "pumpkin_patch": "2025-01-21 20:20:01 +0000",
       "prairie": "2025-01-18 13:07:39 +0000",
+      "grassland": "2025-02-01 21:00:01 +0000",
       "snowy_coniferous_forest": "2025-01-24 13:58:48 +0000",
       "snowy_fir_clearing": "2025-01-24 14:16:08 +0000",
       "tundra": "2025-01-23 17:33:06 +0000",
@@ -882,8 +894,10 @@
   },
   "morevillagers:all_villages": {
     "criteria": {
+      "taiga": "2025-02-01 20:38:52 +0000",
       "plains": "2025-01-18 13:06:55 +0000",
-      "savanna": "2025-01-21 14:22:48 +0000"
+      "savanna": "2025-01-21 14:22:48 +0000",
+      "snowy": "2025-02-01 20:29:45 +0000"
     },
     "done": false
   },
@@ -904,6 +918,7 @@
       "apple": "2025-01-22 13:58:51 +0000",
       "bread": "2025-01-18 13:07:37 +0000",
       "golden_apple": "2025-01-27 14:18:29 +0000",
+      "golden_carrot": "2025-02-01 16:45:41 +0000",
       "enchanted_golden_apple": "2025-01-22 08:23:30 +0000"
     },
     "done": false
@@ -919,13 +934,16 @@
       "minecraft:snowy_slopes": "2025-01-23 15:17:30 +0000",
       "minecraft:taiga": "2025-01-24 12:21:40 +0000",
       "minecraft:deep_ocean": "2025-01-24 12:49:52 +0000",
+      "minecraft:eroded_badlands": "2025-02-01 19:09:58 +0000",
       "minecraft:frozen_river": "2025-01-23 17:34:44 +0000",
       "minecraft:cherry_grove": "2025-01-21 11:29:21 +0000",
       "minecraft:sunflower_plains": "2025-01-24 13:23:01 +0000",
       "minecraft:birch_forest": "2025-01-21 14:10:44 +0000",
       "minecraft:windswept_hills": "2025-01-24 13:23:28 +0000",
+      "minecraft:badlands": "2025-02-01 19:09:54 +0000",
       "minecraft:beach": "2025-01-21 14:15:24 +0000",
       "minecraft:dark_forest": "2025-01-26 10:29:06 +0000",
+      "minecraft:sparse_jungle": "2025-02-01 18:32:57 +0000",
       "minecraft:river": "2025-01-18 13:39:13 +0000",
       "minecraft:lukewarm_ocean": "2025-01-21 14:20:49 +0000",
       "minecraft:snowy_plains": "2025-01-21 20:23:58 +0000",
@@ -937,11 +955,18 @@
       "minecraft:cold_ocean": "2025-01-21 20:20:24 +0000",
       "minecraft:forest": "2025-01-18 13:26:56 +0000",
       "minecraft:deep_cold_ocean": "2025-01-24 13:29:27 +0000",
+      "minecraft:ice_spikes": "2025-02-01 20:39:57 +0000",
       "minecraft:frozen_ocean": "2025-01-24 13:34:20 +0000",
+      "minecraft:desert": "2025-02-01 18:34:42 +0000",
+      "minecraft:deep_frozen_ocean": "2025-02-01 19:50:24 +0000",
       "minecraft:ocean": "2025-01-18 13:07:52 +0000",
       "minecraft:jungle": "2025-01-22 14:35:16 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-01-25 17:37:48 +0000",
       "minecraft:snowy_beach": "2025-01-24 14:04:35 +0000",
+      "minecraft:windswept_savanna": "2025-02-01 19:53:09 +0000",
+      "minecraft:warm_ocean": "2025-02-01 18:33:17 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-02-01 19:35:10 +0000",
+      "minecraft:frozen_peaks": "2025-02-01 20:41:52 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-21 14:09:39 +0000",
       "minecraft:deep_dark": "2025-01-24 07:48:32 +0000",
       "minecraft:meadow": "2025-01-23 16:37:32 +0000",
@@ -980,9 +1005,11 @@
       "minecraft:blaze": "2025-01-24 15:10:41 +0000",
       "minecraft:skeleton": "2025-01-21 09:27:39 +0000",
       "minecraft:zoglin": "2025-01-21 14:19:08 +0000",
+      "minecraft:elder_guardian": "2025-02-01 19:55:27 +0000",
       "minecraft:ravager": "2025-01-22 13:06:07 +0000",
       "minecraft:ghast": "2025-01-26 15:54:46 +0000",
       "minecraft:hoglin": "2025-01-25 18:30:17 +0000",
+      "minecraft:guardian": "2025-02-01 19:31:27 +0000",
       "minecraft:vindicator": "2025-01-21 14:39:27 +0000",
       "minecraft:magma_cube": "2025-01-22 08:09:10 +0000",
       "minecraft:spider": "2025-01-18 13:14:51 +0000",
@@ -992,10 +1019,12 @@
       "minecraft:evoker": "2025-01-21 14:39:36 +0000",
       "minecraft:phantom": "2025-01-21 10:47:14 +0000",
       "minecraft:witch": "2025-01-23 07:52:59 +0000",
+      "minecraft:husk": "2025-02-01 18:37:18 +0000",
       "minecraft:cave_spider": "2025-01-23 14:50:48 +0000",
       "minecraft:piglin": "2025-01-25 18:28:28 +0000",
       "minecraft:enderman": "2025-01-21 09:53:38 +0000",
       "minecraft:silverfish": "2025-01-23 10:22:54 +0000",
+      "minecraft:stray": "2025-02-01 20:39:20 +0000",
       "minecraft:vex": "2025-01-21 14:39:37 +0000",
       "minecraft:zombie": "2025-01-18 14:18:24 +0000",
       "minecraft:drowned": "2025-01-21 14:57:03 +0000",
@@ -1022,6 +1051,7 @@
       "entered_hay_storage": "2025-01-21 14:24:32 +0000",
       "entered_pirate_ship": "2025-01-25 18:00:19 +0000",
       "entered_fishing_ship": "2025-01-24 12:44:28 +0000",
+      "entered_druid_circle": "2025-02-01 20:39:12 +0000",
       "entered_castle": "2025-01-23 09:26:07 +0000",
       "entered_watch_tower": "2025-01-23 15:17:39 +0000",
       "entered_sunken_shrine": "2025-01-26 11:11:29 +0000",
@@ -1490,11 +1520,13 @@
   },
   "morevillagers:all_workstations_get": {
     "criteria": {
+      "blueprinttable": "2025-02-01 20:37:53 +0000",
       "brewingstand": "2025-01-21 14:19:12 +0000",
       "grindstone": "2025-01-23 11:13:00 +0000",
       "smoker": "2025-01-22 13:22:50 +0000",
       "blastfurnace": "2025-01-22 13:17:10 +0000",
       "lectern": "2025-01-23 15:10:23 +0000",
+      "woodworkingtable": "2025-02-01 19:00:16 +0000",
       "stonecutter": "2025-01-23 11:33:44 +0000",
       "composter": "2025-01-21 15:32:03 +0000"
     },
@@ -1952,8 +1984,11 @@
   },
   "morevillagers:all_professions_traded": {
     "criteria": {
+      "cleric": "2025-02-01 21:04:37 +0000",
       "cartographer": "2025-01-24 12:45:46 +0000",
+      "woodworker": "2025-02-01 18:55:06 +0000",
       "librarian": "2025-01-23 16:26:33 +0000",
+      "shepherd": "2025-02-01 18:56:47 +0000",
       "farmer": "2025-01-24 06:19:59 +0000"
     },
     "done": false
@@ -1979,7 +2014,8 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cow": "2025-01-23 17:09:58 +0000",
-      "minecraft:cat": "2025-01-24 14:10:27 +0000"
+      "minecraft:cat": "2025-01-24 14:10:27 +0000",
+      "minecraft:sheep": "2025-02-01 19:20:20 +0000"
     },
     "done": false
   },
@@ -2848,6 +2884,138 @@
   "alexsmobs:alexsmobs/straddler": {
     "criteria": {
       "killed": "2025-01-31 15:34:52 +0000"
+    },
+    "done": true
+  },
+  "art_of_forging:materials/find_all_demonic_items": {
+    "criteria": {
+      "awakened_flail": "2025-02-01 16:17:04 +0000"
+    },
+    "done": false
+  },
+  "art_of_forging:materials/find_demonic_item": {
+    "criteria": {
+      "awakened_flail": "2025-02-01 16:17:04 +0000"
+    },
+    "done": true
+  },
+  "art_of_forging:materials/forged_ingot": {
+    "criteria": {
+      "forged_ingot": "2025-02-01 16:52:40 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/craft_shockwave_chamber": {
+    "criteria": {
+      "shockwave_chamber": "2025-02-01 17:11:38 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/accessories/hell_blade_charm": {
+    "criteria": {
+      "has_items": "2025-02-01 17:22:12 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_mace": {
+    "criteria": {
+      "find": "2025-02-01 19:23:10 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_jungle": "2025-02-01 20:59:55 +0000"
+    },
+    "done": false
+  },
+  "scguns:main/blackpowder/blunderbuss": {
+    "criteria": {
+      "blunderbuss": "2025-02-01 19:10:41 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_esca": {
+    "criteria": {
+      "esca": "2025-02-01 19:50:47 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/black_eye": {
+    "criteria": {
+      "black_eye": "2025-02-01 20:20:04 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/guardian_eye": {
+    "criteria": {
+      "guardian_eye": "2025-02-01 20:01:02 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/exotic_eye": {
+    "criteria": {
+      "exotic_eye": "2025-02-01 18:13:33 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_book": {
+    "criteria": {
+      "cave_book": "2025-02-01 18:39:48 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/find_ice_maze": {
+    "criteria": {
+      "deep_frozen_ocean": "2025-02-01 19:50:24 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/guster": {
+    "criteria": {
+      "killed": "2025-02-01 19:10:27 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_desert": "2025-02-01 18:37:53 +0000"
+    },
+    "done": false
+  },
+  "idas:labyrinth": {
+    "criteria": {
+      "in_labyrinth": "2025-02-01 19:11:49 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2025-02-01 19:42:47 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:igloos": {
+    "criteria": {
+      "in_igloo_grassy": "2025-02-01 21:02:57 +0000"
+    },
+    "done": false
+  },
+  "integrated_villages:kutcha_village": {
+    "criteria": {
+      "in_kutcha_village": "2025-02-01 19:10:07 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_dreadnought_stave": {
+    "criteria": {
+      "find": "2025-02-01 19:05:09 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/esca": {
+    "criteria": {
+      "has_item": "2025-02-01 19:50:47 +0000"
     },
     "done": true
   },

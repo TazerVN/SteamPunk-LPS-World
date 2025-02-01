@@ -832,6 +832,7 @@
       "highland": "2025-01-26 12:47:13 +0000",
       "cold_desert": "2025-01-26 14:20:55 +0000",
       "old_growth_woodland": "2025-01-21 12:55:18 +0000",
+      "maple_woods": "2025-02-01 17:52:02 +0000",
       "crystalline_chasm": "2025-01-31 12:55:42 +0000",
       "withered_abyss": "2025-01-25 15:40:44 +0000",
       "orchard": "2025-01-20 13:08:51 +0000",
@@ -849,6 +850,7 @@
       "pasture": "2025-01-20 16:20:23 +0000",
       "rocky_rainforest": "2025-01-28 15:51:16 +0000",
       "volcanic_plains": "2025-01-28 15:49:43 +0000",
+      "lavender_field": "2025-02-01 17:50:27 +0000",
       "fir_clearing": "2025-01-18 13:48:06 +0000",
       "pumpkin_patch": "2025-01-24 16:35:24 +0000",
       "prairie": "2025-01-18 13:07:49 +0000",
@@ -897,6 +899,7 @@
   "morevillagers:all_workstations_get": {
     "criteria": {
       "barrel": "2025-01-18 13:07:06 +0000",
+      "miningbench": "2025-02-01 15:05:26 +0000",
       "fletchingtable": "2025-01-26 13:26:22 +0000",
       "brewingstand": "2025-01-20 16:37:48 +0000",
       "grindstone": "2025-01-18 13:26:54 +0000",
@@ -976,6 +979,7 @@
       "minecraft:spider": "2025-01-18 13:14:22 +0000",
       "minecraft:piglin_brute": "2025-01-25 15:55:06 +0000",
       "minecraft:creeper": "2025-01-20 16:16:30 +0000",
+      "minecraft:wither": "2025-02-01 16:02:04 +0000",
       "minecraft:evoker": "2025-01-24 15:46:08 +0000",
       "minecraft:phantom": "2025-01-20 15:55:06 +0000",
       "minecraft:zombified_piglin": "2025-01-25 06:54:48 +0000",
@@ -1065,7 +1069,9 @@
       "minecraft:eroded_badlands": "2025-01-29 16:53:53 +0000",
       "minecraft:frozen_river": "2025-01-24 13:57:10 +0000",
       "minecraft:cherry_grove": "2025-01-18 15:40:12 +0000",
+      "minecraft:sunflower_plains": "2025-02-01 17:48:35 +0000",
       "minecraft:birch_forest": "2025-01-21 12:36:56 +0000",
+      "minecraft:windswept_hills": "2025-02-01 17:48:42 +0000",
       "minecraft:bamboo_jungle": "2025-01-28 15:51:45 +0000",
       "minecraft:badlands": "2025-01-30 07:37:12 +0000",
       "minecraft:beach": "2025-01-20 16:26:09 +0000",
@@ -1078,6 +1084,7 @@
       "minecraft:dripstone_caves": "2025-01-21 13:53:24 +0000",
       "minecraft:snowy_taiga": "2025-01-24 13:55:52 +0000",
       "minecraft:grove": "2025-01-24 13:35:29 +0000",
+      "minecraft:swamp": "2025-02-01 17:49:06 +0000",
       "minecraft:cold_ocean": "2025-01-24 16:35:22 +0000",
       "minecraft:forest": "2025-01-18 13:26:42 +0000",
       "minecraft:frozen_ocean": "2025-01-24 14:06:40 +0000",
@@ -1086,7 +1093,10 @@
       "minecraft:jungle": "2025-01-21 12:36:59 +0000",
       "minecraft:ocean": "2025-01-23 13:37:06 +0000",
       "minecraft:snowy_beach": "2025-01-24 14:05:07 +0000",
+      "minecraft:windswept_savanna": "2025-02-01 17:48:05 +0000",
       "minecraft:warm_ocean": "2025-01-28 15:47:54 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-02-01 17:42:26 +0000",
+      "minecraft:flower_forest": "2025-02-01 17:49:15 +0000",
       "minecraft:frozen_peaks": "2025-01-24 13:35:18 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-21 12:41:56 +0000",
       "minecraft:deep_dark": "2025-01-21 13:48:52 +0000",
@@ -1276,7 +1286,8 @@
   "betterdungeons:all_dungeons": {
     "criteria": {
       "in_better_zombie_dungeon": "2025-01-20 13:23:15 +0000",
-      "in_better_spider_dungeon": "2025-01-21 15:57:50 +0000"
+      "in_better_spider_dungeon": "2025-01-21 15:57:50 +0000",
+      "in_better_monster_room": "2025-02-01 14:42:41 +0000"
     },
     "done": false
   },
@@ -2629,6 +2640,7 @@
   },
   "repurposed_structures:pyramids": {
     "criteria": {
+      "in_pyramid_giant_tree_taiga": "2025-02-01 17:43:56 +0000",
       "in_pyramid_ocean": "2025-01-29 16:39:49 +0000"
     },
     "done": false
@@ -2768,6 +2780,158 @@
   "ad_astra:rocket_man": {
     "criteria": {
       "has_jet_suit": "2025-01-31 17:44:12 +0000"
+    },
+    "done": true
+  },
+  "art_of_forging:materials/root": {
+    "criteria": {
+      "alloy": "2025-02-01 13:35:23 +0000"
+    },
+    "done": true
+  },
+  "art_of_forging:materials/find_all_demonic_items": {
+    "criteria": {
+      "awakened_flail": "2025-02-01 13:27:05 +0000",
+      "awakened_axe": "2025-02-01 13:34:15 +0000"
+    },
+    "done": false
+  },
+  "createmetallurgy:graphite_molds": {
+    "criteria": {
+      "have_graphite_molds": "2025-02-01 17:26:21 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/forbidden_axe": {
+    "criteria": {
+      "spellstone": "2025-02-01 15:50:17 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/bow_upgrade": {
+    "criteria": {
+      "module": "2025-02-01 15:38:48 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:casting_blocks": {
+    "criteria": {
+      "have_casting_blocks": "2025-02-01 17:29:52 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rocky_roller": {
+    "criteria": {
+      "killed": "2025-02-01 14:45:29 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:melting_dusts": {
+    "criteria": {
+      "have_dusts": "2025-02-01 14:24:12 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/hammer_craft": {
+    "criteria": {
+      "craft": "2025-02-01 13:05:41 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/hammer_unjam": {
+    "criteria": {
+      "crit1": "2025-02-01 13:08:46 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/toolbelt": {
+    "criteria": {
+      "toolbelt": "2025-02-01 13:09:31 +0000"
+    },
+    "done": true
+  },
+  "tetra:art_of_forging/murasama_blade": {
+    "criteria": {
+      "murasama_imprv": "2025-02-01 13:13:55 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rocky_shell": {
+    "criteria": {
+      "soul_heart": "2025-02-01 14:45:29 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:light_bulb": {
+    "criteria": {
+      "have_light_bulb": "2025-02-01 17:35:34 +0000"
+    },
+    "done": true
+  },
+  "art_of_forging:materials/forged_ingot": {
+    "criteria": {
+      "forged_ingot": "2025-02-01 13:36:07 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/refill_cell": {
+    "criteria": {
+      "refill_cell": "2025-02-01 13:06:28 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:graphite": {
+    "criteria": {
+      "have_casting_basin": "2025-02-01 17:26:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-02-01 13:48:14 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:small_dungeon": {
+    "criteria": {
+      "in_better_monster_room": "2025-02-01 14:42:41 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/sheol": {
+    "criteria": {
+      "sheol": "2025-02-01 16:47:06 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/hammer_3": {
+    "criteria": {
+      "head_left": "2025-02-01 13:04:01 +0000",
+      "head_right": "2025-02-01 13:04:12 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/hammer_5": {
+    "criteria": {
+      "head_left": "2025-02-01 13:05:41 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-02-01 16:01:48 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/hammer_fix": {
+    "criteria": {
+      "fuel": "2025-02-01 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:tungsten_age": {
+    "criteria": {
+      "have_tungsten_ingot": "2025-02-01 17:30:04 +0000"
     },
     "done": true
   },

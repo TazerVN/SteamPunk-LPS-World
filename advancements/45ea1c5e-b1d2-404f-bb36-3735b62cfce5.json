@@ -826,28 +826,36 @@
     "criteria": {
       "muskeg": "2025-01-30 07:10:55 +0000",
       "woodland": "2025-01-28 16:00:20 +0000",
+      "shrubland": "2025-02-01 16:59:45 +0000",
       "snowblossom_grove": "2025-01-30 07:13:57 +0000",
       "scrubland": "2025-01-21 12:06:26 +0000",
       "fungal_jungle": "2025-01-28 16:01:32 +0000",
       "erupting_inferno": "2025-01-28 05:34:26 +0000",
       "floodplain": "2025-01-28 16:01:15 +0000",
       "lush_savanna": "2025-01-28 16:01:49 +0000",
+      "highland": "2025-02-01 16:56:38 +0000",
+      "jacaranda_glade": "2025-02-01 16:19:04 +0000",
       "marsh": "2025-01-30 07:25:30 +0000",
       "cold_desert": "2025-01-27 13:59:05 +0000",
       "old_growth_woodland": "2025-01-28 16:00:25 +0000",
       "maple_woods": "2025-01-28 06:36:44 +0000",
       "withered_abyss": "2025-01-28 05:34:38 +0000",
       "orchard": "2025-01-30 06:41:03 +0000",
+      "field": "2025-02-01 16:59:11 +0000",
       "overgrown_greens": "2025-01-30 07:18:07 +0000",
       "coniferous_forest": "2025-01-21 13:48:32 +0000",
+      "hot_springs": "2025-02-01 18:29:04 +0000",
       "dryland": "2025-01-29 16:54:15 +0000",
       "wasteland": "2025-01-30 04:57:55 +0000",
       "lush_desert": "2025-01-29 16:58:35 +0000",
       "redwood_forest": "2025-01-21 12:03:35 +0000",
+      "aspen_glade": "2025-02-01 16:54:42 +0000",
+      "dune_beach": "2025-02-01 17:01:38 +0000",
       "seasonal_forest": "2025-01-27 14:35:21 +0000",
       "auroral_garden": "2025-01-30 06:50:51 +0000",
       "pasture": "2025-01-21 12:07:33 +0000",
       "rocky_rainforest": "2025-01-28 16:01:37 +0000",
+      "lavender_field": "2025-02-01 17:01:46 +0000",
       "fir_clearing": "2025-01-21 13:48:24 +0000",
       "pumpkin_patch": "2025-01-30 06:47:23 +0000",
       "prairie": "2025-01-21 12:05:45 +0000",
@@ -890,6 +898,7 @@
       "minecraft:frozen_river": "2025-01-28 05:21:33 +0000",
       "minecraft:cherry_grove": "2025-01-21 13:38:43 +0000",
       "minecraft:birch_forest": "2025-01-28 05:19:24 +0000",
+      "minecraft:windswept_hills": "2025-02-01 18:29:15 +0000",
       "minecraft:wooded_badlands": "2025-01-28 16:02:00 +0000",
       "minecraft:badlands": "2025-01-30 05:00:47 +0000",
       "minecraft:beach": "2025-01-28 15:59:00 +0000",
@@ -907,6 +916,7 @@
       "minecraft:ice_spikes": "2025-01-30 06:55:14 +0000",
       "minecraft:frozen_ocean": "2025-01-30 06:49:12 +0000",
       "minecraft:desert": "2025-01-28 16:02:02 +0000",
+      "minecraft:deep_frozen_ocean": "2025-02-01 18:44:03 +0000",
       "minecraft:ocean": "2025-01-29 16:20:07 +0000",
       "minecraft:jungle": "2025-01-30 05:33:08 +0000",
       "minecraft:snowy_beach": "2025-01-30 06:49:11 +0000",
@@ -928,7 +938,9 @@
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_pillager_camp": "2025-01-28 16:03:36 +0000",
+      "entered_pirate_ship": "2025-02-01 17:10:20 +0000",
       "entered_fishing_ship": "2025-01-30 05:43:53 +0000",
+      "entered_druid_circle": "2025-02-01 16:57:34 +0000",
       "entered_castle": "2025-01-30 06:47:38 +0000",
       "entered_tree_house": "2025-01-30 05:59:43 +0000",
       "entered_sunken_shrine": "2025-01-30 06:45:48 +0000",
@@ -946,15 +958,19 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "chicken": "2025-01-27 14:28:19 +0000",
+      "cooked_mutton": "2025-02-01 18:57:30 +0000",
       "baked_potato": "2025-01-21 13:36:00 +0000",
       "apple": "2025-01-21 12:14:15 +0000",
       "spider_eye": "2025-01-27 14:30:44 +0000",
       "potato": "2025-01-27 14:23:44 +0000",
+      "cooked_cod": "2025-02-01 18:15:24 +0000",
+      "mutton": "2025-02-01 16:21:02 +0000",
       "bread": "2025-01-21 12:48:02 +0000",
       "golden_apple": "2025-01-27 14:24:29 +0000",
       "suspicious_stew": "2025-01-21 12:08:35 +0000",
       "dried_kelp": "2025-01-29 17:44:22 +0000",
       "melon_slice": "2025-01-27 14:10:57 +0000",
+      "golden_carrot": "2025-02-01 17:38:14 +0000",
       "cooked_rabbit": "2025-01-28 05:03:34 +0000",
       "cooked_chicken": "2025-01-28 05:17:46 +0000",
       "enchanted_golden_apple": "2025-01-29 17:38:15 +0000",
@@ -1129,9 +1145,11 @@
       "minecraft:blaze": "2025-01-28 05:37:20 +0000",
       "minecraft:pillager": "2025-01-28 16:03:27 +0000",
       "minecraft:skeleton": "2025-01-21 13:34:29 +0000",
+      "minecraft:elder_guardian": "2025-02-01 17:31:57 +0000",
       "minecraft:ravager": "2025-01-30 06:07:27 +0000",
       "minecraft:ghast": "2025-01-28 08:18:17 +0000",
       "minecraft:hoglin": "2025-01-28 06:09:15 +0000",
+      "minecraft:guardian": "2025-02-01 17:31:23 +0000",
       "minecraft:vindicator": "2025-01-29 16:56:22 +0000",
       "minecraft:magma_cube": "2025-01-28 06:10:27 +0000",
       "minecraft:spider": "2025-01-21 13:35:27 +0000",
@@ -2237,6 +2255,114 @@
   "idas:winter_wagon": {
     "criteria": {
       "in_winter_wagon": "2025-01-30 07:07:18 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_howling": {
+    "criteria": {
+      "find": "2025-02-01 17:03:41 +0000"
+    },
+    "done": true
+  },
+  "thinair:lantern": {
+    "criteria": {
+      "place": "2025-02-01 17:03:44 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_mace": {
+    "criteria": {
+      "find": "2025-02-01 17:03:50 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:ahoy": {
+    "criteria": {
+      "entered_pirate_ship": "2025-02-01 17:10:20 +0000"
+    },
+    "done": true
+  },
+  "idas:sunken_ship": {
+    "criteria": {
+      "in_sunken_ship": "2025-02-01 17:39:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-02-01 17:44:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2025-02-01 17:48:24 +0000"
+    },
+    "done": true
+  },
+  "art_of_forging:materials/vobrite_crystal": {
+    "criteria": {
+      "vobrite_crystal": "2025-02-01 18:01:05 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/exotic_eye": {
+    "criteria": {
+      "exotic_eye": "2025-02-01 18:06:14 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/magnet_ring": {
+    "criteria": {
+      "spellstone": "2025-02-01 18:09:37 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/wisteria_niveis": {
+    "criteria": {
+      "has_item": "2025-02-01 18:44:44 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/ocean_blueprint": {
+    "criteria": {
+      "ocean_blueprint": "2025-02-01 19:11:22 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/black_eye": {
+    "criteria": {
+      "black_eye": "2025-02-01 19:11:20 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/emu": {
+    "criteria": {
+      "killed_by": "2025-02-01 18:23:05 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/find_ice_maze": {
+    "criteria": {
+      "deep_frozen_ocean": "2025-02-01 18:44:03 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:tactically_nuked": {
+    "criteria": {
+      "tactically_nuked_0": "2025-02-01 19:21:03 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_anglers_fang": {
+    "criteria": {
+      "anglers_fang": "2025-02-01 18:46:10 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/anglers_fang": {
+    "criteria": {
+      "has_item": "2025-02-01 18:46:10 +0000"
     },
     "done": true
   },
