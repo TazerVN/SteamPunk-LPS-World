@@ -858,6 +858,7 @@
       "snowy_fir_clearing": "2025-01-24 13:56:57 +0000",
       "tundra": "2025-01-26 12:53:06 +0000",
       "gravel_beach": "2025-01-28 16:11:37 +0000",
+      "glowing_grotto": "2025-02-02 15:43:46 +0000",
       "undergrowth": "2025-01-21 16:00:53 +0000",
       "rainforest": "2025-01-21 12:58:02 +0000",
       "crag": "2025-01-24 13:33:46 +0000",
@@ -1541,7 +1542,8 @@
     "criteria": {
       "ratatouille": "2025-01-23 16:07:49 +0000",
       "mushroom_rice": "2025-01-21 12:57:34 +0000",
-      "beef_stew": "2025-01-23 15:47:29 +0000"
+      "beef_stew": "2025-01-23 15:47:29 +0000",
+      "bacon_and_eggs": "2025-02-02 13:12:43 +0000"
     },
     "done": false
   },
@@ -1676,9 +1678,10 @@
       "minecraft:crimson_forest": "2025-01-25 07:34:01 +0000",
       "minecraft:nether_wastes": "2025-01-25 15:47:06 +0000",
       "minecraft:soul_sand_valley": "2025-01-26 11:01:40 +0000",
-      "minecraft:warped_forest": "2025-01-21 15:54:25 +0000"
+      "minecraft:warped_forest": "2025-01-21 15:54:25 +0000",
+      "minecraft:basalt_deltas": "2025-02-02 13:37:09 +0000"
     },
-    "done": false
+    "done": true
   },
   "enigmaticlegacy:book/brewing/haste_potion": {
     "criteria": {
@@ -1817,7 +1820,9 @@
   },
   "morevillagers:all_professions_traded": {
     "criteria": {
-      "librarian": "2025-01-23 16:15:04 +0000"
+      "librarian": "2025-01-23 16:15:04 +0000",
+      "mason": "2025-02-02 07:03:24 +0000",
+      "farmer": "2025-02-02 07:02:38 +0000"
     },
     "done": false
   },
@@ -2489,9 +2494,10 @@
   },
   "blue_skies:thinking_with_portals": {
     "criteria": {
-      "enter_everbright": "2025-01-28 16:00:46 +0000"
+      "enter_everbright": "2025-01-28 16:00:46 +0000",
+      "enter_everdawn": "2025-02-02 15:59:17 +0000"
     },
-    "done": false
+    "done": true
   },
   "idas:apothecary_abode": {
     "criteria": {
@@ -2783,58 +2789,34 @@
     },
     "done": true
   },
-  "art_of_forging:materials/root": {
+  "tetra:upgrades/hammer_3": {
     "criteria": {
-      "alloy": "2025-02-01 13:35:23 +0000"
-    },
-    "done": true
-  },
-  "art_of_forging:materials/find_all_demonic_items": {
-    "criteria": {
-      "awakened_flail": "2025-02-01 13:27:05 +0000",
-      "awakened_axe": "2025-02-01 13:34:15 +0000"
-    },
-    "done": false
-  },
-  "createmetallurgy:graphite_molds": {
-    "criteria": {
-      "have_graphite_molds": "2025-02-01 17:26:21 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:main/forbidden_axe": {
-    "criteria": {
-      "spellstone": "2025-02-01 15:50:17 +0000"
-    },
-    "done": true
-  },
-  "tetra:upgrades/bow_upgrade": {
-    "criteria": {
-      "module": "2025-02-01 15:38:48 +0000"
-    },
-    "done": true
-  },
-  "createmetallurgy:casting_blocks": {
-    "criteria": {
-      "have_casting_blocks": "2025-02-01 17:29:52 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/rocky_roller": {
-    "criteria": {
-      "killed": "2025-02-01 14:45:29 +0000"
-    },
-    "done": true
-  },
-  "createmetallurgy:melting_dusts": {
-    "criteria": {
-      "have_dusts": "2025-02-01 14:24:12 +0000"
+      "head_left": "2025-02-01 13:04:01 +0000",
+      "head_right": "2025-02-01 13:04:12 +0000"
     },
     "done": true
   },
   "tetra:spelunking/hammer_craft": {
     "criteria": {
       "craft": "2025-02-01 13:05:41 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/hammer_5": {
+    "criteria": {
+      "head_left": "2025-02-01 13:05:41 +0000"
+    },
+    "done": false
+  },
+  "tetra:spelunking/hammer_fix": {
+    "criteria": {
+      "fuel": "2025-02-01 13:05:57 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/refill_cell": {
+    "criteria": {
+      "refill_cell": "2025-02-01 13:06:28 +0000"
     },
     "done": true
   },
@@ -2856,15 +2838,16 @@
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/rocky_shell": {
+  "art_of_forging:materials/find_all_demonic_items": {
     "criteria": {
-      "soul_heart": "2025-02-01 14:45:29 +0000"
+      "awakened_flail": "2025-02-01 13:27:05 +0000",
+      "awakened_axe": "2025-02-01 13:34:15 +0000"
     },
-    "done": true
+    "done": false
   },
-  "createmetallurgy:light_bulb": {
+  "art_of_forging:materials/root": {
     "criteria": {
-      "have_light_bulb": "2025-02-01 17:35:34 +0000"
+      "alloy": "2025-02-01 13:35:23 +0000"
     },
     "done": true
   },
@@ -2874,21 +2857,15 @@
     },
     "done": true
   },
-  "tetra:spelunking/refill_cell": {
-    "criteria": {
-      "refill_cell": "2025-02-01 13:06:28 +0000"
-    },
-    "done": true
-  },
-  "createmetallurgy:graphite": {
-    "criteria": {
-      "have_casting_basin": "2025-02-01 17:26:09 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/totem_of_undying": {
     "criteria": {
       "used_totem": "2025-02-01 13:48:14 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:melting_dusts": {
+    "criteria": {
+      "have_dusts": "2025-02-01 14:24:12 +0000"
     },
     "done": true
   },
@@ -2898,24 +2875,29 @@
     },
     "done": true
   },
-  "scguns:main/sheol": {
+  "alexsmobs:alexsmobs/rocky_roller": {
     "criteria": {
-      "sheol": "2025-02-01 16:47:06 +0000"
+      "killed": "2025-02-01 14:45:29 +0000"
     },
     "done": true
   },
-  "tetra:upgrades/hammer_3": {
+  "alexsmobs:alexsmobs/rocky_shell": {
     "criteria": {
-      "head_left": "2025-02-01 13:04:01 +0000",
-      "head_right": "2025-02-01 13:04:12 +0000"
+      "soul_heart": "2025-02-01 14:45:29 +0000"
     },
     "done": true
   },
-  "tetra:upgrades/hammer_5": {
+  "tetra:upgrades/bow_upgrade": {
     "criteria": {
-      "head_left": "2025-02-01 13:05:41 +0000"
+      "module": "2025-02-01 15:38:48 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "enigmaticlegacy:main/forbidden_axe": {
+    "criteria": {
+      "spellstone": "2025-02-01 15:50:17 +0000"
+    },
+    "done": true
   },
   "minecraft:nether/summon_wither": {
     "criteria": {
@@ -2923,15 +2905,274 @@
     },
     "done": true
   },
-  "tetra:spelunking/hammer_fix": {
+  "scguns:main/sheol": {
     "criteria": {
-      "fuel": "2025-02-01 13:05:57 +0000"
+      "sheol": "2025-02-01 16:47:06 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:graphite": {
+    "criteria": {
+      "have_casting_basin": "2025-02-01 17:26:09 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:graphite_molds": {
+    "criteria": {
+      "have_graphite_molds": "2025-02-01 17:26:21 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:casting_blocks": {
+    "criteria": {
+      "have_casting_blocks": "2025-02-01 17:29:52 +0000"
     },
     "done": true
   },
   "createmetallurgy:tungsten_age": {
     "criteria": {
       "have_tungsten_ingot": "2025-02-01 17:30:04 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:light_bulb": {
+    "criteria": {
+      "have_light_bulb": "2025-02-01 17:35:34 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/black_eye": {
+    "criteria": {
+      "black_eye": "2025-02-02 05:57:04 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/exotic_eye": {
+    "criteria": {
+      "exotic_eye": "2025-02-02 05:57:06 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/guardian_eye": {
+    "criteria": {
+      "guardian_eye": "2025-02-02 05:57:07 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2025-02-02 06:32:09 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "winter_wolf": "2025-02-02 06:34:29 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/anthralite": {
+    "criteria": {
+      "anthralite_ingot": "2025-02-02 06:40:12 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_blank_mold": {
+    "criteria": {
+      "blank_mold": "2025-02-02 06:40:20 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_small_casing_mold": {
+    "criteria": {
+      "small_casing_mold": "2025-02-02 06:40:37 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_gun_bench": {
+    "criteria": {
+      "gun_bench": "2025-02-02 07:00:55 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/copper_blueprint": {
+    "criteria": {
+      "copper_blueprint": "2025-02-02 07:01:32 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_expertise": {
+    "criteria": {
+      "stone_expertise": "2025-02-02 07:03:43 +0000"
+    },
+    "done": false
+  },
+  "scguns:main/vehement_coal": {
+    "criteria": {
+      "vehement_coal": "2025-02-02 13:08:09 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/misc/astral_potion": {
+    "criteria": {
+      "has_items": "2025-02-02 13:28:19 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/astral_dust": {
+    "criteria": {
+      "etherium": "2025-02-02 13:28:19 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/advanced_brewing": {
+    "criteria": {
+      "has_items": "2025-02-02 13:28:19 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/astral_dust": {
+    "criteria": {
+      "has_items": "2025-02-02 13:28:19 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_dreadnought_stave": {
+    "criteria": {
+      "find": "2025-02-02 13:51:34 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/accessories/forger_gem": {
+    "criteria": {
+      "has_items": "2025-02-02 14:05:43 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/straddleboard": {
+    "criteria": {
+      "straddleboard": "2025-02-02 14:06:00 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_axe": {
+    "criteria": {
+      "has_resource": "2025-02-02 16:01:59 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_sword": {
+    "criteria": {
+      "has_resource": "2025-02-02 16:01:59 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/get_wood": {
+    "criteria": {
+      "has_maple_log": "2025-02-02 15:59:41 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/enter": {
+    "criteria": {
+      "enter_everdawn": "2025-02-02 15:59:17 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass/howler": {
+    "criteria": {
+      "howler": "2025-02-02 15:12:48 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_hoe": {
+    "criteria": {
+      "has_resource": "2025-02-02 16:01:59 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_lightning_battery": {
+    "criteria": {
+      "lightning_battery": "2025-02-02 15:14:05 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass": {
+    "criteria": {
+      "treated_brass_ingot": "2025-02-02 14:29:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-02 16:01:59 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_gun_parts_mold": {
+    "criteria": {
+      "gun_parts_mold": "2025-02-02 15:11:05 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2025-02-02 15:43:46 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:kill_leviathan": {
+    "criteria": {
+      "ignis": "2025-02-02 15:47:35 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_stamping_press": {
+    "criteria": {
+      "stamping_press": "2025-02-02 15:09:00 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-02 16:01:59 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/geode_open": {
+    "criteria": {
+      "consume_geode": "2025-02-02 15:24:58 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_aquite": {
+    "criteria": {
+      "obtain_material": "2025-02-02 16:01:59 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/kill_bug": {
+    "criteria": {
+      "kill_emberback": "2025-02-02 16:02:09 +0000",
+      "kill_venom_spider": "2025-02-02 16:01:40 +0000"
+    },
+    "done": false
+  },
+  "tetra:upgrades/sword_hone": {
+    "criteria": {
+      "hilt_hone/damage": "2025-02-02 14:18:39 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_macerator": {
+    "criteria": {
+      "macerator": "2025-02-02 15:10:18 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_nano_insectoid": {
+    "criteria": {
+      "insectoid": "2025-02-02 15:38:43 +0000"
     },
     "done": true
   },

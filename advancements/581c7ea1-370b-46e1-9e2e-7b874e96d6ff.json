@@ -2510,5 +2510,17 @@
     },
     "done": true
   },
+  "create:mechanical_crafter": {
+    "criteria": {
+      "0": "2025-02-02 17:46:28 +0000"
+    },
+    "done": true
+  },
+  "create:fan_processing": {
+    "criteria": {
+      "0": "2025-02-02 19:08:13 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
