@@ -2123,9 +2123,10 @@
   },
   "blue_skies:thinking_with_portals": {
     "criteria": {
-      "enter_everbright": "2025-01-28 16:00:51 +0000"
+      "enter_everbright": "2025-01-28 16:00:51 +0000",
+      "enter_everdawn": "2025-02-03 14:59:26 +0000"
     },
-    "done": false
+    "done": true
   },
   "idas:apothecary_abode": {
     "criteria": {
@@ -2367,6 +2368,30 @@
   "quark:apply_color_rune": {
     "criteria": {
       "rune_purple": "2025-01-31 18:13:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/enter": {
+    "criteria": {
+      "enter_everdawn": "2025-02-03 14:59:26 +0000"
+    },
+    "done": true
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2025-02-03 15:14:32 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/relics/lost_engine": {
+    "criteria": {
+      "has_items": "2025-02-03 15:46:15 +0000"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2025-02-03 15:14:32 +0000"
     },
     "done": true
   },

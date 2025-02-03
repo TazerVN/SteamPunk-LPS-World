@@ -1876,6 +1876,7 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
+      "minecraft:white": "2025-02-03 15:00:24 +0000",
       "minecraft:black": "2025-01-24 14:08:28 +0000"
     },
     "done": false
@@ -3055,45 +3056,9 @@
     },
     "done": true
   },
-  "blue_skies:recipes/blue_skies_tools/aquite_axe": {
+  "tetra:upgrades/sword_hone": {
     "criteria": {
-      "has_resource": "2025-02-02 16:01:59 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/blue_skies_tools/aquite_sword": {
-    "criteria": {
-      "has_resource": "2025-02-02 16:01:59 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:everdawn/get_wood": {
-    "criteria": {
-      "has_maple_log": "2025-02-02 15:59:41 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:everdawn/enter": {
-    "criteria": {
-      "enter_everdawn": "2025-02-02 15:59:17 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/treated_brass/howler": {
-    "criteria": {
-      "howler": "2025-02-02 15:12:48 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/blue_skies_tools/aquite_hoe": {
-    "criteria": {
-      "has_resource": "2025-02-02 16:01:59 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/craft_lightning_battery": {
-    "criteria": {
-      "lightning_battery": "2025-02-02 15:14:05 +0000"
+      "hilt_hone/damage": "2025-02-02 14:18:39 +0000"
     },
     "done": true
   },
@@ -3103,15 +3068,45 @@
     },
     "done": true
   },
-  "blue_skies:recipes/blue_skies_tools/aquite_pickaxe": {
+  "scguns:main/craft_stamping_press": {
     "criteria": {
-      "has_resource": "2025-02-02 16:01:59 +0000"
+      "stamping_press": "2025-02-02 15:09:00 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_macerator": {
+    "criteria": {
+      "macerator": "2025-02-02 15:10:18 +0000"
     },
     "done": true
   },
   "scguns:main/craft_gun_parts_mold": {
     "criteria": {
       "gun_parts_mold": "2025-02-02 15:11:05 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass/howler": {
+    "criteria": {
+      "howler": "2025-02-02 15:12:48 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_lightning_battery": {
+    "criteria": {
+      "lightning_battery": "2025-02-02 15:14:05 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/geode_open": {
+    "criteria": {
+      "consume_geode": "2025-02-02 15:24:58 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_nano_insectoid": {
+    "criteria": {
+      "insectoid": "2025-02-02 15:38:43 +0000"
     },
     "done": true
   },
@@ -3127,27 +3122,15 @@
     },
     "done": true
   },
-  "scguns:main/craft_stamping_press": {
+  "blue_skies:everdawn/enter": {
     "criteria": {
-      "stamping_press": "2025-02-02 15:09:00 +0000"
+      "enter_everdawn": "2025-02-02 15:59:17 +0000"
     },
     "done": true
   },
-  "blue_skies:recipes/blue_skies_tools/aquite_shovel": {
+  "blue_skies:everdawn/get_wood": {
     "criteria": {
-      "has_resource": "2025-02-02 16:01:59 +0000"
-    },
-    "done": true
-  },
-  "tetra:spelunking/geode_open": {
-    "criteria": {
-      "consume_geode": "2025-02-02 15:24:58 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:get_aquite": {
-    "criteria": {
-      "obtain_material": "2025-02-02 16:01:59 +0000"
+      "has_maple_log": "2025-02-02 15:59:41 +0000"
     },
     "done": true
   },
@@ -3158,21 +3141,105 @@
     },
     "done": false
   },
-  "tetra:upgrades/sword_hone": {
+  "blue_skies:recipes/blue_skies_tools/aquite_axe": {
     "criteria": {
-      "hilt_hone/damage": "2025-02-02 14:18:39 +0000"
+      "has_resource": "2025-02-02 16:01:59 +0000"
     },
     "done": true
   },
-  "scguns:main/craft_macerator": {
+  "blue_skies:recipes/blue_skies_tools/aquite_sword": {
     "criteria": {
-      "macerator": "2025-02-02 15:10:18 +0000"
+      "has_resource": "2025-02-02 16:01:59 +0000"
     },
     "done": true
   },
-  "tetra:spelunking/find_nano_insectoid": {
+  "blue_skies:recipes/blue_skies_tools/aquite_hoe": {
     "criteria": {
-      "insectoid": "2025-02-02 15:38:43 +0000"
+      "has_resource": "2025-02-02 16:01:59 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-02 16:01:59 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-02 16:01:59 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_aquite": {
+    "criteria": {
+      "obtain_material": "2025-02-02 16:01:59 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/lost_eye": {
+    "criteria": {
+      "lost_eye": "2025-02-03 12:07:12 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:blazes_new_job": {
+    "criteria": {
+      "builtin": "2025-02-03 12:11:43 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "trophy": "2025-02-03 12:25:54 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "kill_naga": "2025-02-03 12:25:54 +0000"
+    },
+    "done": false
+  },
+  "create:display_link": {
+    "criteria": {
+      "0": "2025-02-03 13:18:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2025-02-03 13:25:16 +0000"
+    },
+    "done": true
+  },
+  "create:train_casing_00": {
+    "criteria": {
+      "0": "2025-02-03 13:28:23 +0000"
+    },
+    "done": true
+  },
+  "create_connected:brass_gearbox": {
+    "criteria": {
+      "0": "2025-02-03 13:29:32 +0000"
+    },
+    "done": true
+  },
+  "create:extendo_grip": {
+    "criteria": {
+      "0": "2025-02-03 13:36:46 +0000"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2025-02-03 14:31:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_skillet": {
+    "criteria": {
+      "skillet": "2025-02-03 14:54:05 +0000"
     },
     "done": true
   },

@@ -1533,6 +1533,7 @@
       "lectern": "2025-01-23 15:10:23 +0000",
       "woodworkingtable": "2025-02-01 19:00:16 +0000",
       "stonecutter": "2025-01-23 11:33:44 +0000",
+      "cauldron": "2025-02-03 12:00:28 +0000",
       "composter": "2025-01-21 15:32:03 +0000"
     },
     "done": false
@@ -2353,6 +2354,7 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
+      "minecraft:white": "2025-02-03 12:43:00 +0000",
       "minecraft:red": "2025-01-24 14:09:41 +0000"
     },
     "done": false
@@ -3063,9 +3065,9 @@
     },
     "done": true
   },
-  "blue_skies:everdawn/get_wood": {
+  "cataclysm:kill_leviathan": {
     "criteria": {
-      "has_maple_log": "2025-02-02 15:59:57 +0000"
+      "ignis": "2025-02-02 15:44:48 +0000"
     },
     "done": true
   },
@@ -3081,9 +3083,15 @@
     },
     "done": true
   },
-  "cataclysm:kill_leviathan": {
+  "blue_skies:thinking_with_portals": {
     "criteria": {
-      "ignis": "2025-02-02 15:44:48 +0000"
+      "enter_everdawn": "2025-02-02 15:59:14 +0000"
+    },
+    "done": false
+  },
+  "blue_skies:everdawn/get_wood": {
+    "criteria": {
+      "has_maple_log": "2025-02-02 15:59:57 +0000"
     },
     "done": true
   },
@@ -3093,11 +3101,101 @@
     },
     "done": false
   },
-  "blue_skies:thinking_with_portals": {
+  "createmetallurgy:graphite_molds": {
     "criteria": {
-      "enter_everdawn": "2025-02-02 15:59:14 +0000"
+      "have_graphite_molds": "2025-02-03 11:59:47 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "create:sturdy_sheet": {
+    "criteria": {
+      "0": "2025-02-03 12:01:28 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/leafcutter_ant_pupa": {
+    "criteria": {
+      "leafcutter_ant_pupa": "2025-02-03 15:07:14 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/scorched_ingot": {
+    "criteria": {
+      "scorched_ingot": "2025-02-03 13:17:52 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:casting_blocks": {
+    "criteria": {
+      "have_casting_blocks": "2025-02-03 11:59:47 +0000"
+    },
+    "done": true
+  },
+  "art_of_forging:materials/endsteel_ingot": {
+    "criteria": {
+      "endsteel_ingot": "2025-02-03 12:49:31 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2025-02-03 12:01:26 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:light_bulb": {
+    "criteria": {
+      "have_light_bulb": "2025-02-03 12:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-02-03 12:49:51 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_small_casing_mold": {
+    "criteria": {
+      "small_casing_mold": "2025-02-03 12:01:41 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_powered_stamping_press": {
+    "criteria": {
+      "powered_stamping_press": "2025-02-03 12:34:03 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass/waltz_conversion": {
+    "criteria": {
+      "waltz_conversion": "2025-02-03 13:38:37 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_powered_macerator": {
+    "criteria": {
+      "powered_macerator": "2025-02-03 12:33:56 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_key_guard": {
+    "criteria": {
+      "find": "2025-02-03 12:59:44 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/enchanting_guide": {
+    "criteria": {
+      "has_item": "2025-02-03 12:01:28 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/lost_eye": {
+    "criteria": {
+      "lost_eye": "2025-02-03 11:43:13 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

@@ -3,19 +3,19 @@
 	type: "party"
 	owner: "663eebf0-6130-48ab-be1f-f8a0994e5c38"
 	ranks: {
-		45ea1c5e-b1d2-404f-bb36-3735b62cfce5: "member"
-		378d474c-616e-42bc-9c3a-ec439c45eafc: "member"
-		80c15a99-c866-4816-8a97-0cd7ae1b4935: "member"
-		581c7ea1-370b-46e1-9e2e-7b874e96d6ff: "member"
-		0ff1b81d-88de-4174-9796-9088b192f5ad: "member"
-		b864dc43-e684-455c-ab80-db541c5c6f2c: "member"
+		45ea1c5e-b1d2-404f-bb36-3735b62cfce5: "officer"
+		378d474c-616e-42bc-9c3a-ec439c45eafc: "officer"
+		80c15a99-c866-4816-8a97-0cd7ae1b4935: "officer"
+		581c7ea1-370b-46e1-9e2e-7b874e96d6ff: "officer"
+		0ff1b81d-88de-4174-9796-9088b192f5ad: "officer"
+		b864dc43-e684-455c-ab80-db541c5c6f2c: "officer"
 		663eebf0-6130-48ab-be1f-f8a0994e5c38: "owner"
 	}
 	properties: {
 		"ftbteams:display_name": "Cool Team for People"
 		"ftbteams:description": ""
-		"ftbteams:color": "#A359FF"
-		"ftbteams:free_to_join": 0b
+		"ftbteams:color": "#FF0505"
+		"ftbteams:free_to_join": 1b
 		"ftbteams:max_msg_history_size": 1000
 	}
 	message_history: [
@@ -33,6 +33,17 @@
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1737638828614L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"WooshieUwU\"}]}" }
 		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1737723709006L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"_SOUKA_\"}]}" }
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1737723713116L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"_SOUKA_\"}]}" }
+		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1738584457951L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"color\":\"yellow\",\"text\":\"Chocolai222\"}]}" }
+		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1738584459854L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"color\":\"yellow\",\"text\":\"Pielini21\"}]}" }
+		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1738584461385L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"color\":\"yellow\",\"text\":\"WooshieUwU\"}]}" }
+		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1738584462996L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"color\":\"yellow\",\"text\":\"_SOUKA_\"}]}" }
+		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1738584464627L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"color\":\"yellow\",\"text\":\"bevfdsss\"}]}" }
+		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1738584466524L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"color\":\"yellow\",\"text\":\"ent1fy\"}]}" }
+		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1738584483649L, text: "{\"text\":\"caht\"}" }
+		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1738584485409L, text: "{\"text\":\"gay\"}" }
+		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1738584486299L, text: "{\"text\":\"ass\"}" }
+		{ from: "663eebf0-6130-48ab-be1f-f8a0994e5c38", date: 1738584488450L, text: "{\"text\":\"mtfk\"}" }
+		{ from: "80c15a99-c866-4816-8a97-0cd7ae1b4935", date: 1738584497613L, text: "{\"text\":\"chat is this guy real\"}" }
 	]
 	extra: { }
 }

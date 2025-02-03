@@ -923,6 +923,7 @@
       "minecraft:warm_ocean": "2025-01-28 16:02:24 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-30 06:42:04 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-28 05:19:43 +0000",
+      "minecraft:deep_dark": "2025-02-03 04:21:24 +0000",
       "minecraft:meadow": "2025-01-27 13:20:49 +0000",
       "minecraft:savanna": "2025-01-21 12:06:46 +0000",
       "minecraft:plains": "2025-01-21 12:09:06 +0000"
@@ -938,8 +939,10 @@
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_pillager_camp": "2025-01-28 16:03:36 +0000",
+      "entered_hay_storage": "2025-02-03 06:53:10 +0000",
       "entered_pirate_ship": "2025-02-01 17:10:20 +0000",
       "entered_fishing_ship": "2025-01-30 05:43:53 +0000",
+      "entered_deep_crypt": "2025-02-03 06:41:04 +0000",
       "entered_druid_circle": "2025-02-01 16:57:34 +0000",
       "entered_castle": "2025-01-30 06:47:38 +0000",
       "entered_tree_house": "2025-01-30 05:59:43 +0000",
@@ -974,7 +977,8 @@
       "cooked_rabbit": "2025-01-28 05:03:34 +0000",
       "cooked_chicken": "2025-01-28 05:17:46 +0000",
       "enchanted_golden_apple": "2025-01-29 17:38:15 +0000",
-      "mushroom_stew": "2025-01-28 05:35:16 +0000"
+      "mushroom_stew": "2025-01-28 05:35:16 +0000",
+      "carrot": "2025-02-03 04:25:42 +0000"
     },
     "done": false
   },
@@ -2242,6 +2246,7 @@
   },
   "dungeons_enhanced:seven_world_wonders": {
     "criteria": {
+      "entered_deep_crypt": "2025-02-03 06:41:04 +0000",
       "entered_castle": "2025-01-30 06:47:38 +0000"
     },
     "done": false
@@ -2318,24 +2323,6 @@
     },
     "done": true
   },
-  "aquamirae:recipes/wisteria_niveis": {
-    "criteria": {
-      "has_item": "2025-02-01 18:44:44 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/ocean_blueprint": {
-    "criteria": {
-      "ocean_blueprint": "2025-02-01 19:11:22 +0000"
-    },
-    "done": true
-  },
-  "endrem:main/black_eye": {
-    "criteria": {
-      "black_eye": "2025-02-01 19:11:20 +0000"
-    },
-    "done": true
-  },
   "alexsmobs:alexsmobs/emu": {
     "criteria": {
       "killed_by": "2025-02-01 18:23:05 +0000"
@@ -2348,9 +2335,9 @@
     },
     "done": true
   },
-  "enemyexpansion:tactically_nuked": {
+  "aquamirae:recipes/wisteria_niveis": {
     "criteria": {
-      "tactically_nuked_0": "2025-02-01 19:21:03 +0000"
+      "has_item": "2025-02-01 18:44:44 +0000"
     },
     "done": true
   },
@@ -2363,6 +2350,96 @@
   "aquamirae:recipes/anglers_fang": {
     "criteria": {
       "has_item": "2025-02-01 18:46:10 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/black_eye": {
+    "criteria": {
+      "black_eye": "2025-02-01 19:11:20 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/ocean_blueprint": {
+    "criteria": {
+      "ocean_blueprint": "2025-02-01 19:11:22 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:tactically_nuked": {
+    "criteria": {
+      "tactically_nuked_0": "2025-02-01 19:21:03 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/fin": {
+    "criteria": {
+      "has_item": "2025-02-03 06:35:30 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/etherium": {
+    "criteria": {
+      "has_items": "2025-02-03 06:25:57 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_esca": {
+    "criteria": {
+      "esca": "2025-02-03 06:35:30 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/guardian_eye": {
+    "criteria": {
+      "guardian_eye": "2025-02-03 04:17:36 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/blackpowder/flintlock_pistol": {
+    "criteria": {
+      "flintlock_pistol": "2025-02-03 06:40:03 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_fin": {
+    "criteria": {
+      "fin": "2025-02-03 06:35:30 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/ascension_amulet": {
+    "criteria": {
+      "has_item_2": "2025-02-03 06:25:57 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:main/smelt_etherium": {
+    "criteria": {
+      "etherium": "2025-02-03 06:25:57 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/earth_heart": {
+    "criteria": {
+      "has_items": "2025-02-03 06:49:56 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_key_guard": {
+    "criteria": {
+      "find": "2025-02-03 06:51:34 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/lost_eye": {
+    "criteria": {
+      "lost_eye": "2025-02-03 04:26:36 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/esca": {
+    "criteria": {
+      "has_item": "2025-02-03 06:35:30 +0000"
     },
     "done": true
   },

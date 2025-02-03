@@ -825,11 +825,14 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "muskeg": "2025-01-26 14:45:53 +0000",
+      "woodland": "2025-02-03 08:42:47 +0000",
       "snowblossom_grove": "2025-01-26 14:46:36 +0000",
       "scrubland": "2025-01-26 09:41:33 +0000",
       "highland": "2025-01-23 16:44:43 +0000",
       "marsh": "2025-01-26 15:14:23 +0000",
       "cold_desert": "2025-01-26 14:20:59 +0000",
+      "old_growth_woodland": "2025-02-03 08:43:16 +0000",
+      "maple_woods": "2025-02-03 08:54:20 +0000",
       "orchard": "2025-01-23 16:43:51 +0000",
       "field": "2025-01-25 17:35:08 +0000",
       "overgrown_greens": "2025-01-26 09:27:59 +0000",
@@ -845,6 +848,7 @@
       "prairie": "2025-01-23 08:12:25 +0000",
       "tundra": "2025-01-23 17:34:38 +0000",
       "gravel_beach": "2025-01-25 17:34:45 +0000",
+      "rainforest": "2025-02-03 08:41:58 +0000",
       "crag": "2025-01-26 14:20:28 +0000"
     },
     "done": false
@@ -857,6 +861,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2025-02-03 08:54:17 +0000",
       "minecraft:deep_ocean": "2025-01-25 17:11:45 +0000",
       "minecraft:frozen_river": "2025-01-23 17:34:48 +0000",
       "minecraft:cherry_grove": "2025-01-23 16:42:59 +0000",
@@ -876,6 +881,7 @@
       "minecraft:ice_spikes": "2025-01-26 14:40:31 +0000",
       "minecraft:frozen_ocean": "2025-01-26 14:43:46 +0000",
       "minecraft:ocean": "2025-01-25 17:09:36 +0000",
+      "minecraft:jungle": "2025-02-03 08:32:53 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-01-25 17:37:53 +0000",
       "minecraft:snowy_beach": "2025-01-26 14:43:49 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-23 15:23:40 +0000",
@@ -1706,9 +1712,15 @@
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/skunk": {
+  "scguns:main/treated_brass/thunderhead": {
     "criteria": {
-      "ex": "2025-01-31 15:48:55 +0000"
+      "thunderhead": "2025-01-31 14:59:38 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/diamond_steel/krauser": {
+    "criteria": {
+      "krauser": "2025-01-31 14:59:45 +0000"
     },
     "done": true
   },
@@ -1721,18 +1733,6 @@
   "endrem:main/rogue_eye": {
     "criteria": {
       "rogue_eye": "2025-01-31 15:16:55 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/diamond_steel/krauser": {
-    "criteria": {
-      "krauser": "2025-01-31 14:59:45 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/treated_brass/thunderhead": {
-    "criteria": {
-      "thunderhead": "2025-01-31 14:59:38 +0000"
     },
     "done": true
   },
@@ -1760,6 +1760,13 @@
     },
     "done": true
   },
+  "alexscaves:alexscaves/neodymium": {
+    "criteria": {
+      "scarlet": "2025-01-31 15:18:13 +0000",
+      "azure": "2025-01-31 15:21:06 +0000"
+    },
+    "done": true
+  },
   "endrem:main/magical_eye": {
     "criteria": {
       "magical_eye": "2025-01-31 15:19:22 +0000"
@@ -1769,13 +1776,6 @@
   "endrem:main/cursed_eye": {
     "criteria": {
       "cursed_eye": "2025-01-31 15:19:22 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/neodymium": {
-    "criteria": {
-      "scarlet": "2025-01-31 15:18:13 +0000",
-      "azure": "2025-01-31 15:21:06 +0000"
     },
     "done": true
   },
@@ -1794,6 +1794,78 @@
   "alexscaves:alexscaves/neodymium_ingot": {
     "criteria": {
       "azure": "2025-01-31 15:21:06 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/skunk": {
+    "criteria": {
+      "ex": "2025-01-31 15:48:55 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/enter": {
+    "criteria": {
+      "enter_everdawn": "2025-02-03 08:01:46 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:root": {
+    "criteria": {
+      "enter_everdawn": "2025-02-03 08:01:46 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:thinking_with_portals": {
+    "criteria": {
+      "enter_everdawn": "2025-02-03 08:01:46 +0000"
+    },
+    "done": false
+  },
+  "alexsmobs:alexsmobs/stink_bottle": {
+    "criteria": {
+      "sopa_de_macaco": "2025-02-03 08:15:24 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/stink_ray": {
+    "criteria": {
+      "sopa_de_macaco": "2025-02-03 08:20:34 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/leafcutter_ant_pupa": {
+    "criteria": {
+      "leafcutter_ant_pupa": "2025-02-03 08:40:41 +0000"
+    },
+    "done": true
+  },
+  "create:track_0": {
+    "criteria": {
+      "0": "2025-02-03 15:31:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2025-02-03 15:09:32 +0000"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2025-02-03 15:58:05 +0000"
+    },
+    "done": true
+  },
+  "create:millstone": {
+    "criteria": {
+      "0": "2025-02-03 15:51:12 +0000"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2025-02-03 15:21:44 +0000"
     },
     "done": true
   },

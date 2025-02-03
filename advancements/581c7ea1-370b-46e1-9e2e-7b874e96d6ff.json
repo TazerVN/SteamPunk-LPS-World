@@ -2522,5 +2522,29 @@
     },
     "done": true
   },
+  "endrem:main/black_eye": {
+    "criteria": {
+      "black_eye": "2025-02-03 15:51:34 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/guardian_eye": {
+    "criteria": {
+      "guardian_eye": "2025-02-03 15:51:34 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/exotic_eye": {
+    "criteria": {
+      "exotic_eye": "2025-02-03 15:51:34 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/lost_eye": {
+    "criteria": {
+      "lost_eye": "2025-02-03 15:51:34 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
