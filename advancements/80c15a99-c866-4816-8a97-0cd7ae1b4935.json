@@ -828,6 +828,7 @@
       "woodland": "2025-01-21 14:21:21 +0000",
       "shrubland": "2025-02-01 21:11:10 +0000",
       "snowblossom_grove": "2025-01-24 13:33:38 +0000",
+      "rocky_shrubland": "2025-02-04 10:47:37 +0000",
       "scrubland": "2025-01-21 14:23:34 +0000",
       "fungal_jungle": "2025-02-01 19:37:19 +0000",
       "bayou": "2025-02-01 20:59:44 +0000",
@@ -3101,27 +3102,15 @@
     },
     "done": false
   },
+  "endrem:main/lost_eye": {
+    "criteria": {
+      "lost_eye": "2025-02-03 11:43:13 +0000"
+    },
+    "done": true
+  },
   "createmetallurgy:graphite_molds": {
     "criteria": {
       "have_graphite_molds": "2025-02-03 11:59:47 +0000"
-    },
-    "done": true
-  },
-  "create:sturdy_sheet": {
-    "criteria": {
-      "0": "2025-02-03 12:01:28 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/leafcutter_ant_pupa": {
-    "criteria": {
-      "leafcutter_ant_pupa": "2025-02-03 15:07:14 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/scorched_ingot": {
-    "criteria": {
-      "scorched_ingot": "2025-02-03 13:17:52 +0000"
     },
     "done": true
   },
@@ -3131,57 +3120,15 @@
     },
     "done": true
   },
-  "art_of_forging:materials/endsteel_ingot": {
-    "criteria": {
-      "endsteel_ingot": "2025-02-03 12:49:31 +0000"
-    },
-    "done": true
-  },
   "create:mechanical_press": {
     "criteria": {
       "0": "2025-02-03 12:01:26 +0000"
     },
     "done": true
   },
-  "createmetallurgy:light_bulb": {
+  "create:sturdy_sheet": {
     "criteria": {
-      "have_light_bulb": "2025-02-03 12:02:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_breath": {
-    "criteria": {
-      "dragon_breath": "2025-02-03 12:49:51 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/craft_small_casing_mold": {
-    "criteria": {
-      "small_casing_mold": "2025-02-03 12:01:41 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/craft_powered_stamping_press": {
-    "criteria": {
-      "powered_stamping_press": "2025-02-03 12:34:03 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/treated_brass/waltz_conversion": {
-    "criteria": {
-      "waltz_conversion": "2025-02-03 13:38:37 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/craft_powered_macerator": {
-    "criteria": {
-      "powered_macerator": "2025-02-03 12:33:56 +0000"
-    },
-    "done": true
-  },
-  "tetra:scrolls/find_scroll_key_guard": {
-    "criteria": {
-      "find": "2025-02-03 12:59:44 +0000"
+      "0": "2025-02-03 12:01:28 +0000"
     },
     "done": true
   },
@@ -3191,9 +3138,147 @@
     },
     "done": true
   },
-  "endrem:main/lost_eye": {
+  "scguns:main/craft_small_casing_mold": {
     "criteria": {
-      "lost_eye": "2025-02-03 11:43:13 +0000"
+      "small_casing_mold": "2025-02-03 12:01:41 +0000"
+    },
+    "done": true
+  },
+  "createmetallurgy:light_bulb": {
+    "criteria": {
+      "have_light_bulb": "2025-02-03 12:02:29 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_powered_macerator": {
+    "criteria": {
+      "powered_macerator": "2025-02-03 12:33:56 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_powered_stamping_press": {
+    "criteria": {
+      "powered_stamping_press": "2025-02-03 12:34:03 +0000"
+    },
+    "done": true
+  },
+  "art_of_forging:materials/endsteel_ingot": {
+    "criteria": {
+      "endsteel_ingot": "2025-02-03 12:49:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-02-03 12:49:51 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_key_guard": {
+    "criteria": {
+      "find": "2025-02-03 12:59:44 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/scorched_ingot": {
+    "criteria": {
+      "scorched_ingot": "2025-02-03 13:17:52 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass/waltz_conversion": {
+    "criteria": {
+      "waltz_conversion": "2025-02-03 13:38:37 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/leafcutter_ant_pupa": {
+    "criteria": {
+      "leafcutter_ant_pupa": "2025-02-03 15:07:14 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_map": {
+    "criteria": {
+      "cave_map": "2025-02-04 10:23:34 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_codex": {
+    "criteria": {
+      "cave_codex": "2025-02-04 10:28:27 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_toxic_caves": {
+    "criteria": {
+      "discover": "2025-02-04 10:53:12 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/uranium": {
+    "criteria": {
+      "uranium": "2025-02-04 10:53:40 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_brainiac": {
+    "criteria": {
+      "killed": "2025-02-04 10:56:24 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/sulfur_dust": {
+    "criteria": {
+      "sulfur_dust": "2025-02-04 10:57:36 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/toxic_paste": {
+    "criteria": {
+      "toxic_paste": "2025-02-04 11:00:28 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/hazmat_armor": {
+    "criteria": {
+      "helmet": "2025-02-04 11:02:14 +0000"
+    },
+    "done": false
+  },
+  "alexscaves:alexscaves/defeat_nucleeper": {
+    "criteria": {
+      "killed": "2025-02-04 11:04:16 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/iron/greaser_smg": {
+    "criteria": {
+      "greaser_smg": "2025-02-04 11:30:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-02-04 15:55:58 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/peal": {
+    "criteria": {
+      "peal": "2025-02-04 16:04:27 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/ocean/marlin": {
+    "criteria": {
+      "marlin": "2025-02-04 14:00:45 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass/gattaler": {
+    "criteria": {
+      "gattaler": "2025-02-04 15:51:42 +0000"
     },
     "done": true
   },

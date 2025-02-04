@@ -2383,15 +2383,57 @@
     },
     "done": true
   },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2025-02-03 15:14:32 +0000"
+    },
+    "done": true
+  },
   "enigmaticaddons:book/relics/lost_engine": {
     "criteria": {
       "has_items": "2025-02-03 15:46:15 +0000"
     },
     "done": true
   },
-  "aether:the_aether": {
+  "scguns:main/niter_dust": {
     "criteria": {
-      "the_aether": "2025-02-03 15:14:32 +0000"
+      "niter_dust": "2025-02-04 14:56:53 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/unholy_grail": {
+    "criteria": {
+      "has_items": "2025-02-04 14:27:43 +0000"
+    },
+    "done": true
+  },
+  "tetra:upgrades/place_holosphere": {
+    "criteria": {
+      "use": "2025-02-04 15:20:47 +0000"
+    },
+    "done": true
+  },
+  "create:cuckoo_clock": {
+    "criteria": {
+      "0": "2025-02-04 16:02:41 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:buy_map": {
+    "criteria": {
+      "trade": "2025-02-04 16:00:28 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/blackpowder/musket": {
+    "criteria": {
+      "musket": "2025-02-04 14:59:44 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/unholy_grail": {
+    "criteria": {
+      "spellstone": "2025-02-04 14:27:49 +0000"
     },
     "done": true
   },
