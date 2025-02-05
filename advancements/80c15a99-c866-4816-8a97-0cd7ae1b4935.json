@@ -3258,6 +3258,18 @@
     },
     "done": true
   },
+  "scguns:main/ocean/marlin": {
+    "criteria": {
+      "marlin": "2025-02-04 14:00:45 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass/gattaler": {
+    "criteria": {
+      "gattaler": "2025-02-04 15:51:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
       "kill_mob_near_sculk_catalyst": "2025-02-04 15:55:58 +0000"
@@ -3270,15 +3282,9 @@
     },
     "done": true
   },
-  "scguns:main/ocean/marlin": {
+  "farmersdelight:main/harvest_straw": {
     "criteria": {
-      "marlin": "2025-02-04 14:00:45 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/treated_brass/gattaler": {
-    "criteria": {
-      "gattaler": "2025-02-04 15:51:42 +0000"
+      "harvest_straw": "2025-02-05 13:44:21 +0000"
     },
     "done": true
   },
