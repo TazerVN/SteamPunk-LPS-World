@@ -2558,5 +2558,89 @@
     },
     "done": true
   },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_axe": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:14:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_hoe": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:14:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:14:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_sword": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:14:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:14:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/poison_shroom": {
+    "criteria": {
+      "touch_shroom": "2025-02-06 13:18:41 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:19:47 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_sword": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:19:47 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_axe": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:19:47 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:19:47 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_hoe": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:19:47 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_pyrope": {
+    "criteria": {
+      "obtain_material": "2025-02-06 13:19:47 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/kill_bug": {
+    "criteria": {
+      "kill_nyctofly": "2025-02-06 13:21:22 +0000"
+    },
+    "done": false
+  },
+  "morevillagers:kill_villager": {
+    "criteria": {
+      "killedvillager": "2025-02-06 16:00:34 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

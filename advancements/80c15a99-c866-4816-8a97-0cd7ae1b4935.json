@@ -841,6 +841,7 @@
       "cold_desert": "2025-01-23 14:19:51 +0000",
       "old_growth_woodland": "2025-01-21 14:21:47 +0000",
       "maple_woods": "2025-01-24 13:31:07 +0000",
+      "crystalline_chasm": "2025-02-06 13:00:08 +0000",
       "withered_abyss": "2025-01-31 15:34:46 +0000",
       "orchard": "2025-01-21 20:19:42 +0000",
       "field": "2025-01-25 17:35:08 +0000",
@@ -853,6 +854,7 @@
       "wasteland": "2025-02-01 19:12:57 +0000",
       "lush_desert": "2025-02-01 18:35:18 +0000",
       "redwood_forest": "2025-01-18 13:01:53 +0000",
+      "visceral_heap": "2025-02-06 13:11:22 +0000",
       "aspen_glade": "2025-01-21 20:22:14 +0000",
       "dune_beach": "2025-01-24 12:55:14 +0000",
       "seasonal_forest": "2025-01-21 20:19:57 +0000",
@@ -900,9 +902,10 @@
       "taiga": "2025-02-01 20:38:52 +0000",
       "plains": "2025-01-18 13:06:55 +0000",
       "savanna": "2025-01-21 14:22:48 +0000",
+      "desert": "2025-02-06 15:54:26 +0000",
       "snowy": "2025-02-01 20:29:45 +0000"
     },
-    "done": false
+    "done": true
   },
   "farmersdelight:main/get_fd_seed": {
     "criteria": {
@@ -1018,12 +1021,15 @@
       "minecraft:vindicator": "2025-01-21 14:39:27 +0000",
       "minecraft:magma_cube": "2025-01-22 08:09:10 +0000",
       "minecraft:spider": "2025-01-18 13:14:51 +0000",
+      "minecraft:piglin_brute": "2025-02-06 13:02:29 +0000",
       "minecraft:creeper": "2025-01-20 14:13:36 +0000",
       "minecraft:wither": "2025-01-27 15:20:18 +0000",
       "minecraft:slime": "2025-01-21 11:57:32 +0000",
       "minecraft:evoker": "2025-01-21 14:39:36 +0000",
       "minecraft:phantom": "2025-01-21 10:47:14 +0000",
+      "minecraft:zombified_piglin": "2025-02-06 13:16:16 +0000",
       "minecraft:witch": "2025-01-23 07:52:59 +0000",
+      "minecraft:wither_skeleton": "2025-02-06 12:28:03 +0000",
       "minecraft:husk": "2025-02-01 18:37:18 +0000",
       "minecraft:cave_spider": "2025-01-23 14:50:48 +0000",
       "minecraft:piglin": "2025-01-25 18:28:28 +0000",
@@ -1311,9 +1317,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-01-23 15:30:50 +0000",
       "minecraft:nether_wastes": "2025-01-31 15:32:51 +0000",
-      "minecraft:warped_forest": "2025-01-21 09:02:32 +0000"
+      "minecraft:soul_sand_valley": "2025-02-06 12:59:24 +0000",
+      "minecraft:warped_forest": "2025-01-21 09:02:32 +0000",
+      "minecraft:basalt_deltas": "2025-02-06 13:05:44 +0000"
     },
-    "done": false
+    "done": true
   },
   "enigmaticlegacy:book/brewing/haste_potion": {
     "criteria": {
@@ -1530,6 +1538,7 @@
       "brewingstand": "2025-01-21 14:19:12 +0000",
       "grindstone": "2025-01-23 11:13:00 +0000",
       "smoker": "2025-01-22 13:22:50 +0000",
+      "smithingtable": "2025-02-06 13:35:10 +0000",
       "blastfurnace": "2025-01-22 13:17:10 +0000",
       "lectern": "2025-01-23 15:10:23 +0000",
       "woodworkingtable": "2025-02-01 19:00:16 +0000",
@@ -1713,7 +1722,8 @@
   "enigmaticlegacy:main/all_spellstones": {
     "criteria": {
       "spellstone2": "2025-01-22 08:38:14 +0000",
-      "spellstone1": "2025-01-25 18:05:18 +0000"
+      "spellstone1": "2025-01-25 18:05:18 +0000",
+      "spellstone4": "2025-02-06 13:31:44 +0000"
     },
     "done": false
   },
@@ -1726,7 +1736,8 @@
   "enigmaticlegacy:book/relics/the_cube": {
     "criteria": {
       "has_item_1": "2025-01-25 18:05:18 +0000",
-      "has_item_2": "2025-01-22 08:38:14 +0000"
+      "has_item_2": "2025-01-22 08:38:14 +0000",
+      "has_item_4": "2025-02-06 13:31:44 +0000"
     },
     "done": false
   },
@@ -1996,7 +2007,8 @@
       "woodworker": "2025-02-01 18:55:06 +0000",
       "librarian": "2025-01-23 16:26:33 +0000",
       "shepherd": "2025-02-01 18:56:47 +0000",
-      "farmer": "2025-01-24 06:19:59 +0000"
+      "farmer": "2025-01-24 06:19:59 +0000",
+      "florist": "2025-02-06 15:57:54 +0000"
     },
     "done": false
   },
@@ -2046,6 +2058,7 @@
   },
   "repurposed_structures:temples": {
     "criteria": {
+      "in_temple_nether_wasteland": "2025-02-06 12:59:13 +0000",
       "in_temple_taiga": "2025-01-23 17:36:42 +0000"
     },
     "done": false
@@ -2454,7 +2467,8 @@
   "repurposed_structures:pyramids": {
     "criteria": {
       "in_pyramid_ocean": "2025-01-25 17:14:51 +0000",
-      "in_pyramid_jungle": "2025-02-02 05:07:32 +0000"
+      "in_pyramid_jungle": "2025-02-02 05:07:32 +0000",
+      "in_pyramid_nether": "2025-02-06 13:08:06 +0000"
     },
     "done": false
   },
@@ -2598,6 +2612,7 @@
   },
   "repurposed_structures:ruins": {
     "criteria": {
+      "in_ruins_nether": "2025-02-06 13:06:23 +0000",
       "in_ruins_land_icy": "2025-01-26 11:33:00 +0000"
     },
     "done": false
@@ -3285,6 +3300,240 @@
   "farmersdelight:main/harvest_straw": {
     "criteria": {
       "harvest_straw": "2025-02-05 13:44:21 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/kangaroo": {
+    "criteria": {
+      "killed": "2025-02-06 12:04:27 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/nitro_powder": {
+    "criteria": {
+      "nitro_powder": "2025-02-06 12:10:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-02-06 13:00:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-02-06 13:02:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-02-06 13:02:41 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/void_stone": {
+    "criteria": {
+      "has_items": "2025-02-06 13:02:49 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:shipwrecks": {
+    "criteria": {
+      "in_shipwreck_nether_bricks": "2025-02-06 13:07:12 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-02-06 13:19:12 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/soul_vulture": {
+    "criteria": {
+      "killed": "2025-02-06 13:20:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2025-02-06 13:21:15 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/blazing_core": {
+    "criteria": {
+      "has_items": "2025-02-06 13:31:44 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/discover_scroll": {
+    "criteria": {
+      "spellstone": "2025-02-06 13:34:37 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/accessories/darkest_scroll": {
+    "criteria": {
+      "has_items": "2025-02-06 13:34:37 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/forbidden_fruit": {
+    "criteria": {
+      "has_items": "2025-02-06 13:43:41 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:city_nether": {
+    "criteria": {
+      "in_city_nether": "2025-02-06 14:00:19 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/piglin/super_shotgun": {
+    "criteria": {
+      "super_shotgun": "2025-02-06 14:00:36 +0000"
+    },
+    "done": true
+  },
+  "eeeabsmobs:eeeabsmobs/bloody_altar": {
+    "criteria": {
+      "requirement": "2025-02-06 14:06:57 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/poison_shroom": {
+    "criteria": {
+      "touch_shroom": "2025-02-06 14:17:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_axe": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_sword": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:36 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/nuclear_bomb": {
+    "criteria": {
+      "nuclear_bomb": "2025-02-06 16:15:51 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:kill_villager": {
+    "criteria": {
+      "killedvillager": "2025-02-06 15:57:02 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_hoe": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_sword": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_axe": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:36 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:poison_success": {
+    "criteria": {
+      "poison_success_0": "2025-02-06 16:14:31 +0000"
+    },
+    "done": true
+  },
+  "yungscavebiomes:lost_caves": {
+    "criteria": {
+      "lost_caves": "2025-02-06 16:18:27 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/tarantula_hawk": {
+    "criteria": {
+      "killed": "2025-02-06 15:54:06 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_hoe": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_pyrope": {
+    "criteria": {
+      "obtain_material": "2025-02-06 14:37:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_aquite": {
+    "criteria": {
+      "obtain_material": "2025-02-06 14:37:36 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:gravity_normalizer": {
+    "criteria": {
+      "has_gravity_normalizer": "2025-02-06 15:15:31 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:fire_success": {
+    "criteria": {
+      "fire_success_0": "2025-02-06 16:14:31 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:bag_success": {
+    "criteria": {
+      "bag_success_0": "2025-02-06 16:14:31 +0000"
+    },
+    "done": true
+  },
+  "idas:tinkers_workshop": {
+    "criteria": {
+      "in_tinkers_workshop": "2025-02-06 15:51:20 +0000"
     },
     "done": true
   },

@@ -893,7 +893,8 @@
   "morevillagers:all_villages": {
     "criteria": {
       "plains": "2025-01-18 13:06:57 +0000",
-      "savanna": "2025-01-26 13:30:59 +0000"
+      "savanna": "2025-01-26 13:30:59 +0000",
+      "desert": "2025-02-06 15:54:17 +0000"
     },
     "done": false
   },
@@ -1078,6 +1079,7 @@
       "minecraft:badlands": "2025-01-30 07:37:12 +0000",
       "minecraft:beach": "2025-01-20 16:26:09 +0000",
       "minecraft:dark_forest": "2025-01-28 15:42:55 +0000",
+      "minecraft:mangrove_swamp": "2025-02-06 16:21:36 +0000",
       "minecraft:sparse_jungle": "2025-01-21 12:40:04 +0000",
       "minecraft:river": "2025-01-18 13:40:22 +0000",
       "minecraft:lukewarm_ocean": "2025-01-20 16:21:58 +0000",
@@ -3256,21 +3258,75 @@
     },
     "done": true
   },
-  "enigmaticlegacy:book/brewing/twisted_potion": {
-    "criteria": {
-      "has_recall_potion": "2025-02-05 15:40:42 +0000"
-    },
-    "done": false
-  },
   "dungeons_enhanced:spooky_scary_citadel": {
     "criteria": {
       "entered_black_citadel": "2025-02-05 15:24:09 +0000"
     },
     "done": true
   },
+  "enigmaticlegacy:book/brewing/twisted_potion": {
+    "criteria": {
+      "has_recall_potion": "2025-02-05 15:40:42 +0000"
+    },
+    "done": false
+  },
   "enigmaticlegacy:main/recall_potion": {
     "criteria": {
       "spellstone": "2025-02-05 15:40:42 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:31:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_sword": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:31:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_axe": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:31:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:31:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_hoe": {
+    "criteria": {
+      "has_resource": "2025-02-06 13:31:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_pyrope": {
+    "criteria": {
+      "obtain_material": "2025-02-06 13:31:36 +0000"
+    },
+    "done": true
+  },
+  "moped:moped_key_adv": {
+    "criteria": {
+      "moped_key_adv": "2025-02-06 16:23:27 +0000"
+    },
+    "done": true
+  },
+  "moped:booster_adv": {
+    "criteria": {
+      "booster_adv": "2025-02-06 16:24:17 +0000"
+    },
+    "done": true
+  },
+  "moped:fully_upgraded_moped": {
+    "criteria": {
+      "fully_upgraded_moped": "2025-02-06 16:25:44 +0000"
     },
     "done": true
   },
