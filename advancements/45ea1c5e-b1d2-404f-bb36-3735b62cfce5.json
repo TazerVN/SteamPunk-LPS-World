@@ -839,6 +839,7 @@
       "cold_desert": "2025-01-27 13:59:05 +0000",
       "old_growth_woodland": "2025-01-28 16:00:25 +0000",
       "maple_woods": "2025-01-28 06:36:44 +0000",
+      "crystalline_chasm": "2025-02-07 14:18:53 +0000",
       "withered_abyss": "2025-01-28 05:34:38 +0000",
       "orchard": "2025-01-30 06:41:03 +0000",
       "field": "2025-02-01 16:59:11 +0000",
@@ -849,6 +850,7 @@
       "wasteland": "2025-01-30 04:57:55 +0000",
       "lush_desert": "2025-01-29 16:58:35 +0000",
       "redwood_forest": "2025-01-21 12:03:35 +0000",
+      "visceral_heap": "2025-02-07 14:20:01 +0000",
       "aspen_glade": "2025-02-01 16:54:42 +0000",
       "dune_beach": "2025-02-01 17:01:38 +0000",
       "seasonal_forest": "2025-01-27 14:35:21 +0000",
@@ -946,6 +948,7 @@
       "entered_druid_circle": "2025-02-01 16:57:34 +0000",
       "entered_castle": "2025-01-30 06:47:38 +0000",
       "entered_tree_house": "2025-01-30 05:59:43 +0000",
+      "entered_black_citadel": "2025-02-07 14:38:33 +0000",
       "entered_sunken_shrine": "2025-01-30 06:45:48 +0000",
       "entered_ruined_building": "2025-01-21 12:08:06 +0000",
       "entered_desert_tomb": "2025-01-30 05:06:34 +0000"
@@ -1165,6 +1168,7 @@
       "minecraft:witch": "2025-01-21 13:39:26 +0000",
       "minecraft:wither_skeleton": "2025-01-28 05:47:54 +0000",
       "minecraft:husk": "2025-01-29 16:50:09 +0000",
+      "minecraft:shulker": "2025-02-07 17:00:07 +0000",
       "minecraft:cave_spider": "2025-01-21 13:39:22 +0000",
       "minecraft:piglin": "2025-01-28 05:37:41 +0000",
       "minecraft:silverfish": "2025-01-27 12:49:53 +0000",
@@ -1884,9 +1888,10 @@
       "minecraft:crimson_forest": "2025-01-28 05:34:01 +0000",
       "minecraft:soul_sand_valley": "2025-01-28 05:47:47 +0000",
       "minecraft:nether_wastes": "2025-01-28 08:19:08 +0000",
-      "minecraft:warped_forest": "2025-01-28 05:30:41 +0000"
+      "minecraft:warped_forest": "2025-01-28 05:30:41 +0000",
+      "minecraft:basalt_deltas": "2025-02-07 14:19:57 +0000"
     },
-    "done": false
+    "done": true
   },
   "alexsmobs:alexsmobs/crimson_mosquito": {
     "criteria": {
@@ -2019,10 +2024,16 @@
   },
   "betterend:all_the_templates": {
     "criteria": {
+      "got_netherite": "2025-02-07 16:59:32 +0000",
+      "got_leather": "2025-02-07 17:39:27 +0000",
+      "got_plate": "2025-02-07 17:37:39 +0000",
+      "got_aeternium": "2025-02-07 17:07:36 +0000",
       "got_handle": "2025-01-28 06:43:31 +0000",
-      "got_terminite": "2025-01-28 06:43:33 +0000"
+      "got_tool": "2025-02-07 16:57:58 +0000",
+      "got_terminite": "2025-01-28 06:43:33 +0000",
+      "got_thallasium": "2025-02-07 17:02:53 +0000"
     },
-    "done": false
+    "done": true
   },
   "scguns:main/anthralite": {
     "criteria": {
@@ -2371,39 +2382,21 @@
     },
     "done": true
   },
-  "aquamirae:recipes/fin": {
-    "criteria": {
-      "has_item": "2025-02-03 06:35:30 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/materials/etherium": {
-    "criteria": {
-      "has_items": "2025-02-03 06:25:57 +0000"
-    },
-    "done": true
-  },
-  "aquamirae:adventure/obtain_esca": {
-    "criteria": {
-      "esca": "2025-02-03 06:35:30 +0000"
-    },
-    "done": true
-  },
   "endrem:main/guardian_eye": {
     "criteria": {
       "guardian_eye": "2025-02-03 04:17:36 +0000"
     },
     "done": true
   },
-  "scguns:main/blackpowder/flintlock_pistol": {
+  "endrem:main/lost_eye": {
     "criteria": {
-      "flintlock_pistol": "2025-02-03 06:40:03 +0000"
+      "lost_eye": "2025-02-03 04:26:36 +0000"
     },
     "done": true
   },
-  "aquamirae:adventure/obtain_fin": {
+  "enigmaticlegacy:book/materials/etherium": {
     "criteria": {
-      "fin": "2025-02-03 06:35:30 +0000"
+      "has_items": "2025-02-03 06:25:57 +0000"
     },
     "done": true
   },
@@ -2419,6 +2412,36 @@
     },
     "done": true
   },
+  "aquamirae:recipes/fin": {
+    "criteria": {
+      "has_item": "2025-02-03 06:35:30 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_esca": {
+    "criteria": {
+      "esca": "2025-02-03 06:35:30 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_fin": {
+    "criteria": {
+      "fin": "2025-02-03 06:35:30 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/esca": {
+    "criteria": {
+      "has_item": "2025-02-03 06:35:30 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/blackpowder/flintlock_pistol": {
+    "criteria": {
+      "flintlock_pistol": "2025-02-03 06:40:03 +0000"
+    },
+    "done": true
+  },
   "enigmaticlegacy:book/materials/earth_heart": {
     "criteria": {
       "has_items": "2025-02-03 06:49:56 +0000"
@@ -2431,15 +2454,286 @@
     },
     "done": true
   },
-  "endrem:main/lost_eye": {
+  "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
-      "lost_eye": "2025-02-03 04:26:36 +0000"
+      "crying_obsidian": "2025-02-07 14:35:10 +0000"
     },
     "done": true
   },
-  "aquamirae:recipes/esca": {
+  "enigmaticlegacy:main/mending_mixture": {
     "criteria": {
-      "has_item": "2025-02-03 06:35:30 +0000"
+      "spellstone": "2025-02-07 16:59:31 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_axe": {
+    "criteria": {
+      "has_resource": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_sword": {
+    "criteria": {
+      "has_resource": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "create:diving_suit": {
+    "criteria": {
+      "0": "2025-02-07 16:30:07 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/twisted_potion": {
+    "criteria": {
+      "has_recall_potion": "2025-02-07 16:56:51 +0000"
+    },
+    "done": false
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_hoe": {
+    "criteria": {
+      "has_resource": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:spooky_scary_citadel": {
+    "criteria": {
+      "entered_black_citadel": "2025-02-07 14:38:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_sword": {
+    "criteria": {
+      "has_resource": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/unholy_grail": {
+    "criteria": {
+      "has_items": "2025-02-07 14:04:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_axe": {
+    "criteria": {
+      "has_resource": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/misc/astral_potion": {
+    "criteria": {
+      "has_items": "2025-02-07 17:24:34 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/straddler": {
+    "criteria": {
+      "killed_by": "2025-02-07 14:21:56 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/poison_shroom": {
+    "criteria": {
+      "touch_shroom": "2025-02-07 13:57:18 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-02-07 16:37:05 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_elytras": {
+    "criteria": {
+      "armored": "2025-02-07 17:32:51 +0000",
+      "vanilla": "2025-02-07 17:02:45 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:main/astral_dust": {
+    "criteria": {
+      "etherium": "2025-02-07 17:24:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:thallasium_tool": {
+    "criteria": {
+      "got_thallasium_axe": "2025-02-07 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-02-07 17:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-02-07 16:16:35 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_throwing": {
+    "criteria": {
+      "find": "2025-02-07 13:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_hoe": {
+    "criteria": {
+      "has_resource": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:portal": {
+    "criteria": {
+      "eternal_portal": "2025-02-07 17:10:39 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_halberd": {
+    "criteria": {
+      "find": "2025-02-07 13:54:37 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/advanced_brewing": {
+    "criteria": {
+      "has_items": "2025-02-07 17:24:34 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:goblin_liquor_success": {
+    "criteria": {
+      "goblin_liquor_success_0": "2025-02-07 15:54:13 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_pyrope": {
+    "criteria": {
+      "obtain_material": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/recall_potion": {
+    "criteria": {
+      "spellstone": "2025-02-07 16:56:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-02-07 14:40:21 +0000"
+    },
+    "done": true
+  },
+  "betterend:enter_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_aquite": {
+    "criteria": {
+      "obtain_material": "2025-02-07 13:26:00 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/end_blueprint": {
+    "criteria": {
+      "end_blueprint": "2025-02-07 16:59:28 +0000"
+    },
+    "done": true
+  },
+  "betterend:village": {
+    "criteria": {
+      "end_village": "2025-02-07 17:37:18 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_biomes": {
+    "criteria": {
+      "betterend:crystal_mountains": "2025-02-07 17:51:57 +0000",
+      "betterend:dry_shrubland": "2025-02-07 16:54:59 +0000",
+      "betterend:shadow_forest": "2025-02-07 16:38:15 +0000",
+      "betterend:amber_land": "2025-02-07 16:38:01 +0000",
+      "betterend:sulphur_springs": "2025-02-07 16:48:59 +0000",
+      "betterend:neon_oasis": "2025-02-07 16:43:45 +0000",
+      "betterend:painted_mountains": "2025-02-07 16:43:43 +0000",
+      "betterend:dust_wastelands": "2025-02-07 17:11:57 +0000",
+      "betterend:foggy_mushroomland": "2025-02-07 17:23:45 +0000",
+      "betterend:ice_starfield": "2025-02-07 16:49:21 +0000",
+      "betterend:empty_smaragdant_cave": "2025-02-07 16:39:24 +0000",
+      "betterend:glowing_grasslands": "2025-02-07 16:47:46 +0000",
+      "betterend:megalake_grove": "2025-02-07 17:11:27 +0000",
+      "betterend:umbra_valley": "2025-02-07 17:23:01 +0000",
+      "betterend:chorus_forest": "2025-02-07 17:34:44 +0000",
+      "betterend:lantern_woods": "2025-02-07 16:39:17 +0000",
+      "betterend:umbrella_jungle": "2025-02-07 16:37:07 +0000",
+      "betterend:megalake": "2025-02-07 17:11:37 +0000",
+      "betterend:blossoming_spires": "2025-02-07 16:49:34 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:book/materials/astral_dust": {
+    "criteria": {
+      "has_items": "2025-02-07 17:24:34 +0000"
+    },
+    "done": true
+  },
+  "create:backtank": {
+    "criteria": {
+      "0": "2025-02-07 17:15:21 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/unholy_grail": {
+    "criteria": {
+      "spellstone": "2025-02-07 14:04:32 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_nether": "2025-02-07 14:32:58 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
     },
     "done": true
   },

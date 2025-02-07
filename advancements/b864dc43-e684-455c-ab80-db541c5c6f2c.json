@@ -1839,21 +1839,21 @@
     },
     "done": true
   },
-  "create:track_0": {
-    "criteria": {
-      "0": "2025-02-03 15:31:37 +0000"
-    },
-    "done": true
-  },
   "farmersdelight:main/use_cutting_board": {
     "criteria": {
       "cutting_board": "2025-02-03 15:09:32 +0000"
     },
     "done": true
   },
-  "create:funnel": {
+  "create:shifting_gears": {
     "criteria": {
-      "0": "2025-02-03 15:58:05 +0000"
+      "0": "2025-02-03 15:21:44 +0000"
+    },
+    "done": true
+  },
+  "create:track_0": {
+    "criteria": {
+      "0": "2025-02-03 15:31:37 +0000"
     },
     "done": true
   },
@@ -1863,9 +1863,39 @@
     },
     "done": true
   },
-  "create:shifting_gears": {
+  "create:funnel": {
     "criteria": {
-      "0": "2025-02-03 15:21:44 +0000"
+      "0": "2025-02-03 15:58:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_integrated_stronghold": "2025-02-07 16:06:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "betterend:enter_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass/gattaler": {
+    "criteria": {
+      "gattaler": "2025-02-07 16:01:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
     },
     "done": true
   },

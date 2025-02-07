@@ -826,8 +826,11 @@
     "criteria": {
       "muskeg": "2025-01-31 14:53:08 +0000",
       "woodland": "2025-01-21 14:53:43 +0000",
+      "shrubland": "2025-02-07 14:59:43 +0000",
+      "rocky_shrubland": "2025-02-07 14:59:33 +0000",
       "scrubland": "2025-01-21 14:38:23 +0000",
       "fungal_jungle": "2025-01-28 05:54:02 +0000",
+      "bayou": "2025-02-07 14:27:11 +0000",
       "floodplain": "2025-01-28 05:52:54 +0000",
       "lush_savanna": "2025-01-28 05:54:14 +0000",
       "highland": "2025-01-25 16:31:19 +0000",
@@ -835,6 +838,7 @@
       "old_growth_woodland": "2025-01-21 14:52:53 +0000",
       "orchard": "2025-01-25 16:30:40 +0000",
       "field": "2025-01-28 16:12:53 +0000",
+      "mediterranean_forest": "2025-02-07 14:27:01 +0000",
       "coniferous_forest": "2025-01-18 14:30:37 +0000",
       "spider_nest": "2025-01-21 13:54:03 +0000",
       "dryland": "2025-01-29 16:54:19 +0000",
@@ -844,9 +848,11 @@
       "dune_beach": "2025-01-28 15:44:06 +0000",
       "seasonal_forest": "2025-01-23 15:33:44 +0000",
       "auroral_garden": "2025-01-28 16:15:35 +0000",
+      "volcano": "2025-02-07 14:58:23 +0000",
       "rocky_rainforest": "2025-01-28 05:54:12 +0000",
       "pasture": "2025-01-28 15:44:35 +0000",
       "volcanic_plains": "2025-01-28 15:49:47 +0000",
+      "lavender_field": "2025-02-07 15:04:18 +0000",
       "fir_clearing": "2025-01-21 13:48:52 +0000",
       "prairie": "2025-01-18 13:58:58 +0000",
       "snowy_fir_clearing": "2025-01-28 16:14:26 +0000",
@@ -889,6 +895,7 @@
       "minecraft:badlands": "2025-01-30 05:26:31 +0000",
       "minecraft:beach": "2025-01-21 14:35:52 +0000",
       "minecraft:dark_forest": "2025-01-28 15:43:04 +0000",
+      "minecraft:mangrove_swamp": "2025-02-07 14:27:29 +0000",
       "minecraft:sparse_jungle": "2025-01-28 15:10:48 +0000",
       "minecraft:river": "2025-01-18 14:09:40 +0000",
       "minecraft:lukewarm_ocean": "2025-01-21 14:36:35 +0000",
@@ -897,11 +904,13 @@
       "minecraft:dripstone_caves": "2025-01-21 13:53:34 +0000",
       "minecraft:snowy_taiga": "2025-01-31 14:09:06 +0000",
       "minecraft:grove": "2025-01-28 14:01:09 +0000",
+      "minecraft:cold_ocean": "2025-02-07 15:08:50 +0000",
       "minecraft:forest": "2025-01-18 13:57:35 +0000",
       "minecraft:lush_caves": "2025-01-28 05:59:30 +0000",
       "minecraft:ice_spikes": "2025-01-31 14:01:09 +0000",
       "minecraft:frozen_ocean": "2025-01-28 16:16:21 +0000",
       "minecraft:desert": "2025-01-28 06:01:06 +0000",
+      "minecraft:windswept_forest": "2025-02-07 15:09:50 +0000",
       "minecraft:ocean": "2025-01-21 14:56:56 +0000",
       "minecraft:jungle": "2025-01-28 15:08:44 +0000",
       "minecraft:snowy_beach": "2025-01-28 16:26:16 +0000",
@@ -949,10 +958,12 @@
       "poisonous_potato": "2025-01-29 15:17:27 +0000",
       "supplementaries:candy": "2025-01-28 15:19:30 +0000",
       "bread": "2025-01-18 14:29:45 +0000",
+      "golden_apple": "2025-02-07 16:16:13 +0000",
       "rotten_flesh": "2025-01-20 13:58:01 +0000",
       "dried_kelp": "2025-01-29 14:42:37 +0000",
       "melon_slice": "2025-01-22 10:09:16 +0000",
       "cooked_chicken": "2025-01-23 12:51:04 +0000",
+      "enchanted_golden_apple": "2025-02-07 16:31:29 +0000",
       "rabbit_stew": "2025-01-29 14:25:22 +0000",
       "cooked_salmon": "2025-01-23 12:55:10 +0000",
       "carrot": "2025-01-28 13:31:27 +0000"
@@ -1068,8 +1079,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-01-28 07:20:30 +0000",
+      "minecraft:blaze": "2025-02-07 16:18:13 +0000",
       "minecraft:skeleton": "2025-01-18 14:53:21 +0000",
       "minecraft:ravager": "2025-01-30 04:23:11 +0000",
+      "minecraft:hoglin": "2025-02-07 14:32:44 +0000",
       "minecraft:vindicator": "2025-01-21 14:49:17 +0000",
       "minecraft:spider": "2025-01-20 15:17:36 +0000",
       "minecraft:creeper": "2025-01-21 10:23:22 +0000",
@@ -1079,6 +1092,7 @@
       "minecraft:cave_spider": "2025-01-25 16:13:40 +0000",
       "minecraft:enderman": "2025-01-28 13:01:26 +0000",
       "minecraft:stray": "2025-01-29 17:02:13 +0000",
+      "minecraft:silverfish": "2025-02-07 15:45:11 +0000",
       "minecraft:zombie": "2025-01-20 13:36:40 +0000",
       "minecraft:drowned": "2025-01-25 15:07:00 +0000",
       "minecraft:zombie_villager": "2025-01-21 10:10:16 +0000"
@@ -1288,6 +1302,7 @@
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_tower_of_the_undead": "2025-01-28 15:23:11 +0000",
+      "entered_stables": "2025-02-07 14:55:09 +0000",
       "entered_hay_storage": "2025-01-21 14:54:03 +0000",
       "entered_desert_temple": "2025-01-30 05:21:14 +0000",
       "entered_watch_tower": "2025-01-31 13:59:27 +0000",
@@ -2639,6 +2654,226 @@
   "morevillagers:kill_villager": {
     "criteria": {
       "killedvillager": "2025-02-06 16:00:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everbright/get_wood": {
+    "criteria": {
+      "has_bluebright_log": "2025-02-07 14:17:36 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/etherium_ore": {
+    "criteria": {
+      "generic_revelation": "2025-02-07 15:16:23 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/turquoise_stone_axe": {
+    "criteria": {
+      "has_resource": "2025-02-07 14:18:08 +0000"
+    },
+    "done": true
+  },
+  "create:diving_suit": {
+    "criteria": {
+      "0": "2025-02-07 16:25:17 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/bluebright_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-07 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-02-07 15:08:50 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/turquoise_stone_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-07 14:18:08 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/turquoise_stone_hoe": {
+    "criteria": {
+      "has_resource": "2025-02-07 14:18:08 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/recall_potion": {
+    "criteria": {
+      "has_items": "2025-02-07 14:07:42 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:poison_success": {
+    "criteria": {
+      "poison_success_0": "2025-02-07 15:22:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-02-07 16:37:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-02-07 16:18:11 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:bomb_success": {
+    "criteria": {
+      "bomb_success_0": "2025-02-07 15:22:44 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:igloos": {
+    "criteria": {
+      "in_igloo_grassy": "2025-02-07 14:53:54 +0000"
+    },
+    "done": false
+  },
+  "blue_skies:recipes/blue_skies_tools/turquoise_stone_sword": {
+    "criteria": {
+      "has_resource": "2025-02-07 14:18:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-02-07 16:17:28 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/molten_heart_potion": {
+    "criteria": {
+      "has_items": "2025-02-07 16:18:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_integrated_stronghold": "2025-02-07 15:43:52 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:engineer_success": {
+    "criteria": {
+      "engineer_success_0": "2025-02-07 15:21:46 +0000"
+    },
+    "done": true
+  },
+  "idas:tinkers_citadel": {
+    "criteria": {
+      "in_tinkers_citadel": "2025-02-07 15:23:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/bluebright_hoe": {
+    "criteria": {
+      "has_resource": "2025-02-07 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:goblins_slayer_success": {
+    "criteria": {
+      "goblins_slayer_success_0": "2025-02-07 15:19:39 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:goblin_liquor_success": {
+    "criteria": {
+      "goblin_liquor_success_0": "2025-02-07 15:30:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/turquoise_stone_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-07 14:18:08 +0000"
+    },
+    "done": true
+  },
+  "betterend:enter_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/bluebright_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-07 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/bluebright_axe": {
+    "criteria": {
+      "has_resource": "2025-02-07 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_biomes": {
+    "criteria": {
+      "betterend:shadow_forest": "2025-02-07 16:50:44 +0000",
+      "betterend:sulphur_springs": "2025-02-07 16:56:15 +0000",
+      "betterend:neon_oasis": "2025-02-07 17:06:50 +0000",
+      "betterend:painted_mountains": "2025-02-07 17:06:35 +0000",
+      "betterend:dust_wastelands": "2025-02-07 17:06:44 +0000",
+      "betterend:ice_starfield": "2025-02-07 16:56:41 +0000",
+      "betterend:glowing_grasslands": "2025-02-07 16:55:52 +0000",
+      "betterend:lantern_woods": "2025-02-07 17:11:41 +0000",
+      "betterend:umbrella_jungle": "2025-02-07 16:37:04 +0000",
+      "betterend:megalake": "2025-02-07 17:08:30 +0000",
+      "betterend:blossoming_spires": "2025-02-07 16:56:54 +0000"
+    },
+    "done": false
+  },
+  "create:backtank": {
+    "criteria": {
+      "0": "2025-02-07 16:53:03 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:fire_success": {
+    "criteria": {
+      "fire_success_0": "2025-02-07 15:22:44 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/eyes_recipe": {
+    "criteria": {
+      "eyes": "2025-02-07 14:07:42 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:bag_success": {
+    "criteria": {
+      "bag_success_0": "2025-02-07 15:22:44 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/bluebright_sword": {
+    "criteria": {
+      "has_resource": "2025-02-07 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
     },
     "done": true
   },

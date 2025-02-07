@@ -1031,17 +1031,20 @@
       "minecraft:witch": "2025-01-23 07:52:59 +0000",
       "minecraft:wither_skeleton": "2025-02-06 12:28:03 +0000",
       "minecraft:husk": "2025-02-01 18:37:18 +0000",
+      "minecraft:ender_dragon": "2025-02-07 16:32:43 +0000",
+      "minecraft:shulker": "2025-02-07 17:01:22 +0000",
       "minecraft:cave_spider": "2025-01-23 14:50:48 +0000",
       "minecraft:piglin": "2025-01-25 18:28:28 +0000",
       "minecraft:enderman": "2025-01-21 09:53:38 +0000",
       "minecraft:silverfish": "2025-01-23 10:22:54 +0000",
       "minecraft:stray": "2025-02-01 20:39:20 +0000",
+      "minecraft:endermite": "2025-02-07 16:43:41 +0000",
       "minecraft:vex": "2025-01-21 14:39:37 +0000",
       "minecraft:zombie": "2025-01-18 14:18:24 +0000",
       "minecraft:drowned": "2025-01-21 14:57:03 +0000",
       "minecraft:zombie_villager": "2025-01-21 14:36:40 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
@@ -2393,6 +2396,7 @@
   },
   "repurposed_structures:mineshafts": {
     "criteria": {
+      "in_mineshaft_end": "2025-02-07 16:52:34 +0000",
       "in_mineshaft_crimson": "2025-01-24 15:10:42 +0000",
       "in_mineshaft_taiga": "2025-02-02 05:12:36 +0000"
     },
@@ -2950,6 +2954,7 @@
   },
   "repurposed_structures:outposts": {
     "criteria": {
+      "in_outpost_icy": "2025-02-07 18:46:00 +0000",
       "in_outpost_desert": "2025-02-01 18:37:53 +0000",
       "in_outpost_jungle": "2025-02-02 05:11:05 +0000"
     },
@@ -3411,39 +3416,9 @@
     },
     "done": true
   },
-  "blue_skies:recipes/blue_skies_tools/aquite_axe": {
-    "criteria": {
-      "has_resource": "2025-02-06 14:37:36 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/blue_skies_tools/aquite_sword": {
-    "criteria": {
-      "has_resource": "2025-02-06 14:37:36 +0000"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/nuclear_bomb": {
-    "criteria": {
-      "nuclear_bomb": "2025-02-06 16:15:51 +0000"
-    },
-    "done": true
-  },
-  "morevillagers:kill_villager": {
-    "criteria": {
-      "killedvillager": "2025-02-06 15:57:02 +0000"
-    },
-    "done": true
-  },
   "blue_skies:recipes/blue_skies_tools/pyrope_shovel": {
     "criteria": {
       "has_resource": "2025-02-06 14:37:34 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/blue_skies_tools/aquite_hoe": {
-    "criteria": {
-      "has_resource": "2025-02-06 14:37:36 +0000"
     },
     "done": true
   },
@@ -3459,30 +3434,6 @@
     },
     "done": true
   },
-  "blue_skies:recipes/blue_skies_tools/aquite_pickaxe": {
-    "criteria": {
-      "has_resource": "2025-02-06 14:37:36 +0000"
-    },
-    "done": true
-  },
-  "goblins_tyranny:poison_success": {
-    "criteria": {
-      "poison_success_0": "2025-02-06 16:14:31 +0000"
-    },
-    "done": true
-  },
-  "yungscavebiomes:lost_caves": {
-    "criteria": {
-      "lost_caves": "2025-02-06 16:18:27 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/tarantula_hawk": {
-    "criteria": {
-      "killed": "2025-02-06 15:54:06 +0000"
-    },
-    "done": true
-  },
   "blue_skies:recipes/blue_skies_tools/pyrope_pickaxe": {
     "criteria": {
       "has_resource": "2025-02-06 14:37:34 +0000"
@@ -3495,15 +3446,39 @@
     },
     "done": true
   },
-  "blue_skies:recipes/blue_skies_tools/aquite_shovel": {
+  "blue_skies:get_pyrope": {
+    "criteria": {
+      "obtain_material": "2025-02-06 14:37:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_axe": {
     "criteria": {
       "has_resource": "2025-02-06 14:37:36 +0000"
     },
     "done": true
   },
-  "blue_skies:get_pyrope": {
+  "blue_skies:recipes/blue_skies_tools/aquite_sword": {
     "criteria": {
-      "obtain_material": "2025-02-06 14:37:34 +0000"
+      "has_resource": "2025-02-06 14:37:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_hoe": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_pickaxe": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:36 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_shovel": {
+    "criteria": {
+      "has_resource": "2025-02-06 14:37:36 +0000"
     },
     "done": true
   },
@@ -3519,6 +3494,30 @@
     },
     "done": true
   },
+  "idas:tinkers_workshop": {
+    "criteria": {
+      "in_tinkers_workshop": "2025-02-06 15:51:20 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/tarantula_hawk": {
+    "criteria": {
+      "killed": "2025-02-06 15:54:06 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:kill_villager": {
+    "criteria": {
+      "killedvillager": "2025-02-06 15:57:02 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:poison_success": {
+    "criteria": {
+      "poison_success_0": "2025-02-06 16:14:31 +0000"
+    },
+    "done": true
+  },
   "goblins_tyranny:fire_success": {
     "criteria": {
       "fire_success_0": "2025-02-06 16:14:31 +0000"
@@ -3531,9 +3530,218 @@
     },
     "done": true
   },
-  "idas:tinkers_workshop": {
+  "alexscaves:alexscaves/nuclear_bomb": {
     "criteria": {
-      "in_tinkers_workshop": "2025-02-06 15:51:20 +0000"
+      "nuclear_bomb": "2025-02-06 16:15:51 +0000"
+    },
+    "done": true
+  },
+  "yungscavebiomes:lost_caves": {
+    "criteria": {
+      "lost_caves": "2025-02-06 16:18:27 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/banana": {
+    "criteria": {
+      "banana": "2025-02-07 15:39:55 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/mending_mixture": {
+    "criteria": {
+      "spellstone": "2025-02-07 17:29:41 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_templates": {
+    "criteria": {
+      "got_netherite": "2025-02-07 17:02:30 +0000",
+      "got_leather": "2025-02-07 17:17:07 +0000",
+      "got_aeternium": "2025-02-07 17:18:10 +0000",
+      "got_handle": "2025-02-07 17:02:30 +0000",
+      "got_tool": "2025-02-07 17:18:34 +0000",
+      "got_terminite": "2025-02-07 17:03:21 +0000",
+      "got_thallasium": "2025-02-07 17:02:15 +0000"
+    },
+    "done": false
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2025-02-07 16:32:43 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/twisted_potion": {
+    "criteria": {
+      "has_recall_potion": "2025-02-07 17:32:31 +0000"
+    },
+    "done": false
+  },
+  "alexsmobs:alexsmobs/enderiophage": {
+    "criteria": {
+      "killed_by": "2025-02-07 17:13:30 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:adventure/night_lich_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:lich": "2025-02-07 18:49:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2025-02-07 17:37:59 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/recall_potion": {
+    "criteria": {
+      "has_items": "2025-02-07 17:31:43 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/capsid": {
+    "criteria": {
+      "capsid": "2025-02-07 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/misc/astral_potion": {
+    "criteria": {
+      "has_items": "2025-02-07 17:02:30 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/scorched/earths_corpse": {
+    "criteria": {
+      "earths_corpse": "2025-02-07 17:39:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-02-07 17:28:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-02-07 16:37:01 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_elytras": {
+    "criteria": {
+      "vanilla": "2025-02-07 17:29:05 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:main/astral_dust": {
+    "criteria": {
+      "etherium": "2025-02-07 17:02:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-02-07 17:29:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/scorched_blueprint": {
+    "criteria": {
+      "scorched_blueprint": "2025-02-07 17:39:01 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/advanced_brewing": {
+    "criteria": {
+      "has_items": "2025-02-07 17:02:30 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/recall_potion": {
+    "criteria": {
+      "spellstone": "2025-02-07 17:32:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:enter_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/end_blueprint": {
+    "criteria": {
+      "end_blueprint": "2025-02-07 17:02:58 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_biomes": {
+    "criteria": {
+      "betterend:crystal_mountains": "2025-02-07 16:48:11 +0000",
+      "betterend:dry_shrubland": "2025-02-07 17:05:07 +0000",
+      "betterend:empty_end_cave": "2025-02-07 16:44:04 +0000",
+      "betterend:shadow_forest": "2025-02-07 16:41:14 +0000",
+      "betterend:amber_land": "2025-02-07 16:59:09 +0000",
+      "betterend:sulphur_springs": "2025-02-07 17:05:20 +0000",
+      "betterend:neon_oasis": "2025-02-07 16:42:41 +0000",
+      "betterend:painted_mountains": "2025-02-07 16:42:38 +0000",
+      "betterend:dust_wastelands": "2025-02-07 16:45:46 +0000",
+      "betterend:foggy_mushroomland": "2025-02-07 17:04:03 +0000",
+      "betterend:ice_starfield": "2025-02-07 16:46:19 +0000",
+      "betterend:empty_smaragdant_cave": "2025-02-07 16:54:00 +0000",
+      "betterend:glowing_grasslands": "2025-02-07 16:48:55 +0000",
+      "betterend:lush_aurora_cave": "2025-02-07 16:46:01 +0000",
+      "betterend:jade_cave": "2025-02-07 16:45:54 +0000",
+      "betterend:megalake_grove": "2025-02-07 17:15:58 +0000",
+      "betterend:umbra_valley": "2025-02-07 16:49:49 +0000",
+      "betterend:chorus_forest": "2025-02-07 16:46:31 +0000",
+      "betterend:lantern_woods": "2025-02-07 16:45:08 +0000",
+      "betterend:umbrella_jungle": "2025-02-07 16:37:02 +0000",
+      "betterend:empty_aurora_cave": "2025-02-07 16:42:55 +0000",
+      "betterend:lush_smaragdant_cave": "2025-02-07 16:43:29 +0000",
+      "betterend:megalake": "2025-02-07 17:16:12 +0000",
+      "betterend:blossoming_spires": "2025-02-07 17:17:00 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:book/materials/astral_dust": {
+    "criteria": {
+      "has_items": "2025-02-07 17:02:30 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/end/raygun": {
+    "criteria": {
+      "raygun": "2025-02-07 18:20:38 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/eyes_recipe": {
+    "criteria": {
+      "eyes": "2025-02-07 17:31:43 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/scorched/astella": {
+    "criteria": {
+      "astella": "2025-02-07 18:01:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
     },
     "done": true
   },

@@ -825,8 +825,10 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "muskeg": "2025-01-31 14:53:08 +0000",
+      "woodland": "2025-02-07 14:26:57 +0000",
       "scrubland": "2025-01-19 03:43:29 +0000",
       "fungal_jungle": "2025-01-28 15:52:37 +0000",
+      "bayou": "2025-02-07 14:26:24 +0000",
       "floodplain": "2025-01-28 15:53:14 +0000",
       "highland": "2025-01-25 16:31:16 +0000",
       "jacaranda_glade": "2025-01-28 15:48:24 +0000",
@@ -876,6 +878,7 @@
       "minecraft:badlands": "2025-01-30 05:32:29 +0000",
       "minecraft:savanna_plateau": "2025-02-06 16:07:40 +0000",
       "minecraft:beach": "2025-01-19 03:41:19 +0000",
+      "minecraft:mangrove_swamp": "2025-02-07 14:27:17 +0000",
       "minecraft:sparse_jungle": "2025-01-30 05:36:06 +0000",
       "minecraft:river": "2025-01-18 14:12:33 +0000",
       "minecraft:lukewarm_ocean": "2025-01-19 03:41:28 +0000",
@@ -894,6 +897,7 @@
       "minecraft:jungle": "2025-01-28 15:54:12 +0000",
       "minecraft:snowy_beach": "2025-01-19 07:24:03 +0000",
       "minecraft:warm_ocean": "2025-01-28 15:51:16 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-02-07 14:00:38 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-28 15:45:40 +0000",
       "minecraft:deep_dark": "2025-01-21 13:48:51 +0000",
       "minecraft:meadow": "2025-01-28 14:00:41 +0000",
@@ -926,6 +930,7 @@
       "rotten_flesh": "2025-01-21 15:03:28 +0000",
       "glow_berries": "2025-01-30 16:00:53 +0000",
       "salmon": "2025-01-21 12:58:47 +0000",
+      "enchanted_golden_apple": "2025-02-07 16:31:29 +0000",
       "mushroom_stew": "2025-01-19 06:00:46 +0000",
       "carrot": "2025-01-28 16:11:23 +0000"
     },
@@ -1018,6 +1023,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-01-18 18:05:26 +0000",
+      "minecraft:blaze": "2025-02-07 16:34:13 +0000",
       "minecraft:skeleton": "2025-01-18 14:47:33 +0000",
       "minecraft:ravager": "2025-01-30 04:46:40 +0000",
       "minecraft:ghast": "2025-01-25 06:24:36 +0000",
@@ -1025,6 +1031,7 @@
       "minecraft:spider": "2025-01-18 14:53:37 +0000",
       "minecraft:creeper": "2025-01-18 16:40:59 +0000",
       "minecraft:evoker": "2025-01-30 04:48:40 +0000",
+      "minecraft:slime": "2025-02-07 14:29:04 +0000",
       "minecraft:phantom": "2025-01-21 15:15:05 +0000",
       "minecraft:witch": "2025-01-25 16:56:38 +0000",
       "minecraft:husk": "2025-01-29 16:50:04 +0000",
@@ -1032,6 +1039,7 @@
       "minecraft:piglin": "2025-01-29 15:30:13 +0000",
       "minecraft:stray": "2025-01-19 06:21:07 +0000",
       "minecraft:enderman": "2025-01-20 15:33:34 +0000",
+      "minecraft:endermite": "2025-02-07 17:22:46 +0000",
       "minecraft:vex": "2025-01-30 04:48:22 +0000",
       "minecraft:zombie": "2025-01-18 15:14:33 +0000",
       "minecraft:drowned": "2025-01-18 18:36:05 +0000",
@@ -1185,7 +1193,8 @@
   "enigmaticlegacy:main/all_spellstones": {
     "criteria": {
       "spellstone2": "2025-01-20 14:26:21 +0000",
-      "spellstone1": "2025-01-18 17:18:42 +0000"
+      "spellstone1": "2025-01-18 17:18:42 +0000",
+      "spellstone5": "2025-02-07 18:03:07 +0000"
     },
     "done": false
   },
@@ -1198,7 +1207,8 @@
   "enigmaticlegacy:book/relics/the_cube": {
     "criteria": {
       "has_item_1": "2025-01-18 17:18:42 +0000",
-      "has_item_2": "2025-01-20 14:26:21 +0000"
+      "has_item_2": "2025-01-20 14:26:21 +0000",
+      "has_item_5": "2025-02-07 18:03:07 +0000"
     },
     "done": false
   },
@@ -2230,6 +2240,7 @@
   },
   "repurposed_structures:pyramids": {
     "criteria": {
+      "in_pyramid_end": "2025-02-07 17:22:43 +0000",
       "in_pyramid_ocean": "2025-01-29 16:39:09 +0000"
     },
     "done": false
@@ -2602,21 +2613,9 @@
     },
     "done": true
   },
-  "moped:moped_key_adv": {
+  "goblins_tyranny:goblins_slayer_success": {
     "criteria": {
-      "moped_key_adv": "2025-02-06 16:23:55 +0000"
-    },
-    "done": true
-  },
-  "moped:copper_moped_adv": {
-    "criteria": {
-      "copper_moped_adv": "2025-02-06 16:22:28 +0000"
-    },
-    "done": true
-  },
-  "moped:tiny_copper_moped_adv": {
-    "criteria": {
-      "tiny_copper_moped_adv": "2025-02-06 16:25:06 +0000"
+      "goblins_slayer_success_0": "2025-02-06 15:59:15 +0000"
     },
     "done": true
   },
@@ -2626,9 +2625,199 @@
     },
     "done": true
   },
-  "goblins_tyranny:goblins_slayer_success": {
+  "moped:copper_moped_adv": {
     "criteria": {
-      "goblins_slayer_success_0": "2025-02-06 15:59:15 +0000"
+      "copper_moped_adv": "2025-02-06 16:22:28 +0000"
+    },
+    "done": true
+  },
+  "moped:moped_key_adv": {
+    "criteria": {
+      "moped_key_adv": "2025-02-06 16:23:55 +0000"
+    },
+    "done": true
+  },
+  "moped:tiny_copper_moped_adv": {
+    "criteria": {
+      "tiny_copper_moped_adv": "2025-02-06 16:25:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2025-02-07 14:01:27 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_umvuthana_raptor": {
+    "criteria": {
+      "umvuthana_raptor": "2025-02-07 14:19:12 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/spinefish": {
+    "criteria": {
+      "has_item": "2025-02-07 14:43:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2025-02-07 14:54:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_integrated_stronghold": "2025-02-07 16:01:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "betterend:enter_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-02-07 16:18:54 +0000"
+    },
+    "done": true
+  },
+  "create:diving_suit": {
+    "criteria": {
+      "0": "2025-02-07 16:27:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-02-07 16:37:08 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_biomes": {
+    "criteria": {
+      "betterend:crystal_mountains": "2025-02-07 17:31:22 +0000",
+      "betterend:dry_shrubland": "2025-02-07 17:43:32 +0000",
+      "betterend:shadow_forest": "2025-02-07 16:50:38 +0000",
+      "betterend:sulphur_springs": "2025-02-07 16:56:20 +0000",
+      "betterend:amber_land": "2025-02-07 17:40:21 +0000",
+      "betterend:neon_oasis": "2025-02-07 17:06:47 +0000",
+      "betterend:painted_mountains": "2025-02-07 17:06:35 +0000",
+      "betterend:dust_wastelands": "2025-02-07 17:06:41 +0000",
+      "betterend:ice_starfield": "2025-02-07 16:56:38 +0000",
+      "betterend:glowing_grasslands": "2025-02-07 16:55:52 +0000",
+      "betterend:dragon_graveyards": "2025-02-07 17:56:24 +0000",
+      "betterend:megalake_grove": "2025-02-07 17:08:39 +0000",
+      "betterend:umbra_valley": "2025-02-07 17:49:31 +0000",
+      "betterend:chorus_forest": "2025-02-07 17:20:16 +0000",
+      "betterend:lantern_woods": "2025-02-07 17:11:28 +0000",
+      "betterend:umbrella_jungle": "2025-02-07 16:37:10 +0000",
+      "betterend:megalake": "2025-02-07 17:08:31 +0000",
+      "betterend:blossoming_spires": "2025-02-07 16:56:52 +0000"
+    },
+    "done": false
+  },
+  "create:backtank": {
+    "criteria": {
+      "0": "2025-02-07 16:52:55 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/mending_mixture": {
+    "criteria": {
+      "spellstone": "2025-02-07 18:05:35 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_templates": {
+    "criteria": {
+      "got_netherite": "2025-02-07 17:57:29 +0000",
+      "got_aeternium": "2025-02-07 17:59:06 +0000",
+      "got_handle": "2025-02-07 17:58:40 +0000",
+      "got_tool": "2025-02-07 18:03:29 +0000",
+      "got_terminite": "2025-02-07 17:57:17 +0000",
+      "got_thallasium": "2025-02-07 18:00:14 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:shipwrecks": {
+    "criteria": {
+      "in_shipwreck_end": "2025-02-07 17:53:05 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:book/brewing/twisted_potion": {
+    "criteria": {
+      "has_recall_potion": "2025-02-07 18:03:31 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:book/brewing/recall_potion": {
+    "criteria": {
+      "has_items": "2025-02-07 17:59:05 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/misc/astral_potion": {
+    "criteria": {
+      "has_items": "2025-02-07 18:02:50 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/eye_of_nebula": {
+    "criteria": {
+      "has_items": "2025-02-07 18:03:07 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/astral_dust": {
+    "criteria": {
+      "etherium": "2025-02-07 18:02:50 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/advanced_brewing": {
+    "criteria": {
+      "has_items": "2025-02-07 18:02:50 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/recall_potion": {
+    "criteria": {
+      "spellstone": "2025-02-07 18:03:31 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/end_blueprint": {
+    "criteria": {
+      "end_blueprint": "2025-02-07 17:57:27 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/astral_dust": {
+    "criteria": {
+      "has_items": "2025-02-07 18:02:50 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/eyes_recipe": {
+    "criteria": {
+      "eyes": "2025-02-07 17:59:05 +0000"
     },
     "done": true
   },
