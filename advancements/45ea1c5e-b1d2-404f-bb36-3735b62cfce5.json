@@ -865,6 +865,7 @@
       "snowy_fir_clearing": "2025-01-30 06:53:05 +0000",
       "tundra": "2025-01-27 14:35:41 +0000",
       "gravel_beach": "2025-01-30 07:17:12 +0000",
+      "glowing_grotto": "2025-02-08 18:25:03 +0000",
       "undergrowth": "2025-01-28 05:34:34 +0000",
       "rainforest": "2025-01-28 16:01:10 +0000",
       "snowy_maple_woods": "2025-01-30 07:13:32 +0000"
@@ -965,6 +966,7 @@
     "criteria": {
       "chicken": "2025-01-27 14:28:19 +0000",
       "cooked_mutton": "2025-02-01 18:57:30 +0000",
+      "cooked_beef": "2025-02-08 19:30:21 +0000",
       "baked_potato": "2025-01-21 13:36:00 +0000",
       "apple": "2025-01-21 12:14:15 +0000",
       "spider_eye": "2025-01-27 14:30:44 +0000",
@@ -1698,7 +1700,8 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "sweet_berries": "2025-01-27 13:47:48 +0000"
+      "sweet_berries": "2025-01-27 13:47:48 +0000",
+      "potato": "2025-02-08 19:28:05 +0000"
     },
     "done": false
   },
@@ -2454,18 +2457,6 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2025-02-07 14:35:10 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:main/mending_mixture": {
-    "criteria": {
-      "spellstone": "2025-02-07 16:59:31 +0000"
-    },
-    "done": true
-  },
   "blue_skies:recipes/blue_skies_tools/aquite_axe": {
     "criteria": {
       "has_resource": "2025-02-07 13:26:00 +0000"
@@ -2477,18 +2468,6 @@
       "has_resource": "2025-02-07 13:26:00 +0000"
     },
     "done": true
-  },
-  "create:diving_suit": {
-    "criteria": {
-      "0": "2025-02-07 16:30:07 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/brewing/twisted_potion": {
-    "criteria": {
-      "has_recall_potion": "2025-02-07 16:56:51 +0000"
-    },
-    "done": false
   },
   "blue_skies:recipes/blue_skies_tools/pyrope_shovel": {
     "criteria": {
@@ -2502,21 +2481,9 @@
     },
     "done": true
   },
-  "dungeons_enhanced:spooky_scary_citadel": {
-    "criteria": {
-      "entered_black_citadel": "2025-02-07 14:38:33 +0000"
-    },
-    "done": true
-  },
   "blue_skies:recipes/blue_skies_tools/pyrope_sword": {
     "criteria": {
       "has_resource": "2025-02-07 13:26:00 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/relics/unholy_grail": {
-    "criteria": {
-      "has_items": "2025-02-07 14:04:22 +0000"
     },
     "done": true
   },
@@ -2526,64 +2493,9 @@
     },
     "done": true
   },
-  "enigmaticaddons:book/misc/astral_potion": {
-    "criteria": {
-      "has_items": "2025-02-07 17:24:34 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/straddler": {
-    "criteria": {
-      "killed_by": "2025-02-07 14:21:56 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:everdawn/poison_shroom": {
-    "criteria": {
-      "touch_shroom": "2025-02-07 13:57:18 +0000"
-    },
-    "done": true
-  },
   "blue_skies:recipes/blue_skies_tools/aquite_pickaxe": {
     "criteria": {
       "has_resource": "2025-02-07 13:26:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2025-02-07 16:37:05 +0000"
-    },
-    "done": true
-  },
-  "betterend:all_elytras": {
-    "criteria": {
-      "armored": "2025-02-07 17:32:51 +0000",
-      "vanilla": "2025-02-07 17:02:45 +0000"
-    },
-    "done": false
-  },
-  "enigmaticlegacy:main/astral_dust": {
-    "criteria": {
-      "etherium": "2025-02-07 17:24:34 +0000"
-    },
-    "done": true
-  },
-  "betterend:thallasium_tool": {
-    "criteria": {
-      "got_thallasium_axe": "2025-02-07 16:44:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2025-02-07 17:02:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_breath": {
-    "criteria": {
-      "dragon_breath": "2025-02-07 16:16:35 +0000"
     },
     "done": true
   },
@@ -2593,33 +2505,9 @@
     },
     "done": true
   },
-  "tetra:spelunking/find_scroll_throwing": {
-    "criteria": {
-      "find": "2025-02-07 13:53:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2025-02-07 16:12:01 +0000"
-    },
-    "done": true
-  },
   "blue_skies:recipes/blue_skies_tools/pyrope_hoe": {
     "criteria": {
       "has_resource": "2025-02-07 13:26:00 +0000"
-    },
-    "done": true
-  },
-  "betterend:portal": {
-    "criteria": {
-      "eternal_portal": "2025-02-07 17:10:39 +0000"
-    },
-    "done": true
-  },
-  "tetra:scrolls/find_scroll_halberd": {
-    "criteria": {
-      "find": "2025-02-07 13:54:37 +0000"
     },
     "done": true
   },
@@ -2629,39 +2517,9 @@
     },
     "done": true
   },
-  "enigmaticlegacy:book/brewing/advanced_brewing": {
-    "criteria": {
-      "has_items": "2025-02-07 17:24:34 +0000"
-    },
-    "done": true
-  },
-  "goblins_tyranny:goblin_liquor_success": {
-    "criteria": {
-      "goblin_liquor_success_0": "2025-02-07 15:54:13 +0000"
-    },
-    "done": true
-  },
   "blue_skies:get_pyrope": {
     "criteria": {
       "obtain_material": "2025-02-07 13:26:00 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:main/recall_potion": {
-    "criteria": {
-      "spellstone": "2025-02-07 16:56:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2025-02-07 14:40:21 +0000"
-    },
-    "done": true
-  },
-  "betterend:enter_end": {
-    "criteria": {
-      "entered_end": "2025-02-07 16:12:01 +0000"
     },
     "done": true
   },
@@ -2671,15 +2529,105 @@
     },
     "done": true
   },
-  "scguns:main/end_blueprint": {
+  "tetra:spelunking/find_scroll_throwing": {
     "criteria": {
-      "end_blueprint": "2025-02-07 16:59:28 +0000"
+      "find": "2025-02-07 13:53:54 +0000"
     },
     "done": true
   },
-  "betterend:village": {
+  "tetra:scrolls/find_scroll_halberd": {
     "criteria": {
-      "end_village": "2025-02-07 17:37:18 +0000"
+      "find": "2025-02-07 13:54:37 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/poison_shroom": {
+    "criteria": {
+      "touch_shroom": "2025-02-07 13:57:18 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/unholy_grail": {
+    "criteria": {
+      "has_items": "2025-02-07 14:04:22 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/unholy_grail": {
+    "criteria": {
+      "spellstone": "2025-02-07 14:04:32 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/straddler": {
+    "criteria": {
+      "killed_by": "2025-02-07 14:21:56 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_nether": "2025-02-07 14:32:58 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-02-07 14:35:10 +0000"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:spooky_scary_citadel": {
+    "criteria": {
+      "entered_black_citadel": "2025-02-07 14:38:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-02-07 14:40:21 +0000"
+    },
+    "done": true
+  },
+  "goblins_tyranny:goblin_liquor_success": {
+    "criteria": {
+      "goblin_liquor_success_0": "2025-02-07 15:54:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "betterend:enter_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-02-07 16:16:35 +0000"
+    },
+    "done": true
+  },
+  "create:diving_suit": {
+    "criteria": {
+      "0": "2025-02-07 16:30:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-02-07 16:37:05 +0000"
     },
     "done": true
   },
@@ -2707,9 +2655,52 @@
     },
     "done": false
   },
-  "enigmaticlegacy:book/materials/astral_dust": {
+  "betterend:thallasium_tool": {
     "criteria": {
-      "has_items": "2025-02-07 17:24:34 +0000"
+      "got_thallasium_axe": "2025-02-07 16:44:47 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/twisted_potion": {
+    "criteria": {
+      "has_recall_potion": "2025-02-07 16:56:51 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:main/recall_potion": {
+    "criteria": {
+      "spellstone": "2025-02-07 16:56:51 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/end_blueprint": {
+    "criteria": {
+      "end_blueprint": "2025-02-07 16:59:28 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/mending_mixture": {
+    "criteria": {
+      "spellstone": "2025-02-07 16:59:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_elytras": {
+    "criteria": {
+      "armored": "2025-02-07 17:32:51 +0000",
+      "vanilla": "2025-02-07 17:02:45 +0000"
+    },
+    "done": false
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-02-07 17:02:45 +0000"
+    },
+    "done": true
+  },
+  "betterend:portal": {
+    "criteria": {
+      "eternal_portal": "2025-02-07 17:10:39 +0000"
     },
     "done": true
   },
@@ -2719,21 +2710,69 @@
     },
     "done": true
   },
-  "enigmaticlegacy:main/unholy_grail": {
+  "enigmaticaddons:book/misc/astral_potion": {
     "criteria": {
-      "spellstone": "2025-02-07 14:04:32 +0000"
+      "has_items": "2025-02-07 17:24:34 +0000"
     },
     "done": true
   },
-  "repurposed_structures:ruins": {
+  "enigmaticlegacy:main/astral_dust": {
     "criteria": {
-      "in_ruins_nether": "2025-02-07 14:32:58 +0000"
+      "etherium": "2025-02-07 17:24:34 +0000"
     },
-    "done": false
+    "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "enigmaticlegacy:book/brewing/advanced_brewing": {
     "criteria": {
-      "entered_end": "2025-02-07 16:12:01 +0000"
+      "has_items": "2025-02-07 17:24:34 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/astral_dust": {
+    "criteria": {
+      "has_items": "2025-02-07 17:24:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:village": {
+    "criteria": {
+      "end_village": "2025-02-07 17:37:18 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2025-02-08 18:25:03 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:kill_leviathan": {
+    "criteria": {
+      "ignis": "2025-02-08 18:34:50 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/accessories/forger_gem": {
+    "criteria": {
+      "has_items": "2025-02-08 18:44:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2025-02-08 19:12:48 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/relics/antique_bag": {
+    "criteria": {
+      "has_items": "2025-02-08 19:43:43 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/end/raygun": {
+    "criteria": {
+      "raygun": "2025-02-08 19:30:11 +0000"
     },
     "done": true
   },

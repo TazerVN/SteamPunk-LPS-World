@@ -829,10 +829,12 @@
       "scrubland": "2025-01-19 03:43:29 +0000",
       "fungal_jungle": "2025-01-28 15:52:37 +0000",
       "bayou": "2025-02-07 14:26:24 +0000",
+      "erupting_inferno": "2025-02-08 15:39:51 +0000",
       "floodplain": "2025-01-28 15:53:14 +0000",
       "highland": "2025-01-25 16:31:16 +0000",
       "jacaranda_glade": "2025-01-28 15:48:24 +0000",
       "cold_desert": "2025-01-19 05:01:30 +0000",
+      "crystalline_chasm": "2025-02-08 16:03:09 +0000",
       "orchard": "2025-01-19 07:46:04 +0000",
       "field": "2025-01-28 16:12:47 +0000",
       "mediterranean_forest": "2025-01-28 15:48:26 +0000",
@@ -1027,13 +1029,16 @@
       "minecraft:skeleton": "2025-01-18 14:47:33 +0000",
       "minecraft:ravager": "2025-01-30 04:46:40 +0000",
       "minecraft:ghast": "2025-01-25 06:24:36 +0000",
+      "minecraft:hoglin": "2025-02-08 16:03:08 +0000",
       "minecraft:vindicator": "2025-01-30 04:46:41 +0000",
+      "minecraft:magma_cube": "2025-02-08 15:46:35 +0000",
       "minecraft:spider": "2025-01-18 14:53:37 +0000",
       "minecraft:creeper": "2025-01-18 16:40:59 +0000",
       "minecraft:evoker": "2025-01-30 04:48:40 +0000",
       "minecraft:slime": "2025-02-07 14:29:04 +0000",
       "minecraft:phantom": "2025-01-21 15:15:05 +0000",
       "minecraft:witch": "2025-01-25 16:56:38 +0000",
+      "minecraft:wither_skeleton": "2025-02-08 16:00:39 +0000",
       "minecraft:husk": "2025-01-29 16:50:04 +0000",
       "minecraft:cave_spider": "2025-01-18 16:39:24 +0000",
       "minecraft:piglin": "2025-01-29 15:30:13 +0000",
@@ -1245,6 +1250,7 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "sweet_berries": "2025-01-25 06:32:29 +0000",
+      "kelp": "2025-02-08 18:45:48 +0000",
       "sugar_cane": "2025-01-30 14:41:10 +0000",
       "potato": "2025-01-18 17:36:34 +0000",
       "wheat": "2025-01-19 07:58:42 +0000"
@@ -1410,6 +1416,7 @@
   },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
+      "nether_wart": "2025-02-08 16:09:34 +0000",
       "wheat": "2025-01-19 07:58:42 +0000"
     },
     "done": true
@@ -1544,6 +1551,7 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-01-25 06:26:12 +0000",
       "minecraft:nether_wastes": "2025-01-29 15:29:28 +0000",
+      "minecraft:soul_sand_valley": "2025-02-08 15:59:59 +0000",
       "minecraft:warped_forest": "2025-01-21 15:54:25 +0000"
     },
     "done": false
@@ -2738,11 +2746,11 @@
     },
     "done": true
   },
-  "enigmaticlegacy:main/mending_mixture": {
+  "repurposed_structures:shipwrecks": {
     "criteria": {
-      "spellstone": "2025-02-07 18:05:35 +0000"
+      "in_shipwreck_end": "2025-02-07 17:53:05 +0000"
     },
-    "done": true
+    "done": false
   },
   "betterend:all_the_templates": {
     "criteria": {
@@ -2755,17 +2763,11 @@
     },
     "done": false
   },
-  "repurposed_structures:shipwrecks": {
+  "scguns:main/end_blueprint": {
     "criteria": {
-      "in_shipwreck_end": "2025-02-07 17:53:05 +0000"
+      "end_blueprint": "2025-02-07 17:57:27 +0000"
     },
-    "done": false
-  },
-  "enigmaticlegacy:book/brewing/twisted_potion": {
-    "criteria": {
-      "has_recall_potion": "2025-02-07 18:03:31 +0000"
-    },
-    "done": false
+    "done": true
   },
   "enigmaticlegacy:book/brewing/recall_potion": {
     "criteria": {
@@ -2773,15 +2775,15 @@
     },
     "done": true
   },
-  "enigmaticaddons:book/misc/astral_potion": {
+  "endrem:main/eyes_recipe": {
     "criteria": {
-      "has_items": "2025-02-07 18:02:50 +0000"
+      "eyes": "2025-02-07 17:59:05 +0000"
     },
     "done": true
   },
-  "enigmaticlegacy:book/relics/eye_of_nebula": {
+  "enigmaticaddons:book/misc/astral_potion": {
     "criteria": {
-      "has_items": "2025-02-07 18:03:07 +0000"
+      "has_items": "2025-02-07 18:02:50 +0000"
     },
     "done": true
   },
@@ -2797,27 +2799,100 @@
     },
     "done": true
   },
-  "enigmaticlegacy:main/recall_potion": {
-    "criteria": {
-      "spellstone": "2025-02-07 18:03:31 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/end_blueprint": {
-    "criteria": {
-      "end_blueprint": "2025-02-07 17:57:27 +0000"
-    },
-    "done": true
-  },
   "enigmaticlegacy:book/materials/astral_dust": {
     "criteria": {
       "has_items": "2025-02-07 18:02:50 +0000"
     },
     "done": true
   },
-  "endrem:main/eyes_recipe": {
+  "enigmaticlegacy:book/relics/eye_of_nebula": {
     "criteria": {
-      "eyes": "2025-02-07 17:59:05 +0000"
+      "has_items": "2025-02-07 18:03:07 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/twisted_potion": {
+    "criteria": {
+      "has_recall_potion": "2025-02-07 18:03:31 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:main/recall_potion": {
+    "criteria": {
+      "spellstone": "2025-02-07 18:03:31 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/mending_mixture": {
+    "criteria": {
+      "spellstone": "2025-02-07 18:05:35 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:mineshafts": {
+    "criteria": {
+      "in_mineshaft_warped": "2025-02-08 15:32:46 +0000",
+      "in_mineshaft_nether": "2025-02-08 16:08:03 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:book/materials/etherium_ore": {
+    "criteria": {
+      "generic_revelation": "2025-02-08 15:52:16 +0000"
+    },
+    "done": true
+  },
+  "eeeabsmobs:eeeabsmobs/bloody_altar": {
+    "criteria": {
+      "requirement": "2025-02-08 16:02:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-02-08 16:07:31 +0000"
+    },
+    "done": true
+  },
+  "cold_sweat:fuel_soul_lamp": {
+    "criteria": {
+      "requirement": "2025-02-08 16:09:46 +0000"
+    },
+    "done": true
+  },
+  "enigmaticaddons:book/materials/ichor_droplet": {
+    "criteria": {
+      "has_items": "2025-02-08 16:22:36 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/black_eye": {
+    "criteria": {
+      "black_eye": "2025-02-08 17:11:13 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/guardian_eye": {
+    "criteria": {
+      "guardian_eye": "2025-02-08 17:11:13 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/exotic_eye": {
+    "criteria": {
+      "exotic_eye": "2025-02-08 17:11:13 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/lost_eye": {
+    "criteria": {
+      "lost_eye": "2025-02-08 17:11:13 +0000"
+    },
+    "done": true
+  },
+  "create:haunted_bell": {
+    "criteria": {
+      "0": "2025-02-08 18:34:55 +0000"
     },
     "done": true
   },

@@ -2470,6 +2470,7 @@
   },
   "repurposed_structures:pyramids": {
     "criteria": {
+      "in_pyramid_end": "2025-02-08 17:20:13 +0000",
       "in_pyramid_ocean": "2025-01-25 17:14:51 +0000",
       "in_pyramid_jungle": "2025-02-02 05:07:32 +0000",
       "in_pyramid_nether": "2025-02-06 13:08:06 +0000"
@@ -3346,6 +3347,7 @@
   },
   "repurposed_structures:shipwrecks": {
     "criteria": {
+      "in_shipwreck_end": "2025-02-08 17:17:48 +0000",
       "in_shipwreck_nether_bricks": "2025-02-06 13:07:12 +0000"
     },
     "done": false
@@ -3548,129 +3550,9 @@
     },
     "done": true
   },
-  "enigmaticlegacy:main/mending_mixture": {
-    "criteria": {
-      "spellstone": "2025-02-07 17:29:41 +0000"
-    },
-    "done": true
-  },
-  "betterend:all_the_templates": {
-    "criteria": {
-      "got_netherite": "2025-02-07 17:02:30 +0000",
-      "got_leather": "2025-02-07 17:17:07 +0000",
-      "got_aeternium": "2025-02-07 17:18:10 +0000",
-      "got_handle": "2025-02-07 17:02:30 +0000",
-      "got_tool": "2025-02-07 17:18:34 +0000",
-      "got_terminite": "2025-02-07 17:03:21 +0000",
-      "got_thallasium": "2025-02-07 17:02:15 +0000"
-    },
-    "done": false
-  },
-  "minecraft:end/kill_dragon": {
-    "criteria": {
-      "killed_dragon": "2025-02-07 16:32:43 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/brewing/twisted_potion": {
-    "criteria": {
-      "has_recall_potion": "2025-02-07 17:32:31 +0000"
-    },
-    "done": false
-  },
-  "alexsmobs:alexsmobs/enderiophage": {
-    "criteria": {
-      "killed_by": "2025-02-07 17:13:30 +0000"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:adventure/night_lich_defeat": {
-    "criteria": {
-      "bosses_of_mass_destruction:lich": "2025-02-07 18:49:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_egg": {
-    "criteria": {
-      "dragon_egg": "2025-02-07 17:37:59 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/brewing/recall_potion": {
-    "criteria": {
-      "has_items": "2025-02-07 17:31:43 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/capsid": {
-    "criteria": {
-      "capsid": "2025-02-07 17:13:34 +0000"
-    },
-    "done": true
-  },
-  "enigmaticaddons:book/misc/astral_potion": {
-    "criteria": {
-      "has_items": "2025-02-07 17:02:30 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/scorched/earths_corpse": {
-    "criteria": {
-      "earths_corpse": "2025-02-07 17:39:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2025-02-07 17:28:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2025-02-07 16:37:01 +0000"
-    },
-    "done": true
-  },
-  "betterend:all_elytras": {
-    "criteria": {
-      "vanilla": "2025-02-07 17:29:05 +0000"
-    },
-    "done": false
-  },
-  "enigmaticlegacy:main/astral_dust": {
-    "criteria": {
-      "etherium": "2025-02-07 17:02:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2025-02-07 17:29:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:end/root": {
     "criteria": {
       "entered_end": "2025-02-07 16:12:01 +0000"
-    },
-    "done": true
-  },
-  "scguns:main/scorched_blueprint": {
-    "criteria": {
-      "scorched_blueprint": "2025-02-07 17:39:01 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/brewing/advanced_brewing": {
-    "criteria": {
-      "has_items": "2025-02-07 17:02:30 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:main/recall_potion": {
-    "criteria": {
-      "spellstone": "2025-02-07 17:32:31 +0000"
     },
     "done": true
   },
@@ -3680,9 +3562,21 @@
     },
     "done": true
   },
-  "scguns:main/end_blueprint": {
+  "minecraft:story/enter_the_end": {
     "criteria": {
-      "end_blueprint": "2025-02-07 17:02:58 +0000"
+      "entered_end": "2025-02-07 16:12:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2025-02-07 16:32:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-02-07 16:37:01 +0000"
     },
     "done": true
   },
@@ -3715,15 +3609,87 @@
     },
     "done": false
   },
+  "betterend:all_the_templates": {
+    "criteria": {
+      "got_netherite": "2025-02-07 17:02:30 +0000",
+      "got_leather": "2025-02-07 17:17:07 +0000",
+      "got_aeternium": "2025-02-07 17:18:10 +0000",
+      "got_handle": "2025-02-07 17:02:30 +0000",
+      "got_tool": "2025-02-07 17:18:34 +0000",
+      "got_terminite": "2025-02-07 17:03:21 +0000",
+      "got_thallasium": "2025-02-07 17:02:15 +0000"
+    },
+    "done": false
+  },
+  "enigmaticaddons:book/misc/astral_potion": {
+    "criteria": {
+      "has_items": "2025-02-07 17:02:30 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/astral_dust": {
+    "criteria": {
+      "etherium": "2025-02-07 17:02:30 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/advanced_brewing": {
+    "criteria": {
+      "has_items": "2025-02-07 17:02:30 +0000"
+    },
+    "done": true
+  },
   "enigmaticlegacy:book/materials/astral_dust": {
     "criteria": {
       "has_items": "2025-02-07 17:02:30 +0000"
     },
     "done": true
   },
-  "scguns:main/end/raygun": {
+  "scguns:main/end_blueprint": {
     "criteria": {
-      "raygun": "2025-02-07 18:20:38 +0000"
+      "end_blueprint": "2025-02-07 17:02:58 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/enderiophage": {
+    "criteria": {
+      "killed_by": "2025-02-07 17:13:30 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/capsid": {
+    "criteria": {
+      "capsid": "2025-02-07 17:13:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-02-07 17:28:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_elytras": {
+    "criteria": {
+      "vanilla": "2025-02-07 17:29:05 +0000"
+    },
+    "done": false
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-02-07 17:29:05 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/mending_mixture": {
+    "criteria": {
+      "spellstone": "2025-02-07 17:29:41 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/recall_potion": {
+    "criteria": {
+      "has_items": "2025-02-07 17:31:43 +0000"
     },
     "done": true
   },
@@ -3733,15 +3699,99 @@
     },
     "done": true
   },
+  "enigmaticlegacy:book/brewing/twisted_potion": {
+    "criteria": {
+      "has_recall_potion": "2025-02-07 17:32:31 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:main/recall_potion": {
+    "criteria": {
+      "spellstone": "2025-02-07 17:32:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2025-02-07 17:37:59 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/scorched_blueprint": {
+    "criteria": {
+      "scorched_blueprint": "2025-02-07 17:39:01 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/scorched/earths_corpse": {
+    "criteria": {
+      "earths_corpse": "2025-02-07 17:39:11 +0000"
+    },
+    "done": true
+  },
   "scguns:main/scorched/astella": {
     "criteria": {
       "astella": "2025-02-07 18:01:12 +0000"
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "scguns:main/end/raygun": {
     "criteria": {
-      "entered_end": "2025-02-07 16:12:01 +0000"
+      "raygun": "2025-02-07 18:20:38 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:adventure/night_lich_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:lich": "2025-02-07 18:49:36 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/etherium": {
+    "criteria": {
+      "has_items": "2025-02-08 16:46:25 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/ascension_amulet": {
+    "criteria": {
+      "has_item_2": "2025-02-08 16:46:25 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:main/smelt_etherium": {
+    "criteria": {
+      "etherium": "2025-02-08 16:46:25 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/cosmic_cod": {
+    "criteria": {
+      "capsid": "2025-02-08 17:25:41 +0000"
+    },
+    "done": true
+  },
+  "tetra:scrolls/find_scroll_compound_string": {
+    "criteria": {
+      "find": "2025-02-08 18:47:19 +0000"
+    },
+    "done": true
+  },
+  "moped:booster_adv": {
+    "criteria": {
+      "booster_adv": "2025-02-08 19:45:20 +0000"
+    },
+    "done": true
+  },
+  "moped:fully_upgraded_moped": {
+    "criteria": {
+      "fully_upgraded_moped": "2025-02-08 19:44:24 +0000"
+    },
+    "done": true
+  },
+  "moped:tiny_copper_moped_adv": {
+    "criteria": {
+      "tiny_copper_moped_adv": "2025-02-08 19:45:20 +0000"
     },
     "done": true
   },
