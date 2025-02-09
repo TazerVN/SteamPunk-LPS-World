@@ -990,6 +990,7 @@
       "minecraft:witch": "2025-01-20 16:16:42 +0000",
       "minecraft:wither_skeleton": "2025-01-21 16:04:40 +0000",
       "minecraft:husk": "2025-01-29 16:50:19 +0000",
+      "minecraft:shulker": "2025-02-09 16:28:14 +0000",
       "minecraft:cave_spider": "2025-01-21 13:42:30 +0000",
       "minecraft:piglin": "2025-01-25 15:55:04 +0000",
       "minecraft:enderman": "2025-01-21 13:39:06 +0000",
@@ -3345,27 +3346,9 @@
     },
     "done": true
   },
-  "enigmaticaddons:book/relics/void_tome": {
+  "blue_skies:everdawn/poison_shroom": {
     "criteria": {
-      "has_items": "2025-02-07 15:41:54 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:main/mending_mixture": {
-    "criteria": {
-      "spellstone": "2025-02-07 17:02:31 +0000"
-    },
-    "done": true
-  },
-  "repurposed_structures:shipwrecks": {
-    "criteria": {
-      "in_shipwreck_end": "2025-02-07 17:36:19 +0000"
-    },
-    "done": false
-  },
-  "scguns:main/geothermal_vent": {
-    "criteria": {
-      "geothermal_vent": "2025-02-07 14:18:45 +0000"
+      "touch_shroom": "2025-02-07 13:25:40 +0000"
     },
     "done": true
   },
@@ -3375,15 +3358,15 @@
     },
     "done": true
   },
-  "friendsandfoes:husbandry/tame_a_glare": {
+  "enigmaticlegacy:main/unholy_grail": {
     "criteria": {
-      "friendsandfoes:tame_a_glare": "2025-02-07 14:52:58 +0000"
+      "spellstone": "2025-02-07 14:05:41 +0000"
     },
     "done": true
   },
-  "blue_skies:everdawn/poison_shroom": {
+  "scguns:main/geothermal_vent": {
     "criteria": {
-      "touch_shroom": "2025-02-07 13:25:40 +0000"
+      "geothermal_vent": "2025-02-07 14:18:45 +0000"
     },
     "done": true
   },
@@ -3393,21 +3376,15 @@
     },
     "done": true
   },
-  "enigmaticlegacy:book/relics/eye_of_nebula": {
+  "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
-      "has_items": "2025-02-07 17:03:36 +0000"
+      "axolotl_bucket": "2025-02-07 14:45:13 +0000"
     },
     "done": true
   },
-  "minecraft:end/enter_end_gateway": {
+  "friendsandfoes:husbandry/tame_a_glare": {
     "criteria": {
-      "entered_end_gateway": "2025-02-07 16:36:52 +0000"
-    },
-    "done": true
-  },
-  "betterend:thallasium_tool": {
-    "criteria": {
-      "got_thallasium_axe": "2025-02-07 17:31:06 +0000"
+      "friendsandfoes:tame_a_glare": "2025-02-07 14:52:58 +0000"
     },
     "done": true
   },
@@ -3417,15 +3394,9 @@
     },
     "done": true
   },
-  "betterend:thallasium_tool_head": {
+  "enigmaticaddons:book/relics/void_tome": {
     "criteria": {
-      "got_thallasium_shovel_head": "2025-02-07 17:31:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_breath": {
-    "criteria": {
-      "dragon_breath": "2025-02-07 16:18:59 +0000"
+      "has_items": "2025-02-07 15:41:54 +0000"
     },
     "done": true
   },
@@ -3441,27 +3412,33 @@
     },
     "done": true
   },
-  "tetra:scrolls/find_scroll_compound_string": {
-    "criteria": {
-      "find": "2025-02-07 16:58:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/axolotl_in_a_bucket": {
-    "criteria": {
-      "axolotl_bucket": "2025-02-07 14:45:13 +0000"
-    },
-    "done": true
-  },
   "betterend:enter_end": {
     "criteria": {
       "entered_end": "2025-02-07 16:11:56 +0000"
     },
     "done": true
   },
-  "scguns:main/end_blueprint": {
+  "minecraft:story/enter_the_end": {
     "criteria": {
-      "end_blueprint": "2025-02-07 17:02:48 +0000"
+      "entered_end": "2025-02-07 16:11:56 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/treated_brass/gattaler": {
+    "criteria": {
+      "gattaler": "2025-02-07 16:12:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-02-07 16:18:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-02-07 16:36:52 +0000"
     },
     "done": true
   },
@@ -3477,6 +3454,7 @@
       "betterend:dust_wastelands": "2025-02-07 17:33:22 +0000",
       "betterend:foggy_mushroomland": "2025-02-07 16:57:35 +0000",
       "betterend:ice_starfield": "2025-02-07 16:51:20 +0000",
+      "betterend:glowing_grasslands": "2025-02-09 15:15:47 +0000",
       "betterend:jade_cave": "2025-02-07 16:57:57 +0000",
       "betterend:dragon_graveyards": "2025-02-07 17:12:08 +0000",
       "betterend:megalake_grove": "2025-02-07 16:52:20 +0000",
@@ -3486,6 +3464,7 @@
       "betterend:umbrella_jungle": "2025-02-07 16:36:56 +0000",
       "betterend:empty_aurora_cave": "2025-02-07 16:58:39 +0000",
       "betterend:megalake": "2025-02-07 16:52:07 +0000",
+      "betterend:lush_smaragdant_cave": "2025-02-09 15:24:09 +0000",
       "betterend:blossoming_spires": "2025-02-07 16:54:27 +0000"
     },
     "done": false
@@ -3496,21 +3475,147 @@
     },
     "done": true
   },
-  "scguns:main/treated_brass/gattaler": {
+  "tetra:scrolls/find_scroll_compound_string": {
     "criteria": {
-      "gattaler": "2025-02-07 16:12:07 +0000"
+      "find": "2025-02-07 16:58:12 +0000"
     },
     "done": true
   },
-  "enigmaticlegacy:main/unholy_grail": {
+  "enigmaticlegacy:main/mending_mixture": {
     "criteria": {
-      "spellstone": "2025-02-07 14:05:41 +0000"
+      "spellstone": "2025-02-07 17:02:31 +0000"
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "scguns:main/end_blueprint": {
     "criteria": {
-      "entered_end": "2025-02-07 16:11:56 +0000"
+      "end_blueprint": "2025-02-07 17:02:48 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/eye_of_nebula": {
+    "criteria": {
+      "has_items": "2025-02-07 17:03:36 +0000"
+    },
+    "done": true
+  },
+  "betterend:thallasium_tool": {
+    "criteria": {
+      "got_thallasium_axe": "2025-02-07 17:31:06 +0000"
+    },
+    "done": true
+  },
+  "betterend:thallasium_tool_head": {
+    "criteria": {
+      "got_thallasium_shovel_head": "2025-02-07 17:31:42 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:shipwrecks": {
+    "criteria": {
+      "in_shipwreck_end": "2025-02-07 17:36:19 +0000"
+    },
+    "done": false
+  },
+  "scguns:main/craft_bullet_mold": {
+    "criteria": {
+      "bullet_mold": "2025-02-09 15:11:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-02-09 16:28:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_elytras": {
+    "criteria": {
+      "vanilla": "2025-02-09 16:28:27 +0000"
+    },
+    "done": false
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-02-09 16:28:27 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/etherium": {
+    "criteria": {
+      "has_items": "2025-02-09 16:38:49 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/ascension_amulet": {
+    "criteria": {
+      "has_item_2": "2025-02-09 16:38:49 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:main/smelt_etherium": {
+    "criteria": {
+      "etherium": "2025-02-09 16:38:49 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/etherium_tool": {
+    "criteria": {
+      "etherium_sword": "2025-02-09 16:40:56 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/forbidden_fruit": {
+    "criteria": {
+      "has_items": "2025-02-09 17:30:45 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/niter_dust": {
+    "criteria": {
+      "niter_dust": "2025-02-09 16:59:18 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/scorched_ingot": {
+    "criteria": {
+      "scorched_ingot": "2025-02-09 17:13:57 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/scorched_blueprint": {
+    "criteria": {
+      "scorched_blueprint": "2025-02-09 17:14:03 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_large_casing_mold": {
+    "criteria": {
+      "large_casing_mold": "2025-02-09 17:20:47 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:main/forbidden_fruit": {
+    "criteria": {
+      "fruit": "2025-02-09 17:30:47 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/nitro_powder": {
+    "criteria": {
+      "nitro_powder": "2025-02-09 17:24:09 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/end/raygun": {
+    "criteria": {
+      "raygun": "2025-02-09 17:06:15 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/scorched/astella": {
+    "criteria": {
+      "astella": "2025-02-09 17:19:51 +0000"
     },
     "done": true
   },

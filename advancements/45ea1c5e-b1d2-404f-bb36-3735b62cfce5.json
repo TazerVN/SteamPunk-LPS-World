@@ -964,6 +964,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-02-09 09:04:19 +0000",
       "chicken": "2025-01-27 14:28:19 +0000",
       "cooked_mutton": "2025-02-01 18:57:30 +0000",
       "cooked_beef": "2025-02-08 19:30:21 +0000",
@@ -1176,6 +1177,7 @@
       "minecraft:silverfish": "2025-01-27 12:49:53 +0000",
       "minecraft:enderman": "2025-01-27 13:52:28 +0000",
       "minecraft:stray": "2025-01-29 17:00:55 +0000",
+      "minecraft:endermite": "2025-02-09 08:51:25 +0000",
       "minecraft:vex": "2025-01-30 06:03:44 +0000",
       "minecraft:zombie": "2025-01-21 13:34:58 +0000",
       "minecraft:drowned": "2025-01-21 12:49:45 +0000",
@@ -2764,17 +2766,53 @@
     },
     "done": true
   },
+  "scguns:main/end/raygun": {
+    "criteria": {
+      "raygun": "2025-02-08 19:30:11 +0000"
+    },
+    "done": true
+  },
   "enigmaticaddons:book/relics/antique_bag": {
     "criteria": {
       "has_items": "2025-02-08 19:43:43 +0000"
     },
     "done": true
   },
-  "scguns:main/end/raygun": {
+  "alexsmobs:alexsmobs/enderiophage": {
     "criteria": {
-      "raygun": "2025-02-08 19:30:11 +0000"
+      "killed_by": "2025-02-09 08:54:21 +0000"
     },
     "done": true
+  },
+  "alexsmobs:alexsmobs/void_worm_split": {
+    "criteria": {
+      "ex": "2025-02-09 09:03:32 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/capsid": {
+    "criteria": {
+      "capsid": "2025-02-09 08:54:26 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/deep_dark_blueprint": {
+    "criteria": {
+      "deep_dark_blueprint": "2025-02-09 08:53:56 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:rocket_man": {
+    "criteria": {
+      "has_jet_suit": "2025-02-09 09:40:01 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:ancient_cities": {
+    "criteria": {
+      "in_ancient_city_end": "2025-02-09 08:50:31 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
